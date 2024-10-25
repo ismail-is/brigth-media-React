@@ -1,0 +1,168 @@
+{
+    "settings": {
+        "siteName": "Bright Media",
+        "siteDescription": "Digital Marketing Agency",
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        },
+        "perPage": 6
+    },
+    "header": {
+        "logo": {
+            "image": "./img/photo/all img/BM Logo.webp",
+            "alt": "Logo"
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "About Us",
+                "link": "/about",
+                "children": 0
+            },
+           
+            {
+                "label": "Services",
+                "link": "/services",
+                "children": [
+                    {
+                        "label": "Social Media Marketing",
+                        "link": "/socialMedia"
+                    },
+                    {
+                        "label": "Branding",
+                        "link": "/branding"
+                    },
+                    {
+                        "label": "Web Development",
+                        "link": "/web"
+                    },
+                    {
+                        "label": "SEO",
+                        "link": "/seo"
+                    },
+                    {
+                        "label": "Paid Ads",
+                        "link": "/paidAds"
+                    },
+                    
+                  
+                   
+                    
+                    {
+                        "label": "PHOTOGRAPHY & VIDEO Production",
+                        "link": "/photoAndVideography"
+                    }
+                ]
+            },
+            {
+                "label": "Projects",
+                "link": "/projects",
+                "children": 0
+            },
+          
+          
+            {
+                "label": "Contact Us",
+                "link": "/contact",
+                "children": 0
+            }
+         
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "/img/logo/logo-light.png",
+            "alt": "Logo"
+        },
+        "copy": "© 2024 All Right Recived",
+        "sapn": "Bright Media",
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/"
+            },
+            {
+                "label": "About",
+                "link": "/about"
+            },
+           
+            {
+                "label": "Projects",
+                "link": "/projects"
+            },
+            
+            {
+                "label": "Contact",
+                "link": "/contact"
+            }
+        ]
+    },
+    "social": [
+        {
+            "link": "https://facebook.com",
+            "title": "Facebook"
+        },
+        {
+            "link": "https://twitter.com",
+            "title": "Twitter"
+        },
+        {
+            "link": "https://instagram.com",
+            "title": "Instagram"
+        },
+        {
+            "link": "https://youtube.com",
+            "title": "Youtube"
+        }
+    ],
+    "projects": {
+        "categories": [
+            {
+                "name": "Social Media Marketing",
+                "slug": "architecture"
+            },
+            {
+                "name": "Paid Ads",
+                "slug": "interior"
+            },
+            {
+                "name": "Web Development",
+                "slug": "decor"
+            },
+            {
+                "name": " Branding",
+                "slug": "Branding"
+            },
+            {
+                "name": "PHOTOGRAPHY & VIDEOGRAPHY",
+                "slug": "PHOTOGRAPHY"
+            }
+        ]
+    },
+    "team": {
+        "categories": [
+            {
+                "name": "Executive",
+                "slug": "executive"
+            },
+            {
+                "name": "Data centers",
+                "slug": "data-centers"
+            },
+            {
+                "name": "Education",
+                "slug": "education"
+            },
+            {
+                "name": "Workplace",
+                "slug": "workplace"
+            }
+        ]
+    }
+}

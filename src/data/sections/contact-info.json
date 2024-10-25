@@ -1,0 +1,16 @@
+{
+    "button": {
+        "label": "Find a Space",
+        "link": "/contact"
+    },
+    "items": [
+        {
+            "label": "Email address",
+            "value": "info@brightmedia.tech"
+        },
+        {
+            "label": "Free Consultation",
+            "value": "+225 97 97 93 87"
+        }
+    ]
+}

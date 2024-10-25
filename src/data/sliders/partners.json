@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "image": "./img/clients/Honda.webp",
+            "alt": "logo"
+        },
+        {
+            "image": "./img/clients/Duracell.webp",
+            "alt": "logo"
+        },
+        {
+            "image": "./img/clients/Bajaj.webp",
+            "alt": "logo"
+        },
+        {
+            "image": "./img/clients/giti.webp",
+            "alt": "logo"
+        },
+        {
+            "image": "./img/clients/olam.webp",
+            "alt": "logo"
+        },
+        {
+            "image": "./img/clients/Kaisar.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/Second20cup.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/Horeca.webp",
+            "alt": "logo"
+        },  {
+            "image": "./img/clients/amore.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/asia20mart.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/tonino.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/Azim.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/Kennys.webp",
+            "alt": "logo"
+        }, {
+            "image": "./img/clients/Istanbul.webp",
+            "alt": "logo"
+        }
+    ]
+}
