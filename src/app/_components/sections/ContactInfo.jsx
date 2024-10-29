@@ -6,7 +6,7 @@ const ContactInfoSection = () => {
     <>
         {/* contact info */}
         <section>
-            <div className="container mil-p-0-100" style={{marginTop:'20px'}}>
+            <div className="container mil-p-0-100" style={{marginTop:'20px',marginBottom:"30px"}}>
                 <div className="mil-background-grid mil-softened" />
 
                 <div className="mil-contact-frame mil-up">
@@ -17,8 +17,8 @@ const ContactInfoSection = () => {
                             <h4 className="mil-thin mil-up">{item.value}</h4>
                         </div>
                         ))}
-                        <div className="col-lg-3 mil-mb-30">
-                            <Link href={Data.button.link} className="mil-button mil-up mil-fw">{Data.button.label}</Link>
+                        <div className="col-lg-4 mil-mb-30">
+                            <Link href='/contact' className="mil-button mil-up mil-fw">Get In Touch </Link>
                         </div>
                     </div>
                 </div>

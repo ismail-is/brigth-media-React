@@ -16,6 +16,7 @@ import HowWeWorkSection from "@components/sections/HowWeWork";
 import LatestPostsSection from "@components/sections/LatestPosts";
 import CoresSection from "@components/sections/Cores";
 import SkillsSection from "../_components/sections/Skills";
+import TestimonialSlider from "../_components/sliders/Testimonial";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
@@ -51,6 +52,7 @@ async function Home1() {
       </Suspense> */}
       <SkillsSection/>
       <CoresSection />
+      <TestimonialSlider showPartners={0} />
     </>
   );
 };

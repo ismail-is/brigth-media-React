@@ -39,7 +39,8 @@ const OurTeam = ({ categories }) => {
         {/* filter end */}
 
         {/* static content */}
-        <div className="row mil-team-grid" style={{ marginBottom: '40px' }}>
+
+        <div className="row mil-team-grid" style={{ marginBottom: '40px' ,display:"flex",justifyContent:"center"}}>
             <div className="col-sm-6 col-lg-3 mil-grid-item mil-up">
                 <div className="mil-team-member">
                     <div className="mil-avatar mil-mb-30">
@@ -49,34 +50,94 @@ const OurTeam = ({ categories }) => {
                     <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
                 </div>
             </div>
-            <div className="col-sm-6 col-lg-3 mil-grid-item mil-up">
-                <div className="mil-team-member">
-                    <div className="mil-avatar mil-mb-30">
-                        <img src="https://ruizarch-react.vercel.app/img/faces/3.jpg" alt="Placeholder Image" />
-                    </div>
-                    <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
-                    <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
-                </div>
-            </div>
-            <div className="col-sm-6 col-lg-3 mil-grid-item mil-up">
-                <div className="mil-team-member">
-                    <div className="mil-avatar mil-mb-30">
-                        <img src="https://ruizarch-react.vercel.app/img/faces/8.jpg" alt="Placeholder Image" />
-                    </div>
-                    <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
-                    <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
-                </div>
-            </div>
-            <div className="col-sm-6 col-lg-3 mil-grid-item mil-up">
-                <div className="mil-team-member">
-                    <div className="mil-avatar mil-mb-30">
-                        <img src="https://ruizarch-react.vercel.app/img/faces/10.jpg" alt="Placeholder Image" />
-                    </div>
-                    <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
-                    <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
-                </div>
-            </div>
+           
+            
+            
         </div>
+
+
+
+        <div className="row mil-team-grid" style={{ marginBottom: '40px' }}>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/2.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/3.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/8.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/10.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+</div>
+
+
+<div className="row mil-team-grid" style={{ marginBottom: '40px' }}>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/2.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/3.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/8.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="https://ruizarch-react.vercel.app/img/faces/10.jpg" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Lorem Ipsum</h6>
+      <p className="mil-dark-soft">Lorem Ipsum Dolor</p>
+    </div>
+  </div>
+</div>
+
+
+        
         {/* static content end */}
       </>
     );

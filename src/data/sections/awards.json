@@ -11,23 +11,37 @@
     },
     "items": [
         {
-            "title": "Designs of the Year",
-            "year": "2022",
+            "title": "Increased Brand Awareness",
+            "year": "1",
             "image": "/img/photo/1.jpg"
         },
+       
         {
-            "title": "Firms of the Year",
-            "year": "2019",
-            "image": "/img/photo/2.jpg"
-        },
-        {
-            "title": "Product Winners",
-            "year": "2014",
+            "title": "Enhanced Audience Engagement",
+            "year": "3",
             "image": "/img/photo/5.jpg"
         },
         {
-            "title": "Photography Winners",
-            "year": "2008",
+            "title": "Growth in Followership",
+            "year": "5",
+            "image": "/img/photo/4.jpg"
+        }
+    ],
+    "items2": [
+        {
+            "title": "Higher Website Traffic",
+            "year": "2",
+            "image": "/img/photo/2.jpg"
+        },
+       
+        {
+            "title": "Measurable Results",
+            "year": "4",
+            "image": "/img/photo/5.jpg"
+        },
+        {
+            "title": "Improved Brand Reputation",
+            "year": "6",
             "image": "/img/photo/4.jpg"
         }
     ]

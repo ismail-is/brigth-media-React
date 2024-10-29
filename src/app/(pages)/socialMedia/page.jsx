@@ -9,10 +9,11 @@ import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
 import ProcessSlider from "../../_components/sliders/Process";
 import Webslider from "../../_components/sliders/Webslider";
+import AwardsSection from "../../_components/sections/Awards";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "social media ",
     },
     description: AppData.settings.siteDescription,
 }
@@ -44,9 +45,9 @@ const SocialMedia = () => {
                       <h4 className="mil-upper mil-up mil-mb-60">How we can help you?</h4>
                     <div className="col-lg-6" >
 
-                        <div className="mil-icon-box mil-up mil-mb-60">
+                        <div className="mil-icon-box mil-up mil-mb-60" >
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
-                            <div className="mil-icon mil-icon-border mil-mb-30">
+                            <div className="mil-icon mil-icon-border mil-mb-30" >
                                 <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
                             </div>
                             <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Strategic Planning</h4></div>
@@ -84,7 +85,7 @@ const SocialMedia = () => {
                             <div>
                             <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Platform Management</h4></div>
                             </div>
-                            <p>Leave the day-to-day management of your social media platforms to us. We'll handle everything from content scheduling and posting to community engagement, ensuring a seamless brand presence across all channels</p>
+                            <p>Leave your social media management to us—from content scheduling to community engagement, we ensure seamless brand presence across all channels.</p>
                         </div>
 
                     </div>
@@ -111,7 +112,7 @@ const SocialMedia = () => {
 
 
 
-                    <h3 className="mil-upper mil-up mil-mb-60">Outcome of the Services</h3>
+                    {/* <h3 className="mil-upper mil-up mil-mb-60">Outcome of the Services</h3>
                     <div className="row justify-content-between">
                     <div className="col-lg-5">
                             <ul className="mil-icon-list mil-mb-60">
@@ -127,9 +128,9 @@ const SocialMedia = () => {
                                 <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Improved Brand Reputation</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     
-                    <div className="mil-divider-lg mil-up mil-mb-60" />
+                    {/* <div className="mil-divider-lg mil-up mil-mb-60" /> */}
                 </>
             </div>
             <div className="col-lg-5">
@@ -193,7 +194,7 @@ const SocialMedia = () => {
 </section>
 
 
-
+<AwardsSection />
 
 
 
@@ -202,8 +203,8 @@ const SocialMedia = () => {
 
 
         {/* map */}
-        <Webslider/>
-        {/* <LatestPostsSection/> */}
+        {/* <Webslider/> */}
+        <LatestPostsSection/>
         {/* <ProcessSlider bgStyle={"soft"} /> */}
         {/* map end */}
 

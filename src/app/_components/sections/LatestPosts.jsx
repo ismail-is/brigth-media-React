@@ -15,7 +15,7 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
             <div className="col-12">
                 <div className="mil-center mil-mb-90">
                     <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.subtitle }} />
-                    <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{ __html: Data.title }} />
+                    <h2 className="mil-upper mil-up mil-mb-30" >Some of <span class="mil-marker">our works</span> </h2>
                     <a href={Data.button.link} className="mil-link mil-upper mil-up">
                         {Data.button.label}
                         {/* <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span> */}
