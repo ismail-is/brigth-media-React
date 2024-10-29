@@ -1,6 +1,6 @@
 {
     "bg_image": "/img/photo/1.jpg",
-    "title": "Modern<br/><span class=\"mil-accent\">Architectural</span><br/>Design",
+    "title": "Bringing Bright <br/>Side to<span class=\"mil-accent\">Bright Side</span><br/>",
     "subtitle": "The future",
     "button": {
         "link": "/projects",
@@ -8,24 +8,25 @@
     },
     "numbers": [
         {
-            "value": "346",
+            "value": "50",
             "afterValue": "+",
-            "label": "Succeeded <br/>Projects"
+            "label": "Million Reach "
         },
         {
-            "value": "9",
+            "value": "400",
             "afterValue": "k+",
-            "label": "Working <br/>Hours"
+            "label": "Ad Campaigns"
         },
         {
-            "value": "10",
+            "value": "50",
             "afterValue": "+",
-            "label": "Years <br/>Experience"
+            "label": "Brands "
         },
         {
-            "value": "99",
+            "value": "15",
+            "text":"K",
             "afterValue": "+",
-            "label": "Billion <br/>Invested"
+            "label": "Creatives "
         }
     ]
 }

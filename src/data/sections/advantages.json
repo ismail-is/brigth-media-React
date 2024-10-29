@@ -1,22 +1,26 @@
 {
-    "title": "We Take Care of Everything <br>for You!",
-    "subtitle": "Our Advantages",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua.",
+    "title": "We take care of everything ",
+    "subtitle": "Our Model",
+    "description": "We manage all aspects of your project, ensuring seamless execution and exceptional results tailored for you.",
     "items": [
         {
-            "title": "Listen",
+            "title": "Consultation",
             "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         },
         {
-            "title": "Strategies",
+            "title": "Strategy Development",
             "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         },
         {
-            "title": "Project Work",
+            "title": "Execution",
             "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         },
         {
-            "title": "Launch",
+            "title": "Monitoring & Optimization",
+            "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        },
+        {
+            "title": "Review & Feedback",
             "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
         }
     ]

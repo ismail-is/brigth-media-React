@@ -551,7 +551,7 @@ icons
         border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 3;
         position: absolute;
         z-index: -1;
-        top: 85px;
+        top: 25px;
         left: 0;
         transition: $t-md;
     }
@@ -620,6 +620,7 @@ services
     border: 5px solid $dt-10;
     border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
     transition: $t-md;
+    height: 350px;
 
     & .mil-card-number {
         position: absolute;
@@ -638,6 +639,7 @@ services
         opacity: 1;
         transform: translateY(0) scale(1);
         transition: $t-md;
+        text-align:center;
     }
 
     & .mil-go-buton {
@@ -657,6 +659,7 @@ services
         & .mil-service-text {
             opacity: 0;
             transform: translateY(15px) scale(.8);
+           
         }
 
         & .mil-divider-sm {
@@ -2167,7 +2170,7 @@ sidebar
 
 .mil-sidebar-info {
     position: relative;
-    padding: 60px 60px 60px;
+    padding: 30px 30px 30px;
     border: 5px solid $dt-5;
     border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
 

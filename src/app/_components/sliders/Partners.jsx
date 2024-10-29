@@ -9,6 +9,8 @@ const PartnersSlider = ( { bgStyle } ) => {
   return (
     <>
     {/* partners */}
+    <section  className="mil-soft-bg mil-relative" style={{marginBottom:'20px'}}>
+    <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
     <div className={`mil-${bgStyle}-bg mil-partners mil-relative`}>
         {bgStyle == "soft" &&
         <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
@@ -29,6 +31,7 @@ const PartnersSlider = ( { bgStyle } ) => {
             </Swiper>
         </div>
     </div>
+    </section>
     {/* partners end */}
     </>
   );

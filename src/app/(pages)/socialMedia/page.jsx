@@ -7,6 +7,8 @@ import ContactForm from "@components/ContactForm";
 import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
+import ProcessSlider from "../../_components/sliders/Process";
+import Webslider from "../../_components/sliders/Webslider";
 
 export const metadata = {
     title: {
@@ -200,7 +202,9 @@ const SocialMedia = () => {
 
 
         {/* map */}
-        <LatestPostsSection/>
+        <Webslider/>
+        {/* <LatestPostsSection/> */}
+        {/* <ProcessSlider bgStyle={"soft"} /> */}
         {/* map end */}
 
         {/* contact */}

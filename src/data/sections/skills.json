@@ -1,23 +1,23 @@
 {
-    "title": "We make custom made items",
-    "subtitle": "Our Skills",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title": "The Art of Digital Mastery",
+    "subtitle": " How we rank ourselves ",
+    "description": "We bring expertise and precision to every aspect of your digital services.",
     "items": [
         {
-            "value": "35",
-            "label": "Design"
+            "value": "95",
+            "label": "Branding & Creative Design"
         },
         {
-            "value": "60",
-            "label": "Interior Scetch"
+            "value": "85",
+            "label": "Social Media Marketing"
         },
         {
-            "value": "80",
-            "label": "3D Modelling"
+            "value": "95",
+            "label": "Web Development"
         },
         {
-            "value": "40",
-            "label": "Planning"
+            "value": "70",
+            "label": "Paid Advertising "
         }
     ]
 }

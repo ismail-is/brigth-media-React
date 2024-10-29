@@ -26,7 +26,7 @@ const CoresSection = () => {
 
                         <div className="mil-mb-90">
                             <span className="mil-suptitle mil-upper mil-light mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
-                            <h2 className="mil-upper mil-light mil-up mil-mb-30"  >Create Brand Identities <span style={{color:"#BCFF00"}}> & </span> Digital Experiences</h2>
+                            <h2 className="mil-upper mil-light mil-up mil-mb-30"  >Creating Powerful  <span style={{color:"#BCFF00"}}> Identities  </span> </h2>
                             <p className="mil-light-soft mil-up mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description}} />
                             <Link href={Data.button.link} className="mil-link mil-light mil-upper mil-up">
                                 {Data.button.label} 

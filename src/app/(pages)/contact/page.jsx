@@ -18,7 +18,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <>
-        <PageBanner pageTitle={"We’d love to talk"} breadTitle={"Contact"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Contact us"} breadTitle={"Contact"} bgImage={"/img/photo/12.jpg"} />
        
         {/* about */}
         <section>
@@ -38,9 +38,9 @@ const Contact = () => {
 
                         <div className="mil-contact-sidebar">
 
-                            <img src="img/photo/2.jpg" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "objectPosition": "0 -60px"}} className="mil-mb-30" />
+                            {/* <img src="img/photo/2.jpg" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "objectPosition": "0 -60px"}} className="mil-mb-30" /> */}
 
-                            <div className="mil-sidebar-info">
+                            <div className="mil-sidebar-info" style={{height:"250px"}}>
 
                                 {/* <h6 className="mil-upper mil-up mil-mb-30">Headquarters</h6>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">
@@ -51,7 +51,7 @@ const Contact = () => {
                                 <h6 className="mil-upper mil-up mil-mb-30">Phone</h6>
                                 <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li> <a href="https://wa.me/22597979387" target="_blank">+225 97 97 93 87</a></li>
-                                <li> <a href="https://wa.me/91 77952 40605" target="_blank">+91 77952 40605</a></li>
+                                <li> <a href="https://wa.me/910797979387" target="_blank">+91 0797 979 387</a></li>
 
                                 </ul>
                                 <h6 className="mil-upper mil-up mil-mb-30">Email</h6>
@@ -65,7 +65,10 @@ const Contact = () => {
                         </div>
 
                     </div>
-                    <div className="col-lg-7">
+
+
+                    <Map/>
+                    <div className="col-lg-12">
                         <div className="row">
                             <div className="col-lg-3">
                                 <div className="mil-up mil-mb-60">
@@ -100,7 +103,7 @@ const Contact = () => {
 
         {/* map */}
         
-        <Map/>
+       
         {/* <div className="mil-map-frame mil-up">
             <div className="mil-map">
                 <iframe 

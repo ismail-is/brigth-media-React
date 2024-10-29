@@ -1,47 +1,47 @@
 {
-    "title": "What We Do",
+    "title": "What services we offer",
     "subtitle": "Services",
     "items": [
         {
-            "icon": "/img/icons/3.svg",
+            "icon": "./img/icons/social-media.png",
             "num": "01.",
             "title": "Social Media Marketing",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
+            "text": "Engage and grow your audience with custom social media strategies to boost brand awareness and interaction.",
             "link": "/socialMedia"
         },
         {
-            "icon": "/img/icons/5.svg",
+            "icon": "./img/icons/branding.png",
             "num": "02.",
             "title": "Branding",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
-            "link": "/paidAds"
-        },
-        {
-            "icon": "/img/icons/4.svg",
-            "num": "03.",
-            "title": "Web Development",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
-            "link": "/seo"
-        },
-        {
-            "icon": "/img/icons/4.svg",
-            "num": "04.",
-            "title": "SEO",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
-            "link": "/web"
-        },
-        {
-            "icon": "/img/icons/4.svg",
-            "num": "05.",
-            "title": "Paid Ads",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
+            "text": "Create Brand identity that resonates with your audience and reflects your core values.",
             "link": "/branding"
         },
         {
-            "icon": "/img/icons/4.svg",
+            "icon": "./img/icons/web.png",
+            "num": "03.",
+            "title": "Web Development",
+            "text": "Build user-friendly, responsive websites designed to enhance customer experience and drive conversions effectively.",
+            "link": "/web"
+        },
+        {
+            "icon": "./img/icons/seo.png",
+            "num": "04.",
+            "title": "SEO",
+            "text": "Optimize your online presence to improve search rankings, attract organic traffic, and increase visibility.",
+            "link": "/seo"
+        },
+        {
+            "icon": "/img/icons/Ads.png",
+            "num": "05.",
+            "title": "Paid Ads",
+            "text": "Maximize reach and return on investment with targeted advertising campaigns across various digital platforms.",
+            "link": "/paidAds"
+        },
+        {
+            "icon": "/img/icons/Photography.png",
             "num": "06.",
             "title": "Photography/video Production",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
+            "text": "Capture compelling visuals that tell your brand story and engage your audience across all media.",
             "link": "/photoAndVideography"
         }
     ]
