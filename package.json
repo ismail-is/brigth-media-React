@@ -2,7 +2,7 @@
   "name": "ruizarch-nextjs",
   "version": "1.0.2",
   "private": true,
-  "homepage": "https://ismail-is.github.io/brigth-media-React",
+  "homepage": "https://ismail-is.github.io/Bright-Media-website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

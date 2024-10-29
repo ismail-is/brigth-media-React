@@ -10,7 +10,7 @@ import CallToActionSection from "../../_components/sections/CallToAction";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "SEO",
     },
     description: AppData.settings.siteDescription,
 }
