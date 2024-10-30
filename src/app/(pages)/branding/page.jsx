@@ -7,6 +7,7 @@ import ContactForm from "@components/ContactForm";
 import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
+import SocialSlider from "../../_components/sliders/SocialSlider";
 
 export const metadata = {
     title: {
@@ -26,7 +27,7 @@ const Branding = () => {
         <div className="row justify-content-between">
             <div className="col-lg-7">
                 <>
-                    <h3 className="mil-upper mil-up mil-mb-60">WHAT CAN <span class="mil-marker">WE DO</span></h3>
+                    <h3 className="mil-upper mil-up mil-mb-60">What can <span class="mil-marker">we do</span></h3>
                     <div className="mil-text mil-up mil-mb-60">
                         <p>Make your brand stand out from the rest, Let us redefine your brand by utilizing the right approach. we specialize in crafting quality brand identities that resonate with your audience and set you apart from the competition. Our strategic approach, creative expertise, and attention to detail ensure that your brand leaves a lasting impression and drives meaningful connections with your target market.</p>
                     </div>
@@ -39,7 +40,7 @@ const Branding = () => {
                 <div className="mil-background-grid mil-softened" />
 
                 <div className="row">
-                      <h3 className="mil-upper mil-up mil-mb-60">How We   <span class="mil-marker">Work</span></h3>
+                      <h3 className="mil-upper mil-up mil-mb-60">How We    <span class="mil-marker">Work</span></h3>
                       <div className="mil-text mil-up mil-mb-60">
                         <p>At Bright Media, we believe that successful branding begins with a deep understanding of your business, audience, and objectives. Our process is collaborative and tailored to your unique needs</p>
                     </div>
@@ -50,9 +51,9 @@ const Branding = () => {
                             <div className="mil-icon mil-icon-border mil-mb-30">
                                 <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
                             </div>
-                            <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>SDiscovery</h4></div>
+                            <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Discovery</h4></div>
                             </div>
-                            <p>We start by conducting thorough research to gain insights into your industry, competitors, and target audience.</p>
+                            <p> We start by conducting thorough research to gain insights into your industry, competitors, and target audience.</p>
                         </div>
 
                     </div>
@@ -205,7 +206,8 @@ const Branding = () => {
 
 
         {/* map */}
-        <LatestPostsSection/>
+        <SocialSlider/>
+        {/* <LatestPostsSection/> */}
         {/* map end */}
 
         {/* contact */}

@@ -10,6 +10,7 @@ import CallToActionSection from "../../_components/sections/CallToAction";
 import ProcessSlider from "../../_components/sliders/Process";
 import Webslider from "../../_components/sliders/Webslider";
 import AwardsSection from "../../_components/sections/Awards";
+import SocialSlider from "../../_components/sliders/SocialSlider";
 
 export const metadata = {
     title: {
@@ -204,7 +205,8 @@ const SocialMedia = () => {
 
         {/* map */}
         {/* <Webslider/> */}
-        <LatestPostsSection/>
+        <SocialSlider/>
+        {/* <LatestPostsSection/> */}
         {/* <ProcessSlider bgStyle={"soft"} /> */}
         {/* map end */}
 

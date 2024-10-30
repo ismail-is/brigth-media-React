@@ -26,9 +26,9 @@ const PaidAds = () => {
         <div className="row justify-content-between">
             <div className="col-lg-7">
                 <>
-                    <h3 className="mil-upper mil-up mil-mb-60">WHAT WE DO</h3>
+                    <h3 className="mil-upper mil-up mil-mb-60">what we do ?</h3>
                     <div className="mil-text mil-up mil-mb-60">
-                        <p>At Bright Media, our area of specialization is designing strong sponsored ads to elevate the online presence of our clients and bring about meaningful outcomes. Consequently, as experts in Meta Ads (Facebook and Instagram) and Google Ads, we pay attention to how much we spend versus what we get out of it by weaving together persuasive commercials that communicate with their precise target audience and always fine-tuning for good performance.</p>
+                        <p>At Bright Media, our area of specialization is designing strong sponsored ads toAt Bright Media, our area of specialization is designing strong sponsored ads to elevate the online presence of our clients and bring about meaningful outcomes. Consequently, as experts in Meta Ads (Facebook and Instagram) and Google Ads, we pay attention to how much we spend versus what we get out of it by weaving together persuasive commercials that communicate with their precise target audience and always fine-tuning for good performance.</p>
                     </div>
 
 
@@ -39,7 +39,7 @@ const PaidAds = () => {
                 <div className="mil-background-grid mil-softened" />
 
                 <div className="row">
-                      <h3 className="mil-upper mil-up mil-mb-60">WHAT WE OFFER ?</h3>
+                      <h3 className="mil-upper mil-up mil-mb-60">How we do? </h3>
                     <div className="col-lg-6" >
 
                         <div className="mil-icon-box mil-up mil-mb-60">

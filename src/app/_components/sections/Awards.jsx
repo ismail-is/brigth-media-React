@@ -18,7 +18,7 @@ const AwardsSection = () => {
                 <div className="mil-background-grid mil-softened"></div>
 
                 <div className="row justify-content-between">
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-3 col-lg-3">
 
                         {/* <div className="mil-mb-90">
                             <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
@@ -45,7 +45,7 @@ const AwardsSection = () => {
                         </div>
 
                     </div>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 col-sm-3 col-lg-3">
 
                         <div className="mil-hover-images mil-up">
                             <ul>
