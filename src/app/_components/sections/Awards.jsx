@@ -29,12 +29,16 @@ const AwardsSection = () => {
                             </a>
                         </div> */}
                           <div className="mil-hover-images mil-up">
+                            <div>
+                                
+                            </div>
                             <ul>
                                 {Data.items.map((item, key) => (
                                 <li className="mil-up" key={`awards-item-${key}`}>
                                     <a className="mil-hover-item" href="#." onClick={(e) => {e.preventDefault();}} data-src={item.image}>
-                                        <p>{item.year}</p>
-                                        <span className="mil-h4">{item.title}</span>
+                                        {/* <p>{item.year}</p> */}
+                                        <p  className="mil-up mil-hover ">  <img src="./img/icons/11.svg" alt="icon" /></p>
+                                        <span className="mil-h4" style={{color:"black"}}>{item.title}</span>
                                     </a>
                                 </li>
                                 ))}
@@ -50,10 +54,10 @@ const AwardsSection = () => {
                         <div className="mil-hover-images mil-up">
                             <ul>
                                 {Data.items2.map((item, key) => (
-                                <li className="mil-up" key={`awards-item-${key}`}>
+                                <li className="mil-up mil-hover" key={`awards-item-${key}`}>
                                     <a className="mil-hover-item" href="#." onClick={(e) => {e.preventDefault();}} data-src={item.image}>
-                                        <p>{item.year}</p>
-                                        <span className="mil-h4">{item.title}</span>
+                                        <p  className="mil-up mil-hover ">  <img src="./img/icons/11.svg" alt="icon" /></p>
+                                        <span className="mil-h4" style={{color:"black"}}>{item.title}</span>
                                     </a>
                                 </li>
                                 ))}

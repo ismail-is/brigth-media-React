@@ -134,23 +134,24 @@ const Web = () => {
             </div>
             <div className="col-lg-5">
                 <div className="mil-sidebar-frame mil-mb-60">
-                    <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2>
+                    {/* <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2> */}
 
                     <React.Fragment >
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Our Web Development Toolbox</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                <li >Workplace Consulting</li>
-                                <li >3D Modeling Planning</li>
-                                <li >Architecture</li>
+                                <li >HTML & CSS </li>
+                                <li >JavaScript</li>
+                                <li >React & Next JS</li>
                             </ul>
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                <li >Workplace Consulting</li>
-                                <li >3D Modeling Planning</li>
-                                <li >Architecture</li>
+                                <li >Average Build Time 2-4 weeks</li>
+                                <li >99.9% Uptime Assurance</li>
+                                <li >100% Custom-Built Solutions</li>
+                                <li >95% Client Satisfaction Rate</li>
                             </ul>
                         </>
                         <>

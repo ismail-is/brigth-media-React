@@ -136,19 +136,20 @@ const SocialMedia = () => {
             </div>
             <div className="col-lg-5">
                 <div className="mil-sidebar-frame mil-mb-60">
-                    <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2>
+                    {/* <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2> */}
 
                     <React.Fragment >
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Our Social Media Toolbox</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                <li >Workplace Consulting</li>
-                                <li >3D Modeling Planning</li>
-                                <li >Architecture</li>
+                                <li >Meta Business Suite</li>
+                                <li >SemRush </li>
+                                <li >Hootsuite</li>
+                                <li >Adobe Photoshop</li>
                             </ul>
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Workplace Consulting</li>
                                 <li >3D Modeling Planning</li>
@@ -160,13 +161,13 @@ const SocialMedia = () => {
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" >8-12%</span></h5>
+                                        <p className="mil-dark" >Average Engagement Rate</p>
                                     </div>
                                    
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" >99% </span></h5>
+                                        <p className="mil-dark" >Timely Posting Accuracy</p>
                                     </div>
                                    
 
@@ -174,12 +175,12 @@ const SocialMedia = () => {
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" >100% </span></h5>
+                                        <p className="mil-dark" >Tailored Content Strategy</p>
                                     </div>
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" >92%</span></h5>
+                                        <p className="mil-dark" >Client Retention Rate</p>
                                     </div>
                                    
 

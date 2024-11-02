@@ -38,91 +38,71 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "120" } ) => {
             </div>
         </div>
 
-        <Swiper {...SliderProps.milProcessSlider} className="swiper-container mil-process-slider" >
-            <div className="swiper-wrapper" >
-                {/* Slide 1 */}
-                <SwiperSlide className="swiper-slide" >
-                    <div className="swiper-slide col-lg-12 " >
-                        <div className="row">
-                        <div className="col-lg-6">
-                <Link href="/mainpage" className="mil-blog-card mil-mb-60">
-                    <div className="mil-cover mil-up mil-long" >
-                        <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1"  />
-                        <div className="mil-date">date</div>
-                    </div>
-                    <div className="mil-description">
-                        <h4 className="mil-upper mil-up mil-mb-30">Explore new design </h4>
-                        <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Sed do eiusmod </p>
-                    </div>
-                </Link>
-            </div>
-                        
-                        <div className="col-lg-6">
-                <Link href="/mainpage" className="mil-blog-card mil-mb-60">
-                    <div className="mil-cover mil-up mil-long" >
-                        <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
-                        <div className="mil-date">date</div>
-                    </div>
-                    
-                    <div className="mil-description">
-                        <h4 className="mil-upper mil-up mil-mb-30">Explore new design </h4>
-                        <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod </p>
-                    </div>
-                </Link>
-            </div>
-                            {/* Repeat similar structure for other columns/items */}
+        <Swiper {...SliderProps.milProcessSlider} className="swiper-container mil-process-slider">
+    <div className="swiper-wrapper" >
+        {/* Slide 1 */}
+        <SwiperSlide className="swiper-slide">
+        <div className="row col-lg-12">
+                <div className="col-lg-6">
+                    <Link href="/mainpage" className="mil-blog-card mil-mb-60">
+                        <div className="mil-cover mil-up mil-long">
+                            <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
+                            <div className="mil-date">date</div>
                         </div>
-                    </div>
-                </SwiperSlide>
-
-                {/* Slide 2 */}
-               
-
-
-                <Swiper {...SliderProps.milProcessSlider} className="swiper-container mil-process-slider">
-            <div className="swiper-wrapper">
-                {/* Slide 1 */}
-                <SwiperSlide className="swiper-slide">
-                    <div className="swiper-slide" > 
-                        <div className="row">
-                        <div className="col-lg-6">
-                <Link href="/mainpage" className="mil-blog-card mil-mb-60">
-                    <div className="mil-cover mil-up mil-long" >
-                        <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
-                        <div className="mil-date">date</div>
-                    </div>
-                    
-                    <div className="mil-description">
-                        <h4 className="mil-upper mil-up mil-mb-30">Explore new design </h4>
-                        <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod </p>
-                    </div>
-                </Link>
-            </div>
-            <div className="col-lg-6">
-                <Link href="/mainpage" className="mil-blog-card mil-mb-60">
-                    <div className="mil-cover mil-up mil-long" >
-                        <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
-                        <div className="mil-date">date</div>
-                    </div>
-                    
-                    <div className="mil-description">
-                        <h4 className="mil-upper mil-up mil-mb-30">Explore new design </h4>
-                        <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod </p>
-                    </div>
-                </Link>
-            </div>
-                        
-                            {/* Repeat similar structure for other columns/items */}
+                        <div className="mil-description">
+                            <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
+                            <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
                         </div>
-                    </div>
-                </SwiperSlide>
+                    </Link>
+                </div>
+                <div className="col-lg-6">
+                    <Link href="/mainpage" className="mil-blog-card mil-mb-60">
+                        <div className="mil-cover mil-up mil-long">
+                            <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
+                            <div className="mil-date">date</div>
+                        </div>
+                        <div className="mil-description">
+                            <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
+                            <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
+                        </div>
+                    </Link>
+                </div>
+            </div>
+        </SwiperSlide>
 
-                {/* Slide 2 */}
-               
+        {/* Slide 2 */}
+        <SwiperSlide className="swiper-slide">
+            <div className="row col-lg-12">
+                <div className="col-lg-6">
+                    <Link href="/mainpage" className="mil-blog-card mil-mb-60">
+                        <div className="mil-cover mil-up mil-long">
+                            <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
+                            <div className="mil-date">date</div>
+                        </div>
+                        <div className="mil-description">
+                            <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
+                            <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
+                        </div>
+                    </Link>
+                </div>
+                <div className="col-lg-6">
+                    <Link href="/mainpage" className="mil-blog-card mil-mb-60">
+                        <div className="mil-cover mil-up mil-long">
+                            <img src="https://ruizarch-react.vercel.app/img/covers/1.jpg" alt="Sample Blog Post 1" />
+                            <div className="mil-date">date</div>
+                        </div>
+                        <div className="mil-description">
+                            <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
+                            <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
+                        </div>
+                    </Link>
+                </div>
             </div>
-        </Swiper>
-            </div>
-        </Swiper>
+        </SwiperSlide>
+        {/* Add more SwiperSlide components here for additional slides */}
+    </div>
+</Swiper>
+
     </div>
 </section>
 

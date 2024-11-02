@@ -19,7 +19,9 @@ scrollbar
     }
 
     @media screen and (max-width: 992px) {
-        display: none;
+        // display: none;
+        width: 6px;
+        background-color: transparent;
     }
 }
 
@@ -915,6 +917,7 @@ blog
 
 .mil-blog-card {
     display: flex;
+    justify-content: center;
     align-items: center;
 
     & .mil-cover {

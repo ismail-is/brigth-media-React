@@ -10,17 +10,20 @@
         {
             "value": "50",
             "afterValue": "+",
-            "label": "Million Reach "
+            "label": "Million Reach ",
+            "plus":"+"
         },
         {
             "value": "400",
             "afterValue": "k+",
-            "label": "Ad Campaigns"
+            "label": "Ad Campaigns",
+            "plus":"+"
         },
         {
             "value": "50",
             "afterValue": "+",
-            "label": "Brands "
+            "label": "Brands ",
+            "plus":"+"
         },
         {
             "value": "15",
