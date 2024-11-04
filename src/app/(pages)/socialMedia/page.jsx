@@ -49,7 +49,7 @@ const SocialMedia = () => {
                         <div className="mil-icon-box mil-up mil-mb-60" >
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30" >
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                                <img src='./img/socialmedia/Strategic Planning.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Strategic Planning</h4></div>
                             </div>
@@ -62,7 +62,7 @@ const SocialMedia = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                             <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30" >
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/socialmedia/Content Creation.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30 " style={{fontSize:'16px'}}>Content Creation</h4></div>
                             </div>
@@ -81,7 +81,7 @@ const SocialMedia = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/socialmedia/Platform.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div>
                             <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Platform Management</h4></div>
@@ -95,7 +95,7 @@ const SocialMedia = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/socialmedia/optimization.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Analytics and Optimization</h4> </div>
                             </div>
@@ -149,24 +149,24 @@ const SocialMedia = () => {
                             </ul>
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
+                            {/* <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Workplace Consulting</li>
                                 <li >3D Modeling Planning</li>
                                 <li >Architecture</li>
-                            </ul>
+                            </ul> */}
                         </>
                         <>
                             <div className="row">
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >8-12%</span></h5>
-                                        <p className="mil-dark" >Average Engagement Rate</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="10" >10</span>K+</h5>
+                                        <p className="mil-dark" style={{textWrap:"balance"}} >Average Engagement Rate</p>
                                     </div>
                                    
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >99% </span></h5>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="99" >99</span>%</h5>
                                         <p className="mil-dark" >Timely Posting Accuracy</p>
                                     </div>
                                    
@@ -175,11 +175,11 @@ const SocialMedia = () => {
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >100% </span></h5>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="100">100</span>% </h5>
                                         <p className="mil-dark" >Tailored Content Strategy</p>
                                     </div>
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >92%</span></h5>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="92">92</span>%</h5>
                                         <p className="mil-dark" >Client Retention Rate</p>
                                     </div>
                                    

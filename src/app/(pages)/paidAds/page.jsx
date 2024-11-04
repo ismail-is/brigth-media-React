@@ -138,46 +138,49 @@ const PaidAds = () => {
 
                     <React.Fragment >
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Our Paid Ads Toolbox </h6>
+                            <ul className="mil-list mil-dark mil-up mil-mb-30">
+                                <li >Meta Ads Manager</li>
+                                <li >Google Ads</li>
+                                <li >Google Analytics</li>
+                                <li >Snapcaht Ads</li>
+                            </ul>
+                        </>
+                        <>
+                            {/* <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Workplace Consulting</li>
                                 <li >3D Modeling Planning</li>
                                 <li >Architecture</li>
-                            </ul>
+                            </ul> */}
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
-                            <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                <li >Workplace Consulting</li>
-                                <li >3D Modeling Planning</li>
-                                <li >Architecture</li>
-                            </ul>
-                        </>
-                        <>
+                        {/* <h6 className="mil-upper mil-up mil-mb-30">Our Paid Ads Toolbox </h6> */}
                             <div className="row">
+                            <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="50">50</span>+</h5>
+                                        <p className="mil-dark" >reaches</p>
+                                    </div>
+                                    <div className="mil-counter-frame mil-up mil-mb-30">
+                                        <h5 className="mil-mb-5">₹<span className="mil-counter" data-number="15">15</span>+</h5>
+                                        <p className="mil-dark" >lakh Ad spend </p>
                                     </div>
                                    
-                                    <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
-                                    </div>
                                    
 
                                 </div>
                                 <div className="col-6" >
-
-                                    <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                <div className="mil-counter-frame mil-up mil-mb-30">
+                                        <h5 className="mil-mb-5"><span className="mil-counter"  data-number="400">400</span>+</h5>
+                                        <p className="mil-dark" >campaigns</p>
                                     </div>
+                                   
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" >x3</span></h5>
+                                        <p className="mil-dark" >Growth Impact</p>
                                     </div>
                                    
 

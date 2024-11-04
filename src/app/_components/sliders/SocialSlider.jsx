@@ -6,10 +6,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Data from "@data/sliders/process.json";
 import Link from "next/link";
 
-const SocialSlider = ( { bgStyle = "default", paddingTop = "120" } ) => {
+const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
   return (
     <>
-      <section className={`mil-${bgStyle}-bg mil-relative`}>
+      <section className={`mil-${bgStyle}-bg mil-relative`} style={{marginTop:"-50px"}}>
     {bgStyle == "soft" && (
         <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
     )}
@@ -18,10 +18,10 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "120" } ) => {
         <div className="row align-items-end">
             <div className="col-lg-6">
                 <div className="mil-mb-90">
-                    <span
+                    {/* <span
                         className="mil-suptitle mil-upper mil-up mil-mb-30"
                         dangerouslySetInnerHTML={{ __html: Data.subtitle }}
-                    />
+                    /> */}
                     <h2
                         className="mil-upper mil-up"
                         dangerouslySetInnerHTML={{ __html: Data.title }}
@@ -38,7 +38,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "120" } ) => {
             </div>
         </div>
 
-        <Swiper {...SliderProps.milProcessSlider} className="swiper-container mil-process-slider">
+        <Swiper {...SliderProps.milProcessSlider} className="swiper-container mil-process-slider" style={{marginTop:"-30px"}}>
     <div className="swiper-wrapper" >
         {/* Slide 1 */}
         <SwiperSlide className="swiper-slide">

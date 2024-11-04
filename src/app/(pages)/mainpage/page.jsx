@@ -7,6 +7,7 @@ import ContactForm from "@components/ContactForm";
 import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
+import PageBannerTwo from "../../_components/PageBannerTwo";
 
 export const metadata = {
     title: {
@@ -18,7 +19,7 @@ export const metadata = {
 const MainPage = () => {
   return (
     <>
-        <PageBanner pageTitle={"SERVICES"}  bgImage={"/img/photo/12.jpg"} />
+           <PageBannerTwo subTitle="ko" title="koo" bgImage="./img/covers/8.jpg" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

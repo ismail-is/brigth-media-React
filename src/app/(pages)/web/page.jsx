@@ -7,6 +7,7 @@ import ContactForm from "@components/ContactForm";
 import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionTwoSection from "../../_components/sections/CallToActionTwo";
+import CallToActionSection from "../../_components/sections/CallToAction";
 
 export const metadata = {
     title: {
@@ -45,7 +46,7 @@ const Web = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/web/Static Dynamic Websites.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Static & Dynamic Websites</h4></div>
                             </div>
@@ -58,7 +59,7 @@ const Web = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                             <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30" >
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/web/E-commerce.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30 " style={{fontSize:'16px'}}>E-commerce</h4></div>
                             </div>
@@ -77,7 +78,7 @@ const Web = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/web/cms.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div>
                             <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>CMS</h4></div>
@@ -91,7 +92,7 @@ const Web = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/web/lms.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>LMS</h4> </div>
                             </div>
@@ -129,7 +130,7 @@ const Web = () => {
                         </div>
                     </div> */}
                     
-                    <div className="mil-divider-lg mil-up mil-mb-60" />
+                    <div className="mil-divider-lg mil-up mil-mb-10"   style={{marginTop:'-30px'}}/>
                 </>
             </div>
             <div className="col-lg-5">
@@ -142,43 +143,47 @@ const Web = () => {
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >HTML & CSS </li>
                                 <li >JavaScript</li>
-                                <li >React & Next JS</li>
+                                <li >React JS</li>
+                                <li >Next JS</li>
                             </ul>
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
+                            {/* <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Average Build Time 2-4 weeks</li>
                                 <li >99.9% Uptime Assurance</li>
                                 <li >100% Custom-Built Solutions</li>
                                 <li >95% Client Satisfaction Rate</li>
-                            </ul>
+                            </ul> */}
                         </>
                         <>
                             <div className="row">
-                                <div className="col-6" >
+                            <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
+                                <div className="col-12" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                       
+                                        <p className="mil-dark" >Average Build Time  <h5 ><span className="mil-counter" data-number="2">2</span>-<span className="mil-counter" data-number="4">4</span></h5> weeks</p>
                                     </div>
                                    
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="100">100</span>%</h5>
+                                        <p className="mil-dark" >Custom-Built Solutions</p>
                                     </div>
                                    
 
                                 </div>
-                                <div className="col-6" >
+                                <div className="col-12" >
+
+                                
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="99.9">99.9</span>%</h5>
+                                        <p className="mil-dark" >Uptime Assurance</p>
                                     </div>
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="95">95</span>%</h5>
+                                        <p className="mil-dark" >Client Satisfaction Rate</p>
                                     </div>
                                    
 
@@ -229,7 +234,8 @@ const Web = () => {
                         <ContactForm />
 
                     </div>
-                    <CallToActionTwoSection/>
+                    {/* <CallToActionTwoSection/> */}
+                    <CallToActionSection/>
                 </div>
             </div>
         </section>

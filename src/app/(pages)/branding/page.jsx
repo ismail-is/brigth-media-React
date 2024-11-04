@@ -49,7 +49,7 @@ const Branding = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/Branding/discovery.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Discovery</h4></div>
                             </div>
@@ -62,7 +62,7 @@ const Branding = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                             <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30" >
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/Branding/strategy.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30 " style={{fontSize:'16px'}}>Strategy</h4></div>
                             </div>
@@ -81,7 +81,7 @@ const Branding = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/Branding/Concept Development.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div>
                             <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Concept Development</h4></div>
@@ -95,7 +95,7 @@ const Branding = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/Branding/Design Implementation.png' alt='img'  style={{height:'30px'}} />
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Design Implementation</h4> </div>
                             </div>
@@ -133,7 +133,7 @@ const Branding = () => {
                         </div>
                     </div> */}
                     
-                    <div className="mil-divider-lg mil-up mil-mb-60" />
+                    <div className="mil-divider-lg mil-up mil-mb-60" style={{marginTop:'-70px'}}  />
                 </>
             </div>
             <div className="col-lg-5">
@@ -151,38 +151,39 @@ const Branding = () => {
                             </ul>
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
+                            {/* <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Workplace Consulting</li>
                                 <li >3D Modeling Planning</li>
                                 <li >Architecture</li>
-                            </ul>
+                            </ul> */}
                         </>
                         <>
                             <div className="row">
-                                <div className="col-6" >
+                            <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
+                                <div className="col-12" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5" style={{textAlign:"center"}}><span className="mil-counter" data-number="100"  >100</span>+</h5>
+                                        <p className="mil-dark" style={{textAlign:"center"}}>Unique Identities Created</p>
                                     </div>
-                                   
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                    <h5 className="mil-mb-5" style={{textAlign:"center"}}><span className="mil-counter" data-number=" 95"  > 95</span>%</h5>
+                                        <p className="mil-dark" style={{textAlign:"center"}}>Client Satisfaction</p>
                                     </div>
+                                 
                                    
 
                                 </div>
-                                <div className="col-6" >
+                                <div className="col-12" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                    <h5 className="mil-mb-5" style={{textAlign:"center"}}><span className="mil-counter" data-number="85"  >85</span>%</h5>
+                                        <p className="mil-dark" style={{textAlign:"center"}}>Growth Impact</p>
                                     </div>
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5" style={{textAlign:"center"}}><span className="mil-counter" data-number="85"  >85</span>%</h5>
+                                        <p className="mil-dark" style={{textAlign:"center"}}>Brand Recognition</p>
                                     </div>
                                    
 
@@ -219,8 +220,8 @@ const Branding = () => {
                     <div className="col-lg-4">
 
                         <div className="mil-mb-90">
-                            <h2 className="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
-                            <p className="mil-up mil-mb-30">Have a question? We’d love to hear from you. Send us a note to get the conversation started - or click on an office above and talk to us. Especially about designing something, or something we’ve designed.</p>
+                            <h2 className="mil-upper mil-up mil-mb-30">We'd love to talk</h2>
+                            <p className="mil-up mil-mb-30">Have a question? We'd love to hear from you. Send us a note to get the conversation started - or click on an office above and talk to us. Especially about designing something, or something we’ve designed.</p>
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
                             <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
                             <div className="mil-up">

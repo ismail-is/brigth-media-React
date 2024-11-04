@@ -1,10 +1,11 @@
 ---
 #preview
-title: Interior design studio
-image: /img/covers/1.jpg
-category: Architecture
+title: Motorland 
+image: ./img/covers/project/Motorland logo.webp
+category: Branding
 category_slug: architecture
 date: may 24 2023
+btn: Automotive  Dealer
 
 #full details
 intro:

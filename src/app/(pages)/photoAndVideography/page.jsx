@@ -53,37 +53,39 @@ const PhotoAndVideography = () => {
             </div>
             <div className="col-lg-5">
                 <div className="mil-sidebar-frame mil-mb-60">
-                    <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2>
+                    {/* <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2> */}
 
                     <React.Fragment >
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Our Photography and Videography Toolbox</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                <li >Workplace Consulting</li>
-                                <li >3D Modeling Planning</li>
-                                <li >Architecture</li>
+                                <li >Adobe After Effects</li>
+                                <li >Adobe Premier Pro</li>
+                                <li >Adobe Lightroom</li>
+                                <li >Sony Alpha Mirrorless Camera</li>
                             </ul>
                         </>
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            {/* <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Workplace Consulting</li>
                                 <li >3D Modeling Planning</li>
                                 <li >Architecture</li>
-                            </ul>
+                            </ul> */}
                         </>
                         <>
                             <div className="row">
+                            <h6 className="mil-upper mil-up mil-mb-30">Stats </h6>
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="80">80</span>+</h5>
+                                        <p className="mil-dark" >Session done</p>
                                     </div>
                                    
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="1000">1,000</span>+</h5>
+                                        <p className="mil-dark" >Photos Taken</p>
                                     </div>
                                    
 
@@ -91,12 +93,12 @@ const PhotoAndVideography = () => {
                                 <div className="col-6" >
 
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="600">600</span>+</h5>
+                                        <p className="mil-dark" >Videos Edited </p>
                                     </div>
                                     <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
+                                        <h5 className="mil-mb-5"><span className="mil-counter" data-number="35">35</span>+</h5>
+                                        <p className="mil-dark" >Clients Served</p>
                                     </div>
                                    
 
@@ -121,7 +123,7 @@ const PhotoAndVideography = () => {
 
 
         {/* map */}
-        <div className="mil-map-frame mil-up">
+        {/* <div className="mil-map-frame mil-up">
             <div className="mil-map">
                 <iframe 
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
@@ -131,7 +133,7 @@ const PhotoAndVideography = () => {
                     referrerPolicy="no-referrer-when-downgrade"
                 />
             </div>
-        </div>
+        </div> */}
         {/* map end */}
 
         {/* contact */}
