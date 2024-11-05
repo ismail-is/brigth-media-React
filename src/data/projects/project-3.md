@@ -1,16 +1,19 @@
 ---
 #preview
-title: Kemia Industrial Factory
-image: /img/covers/3.jpg
-category: Architecture
-category_slug: architecture
+url : /Secondcup  
+title: Second Cup
+image: ./img/covers/project/second cup.webp
+category: Social Media Marketing 
+category_slug: decor
 date: may 24 2023
+orientation: vertical
+btn: Coffee Shop
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Industrial Factory <br/><span class=\"mil-accent\">Reconstruction</span>"
-  bgImage: "/img/covers/3.jpg"
+  title: "Cascade of Lava <br/><span class=\"mil-accent\">Decor</span>"
+  bgImage: "/img/covers/4.jpg"
 
 description:
     heading:
@@ -44,7 +47,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
+  - image: /img/covers/5.jpg
     alt: image
 
   - image: /img/covers/1.jpg

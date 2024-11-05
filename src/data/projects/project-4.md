@@ -1,17 +1,17 @@
 ---
 #preview
-title: Cascade of Lava
-image: /img/covers/4.jpg
-category: Decor
-category_slug: decor
+url : /Kaiser
+title: Kaiser
+image: ./img/covers/project/kaiser.webp
+category: Paid Ads 
+category_slug: architecture
 date: may 24 2023
-orientation: vertical
-
+btn: Kitchen Applainces manufacturers
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Cascade of Lava <br/><span class=\"mil-accent\">Decor</span>"
-  bgImage: "/img/covers/4.jpg"
+  title: "Industrial Factory <br/><span class=\"mil-accent\">Reconstruction</span>"
+  bgImage: "/img/covers/3.jpg"
 
 description:
     heading:
@@ -45,7 +45,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/5.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg

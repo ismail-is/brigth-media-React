@@ -1,8 +1,10 @@
 ---
 #preview
+url: /Motorland
 title: Motorland 
-image: ./img/covers/project/Motorland logo.webp
+image: ./img/covers/project/Mllog.webp
 category: Branding
+category1: category1
 category_slug: architecture
 date: may 24 2023
 btn: Automotive  Dealer

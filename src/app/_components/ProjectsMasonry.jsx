@@ -65,21 +65,34 @@ const ProjectsMasonry = ({ projects, categories }) => {
                 <div className="grid-sizer" />
 
                 {projects.map((item, key) => (
-                <div className={`mil-grid-item ${item.category_slug}`} key={`projects-item-${key}`}>
-
-                    <Link href={`/projects/${item.id}`} className={item.orientation == "vertical" ? "mil-portfolio-item-2 mil-long-item mil-mb-30" : "mil-portfolio-item-2 mil-square-item mil-mb-30"}>
-                        <img src={item.image} alt={item.title} />
-
-                        <div className="mil-project-descr">
-                            <h3 className="mil-upper mil-mb-30">{item.title}</h3>
-                            <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
-                        </div>
-
-                        <div className="mil-category">{item.category}</div>
-                    </Link>
-
+    item.url ? (
+        <Link href={item.url} key={`projects-item-${key}`}>
+            <div className={`mil-grid-item ${item.category_slug}`}>
+                <div className={item.orientation == "vertical" ? "mil-portfolio-item-2 mil-long-item mil-mb-30" : "mil-portfolio-item-2 mil-square-item mil-mb-30"}>
+                    <img src={item.image} alt={item.title} />
+                    <div className="mil-project-descr">
+                        <h3 className="mil-upper mil-mb-30">{item.title}</h3>
+                        <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
+                    </div>
+                    <div className="mil-category">{item.category}</div>
                 </div>
-                ))}
+            </div>
+        </Link>
+    ) : (
+        <div className={`mil-grid-item ${item.category_slug}`} key={`projects-item-${key}`}>
+            <div className={item.orientation == "vertical" ? "mil-portfolio-item-2 mil-long-item mil-mb-30" : "mil-portfolio-item-2 mil-square-item mil-mb-30"}>
+                <img src={item.image} alt={item.title} />
+                <div className="mil-project-descr">
+                    <h3 className="mil-upper mil-mb-30">{item.title}</h3>
+                    <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
+                </div>
+                <div className="mil-category">{item.category}</div>
+                
+            </div>
+        </div>
+    )
+))}
+
                 </div>
                 
             </div>

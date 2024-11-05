@@ -1,11 +1,13 @@
 ---
 #preview
-title: City House
-image: /img/covers/2.jpg
-category: Architecture
+url : /Bajaj
+title: Bajaj
+image: ./img/covers/project/bajaj.webp
+category: Social Media Marketing
 category_slug: architecture
 date: may 24 2023
 orientation: vertical
+btn: Bike Manufacturers 
 
 #full details
 intro:

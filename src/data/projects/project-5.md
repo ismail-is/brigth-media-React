@@ -1,10 +1,12 @@
 ---
 #preview
-title: Smart House by Molekule
-image: /img/covers/5.jpg
-category: Interior
+url : /FarhatFreres
+title: Farhat Freres 
+image: ./img/covers/project/Farhat.webp
+category: Social media marketing
 category_slug: interior
 date: may 24 2023
+btn: Automotive Dealer 
 
 #full details
 intro:

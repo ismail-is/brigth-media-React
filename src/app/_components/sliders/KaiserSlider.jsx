@@ -3,7 +3,7 @@
 import { SliderProps } from "@common/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const FullImageSlider = ( { items } ) => {
+const KaiserSlider = ( { items } ) => {
   return (
     <>
         {/* full image slider */}
@@ -17,7 +17,7 @@ const FullImageSlider = ( { items } ) => {
 
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                            <img src='https://ruizarch-react.vercel.app/img/covers/2.jpg' alt='img' />
+                            <img src='./img/kaiser/kaiser1.webp' alt='img'  />
                         </div>
                     </div>
 
@@ -46,4 +46,4 @@ const FullImageSlider = ( { items } ) => {
     </>
   );
 };
-export default FullImageSlider;
+export default KaiserSlider;
