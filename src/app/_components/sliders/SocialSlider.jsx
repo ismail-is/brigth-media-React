@@ -50,6 +50,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
                             <div className="mil-date">date</div>
                         </div>
                         <div className="mil-description">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-10"></span>
                             <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
                             <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
                         </div>
@@ -62,6 +63,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
                             <div className="mil-date">date</div>
                         </div>
                         <div className="mil-description">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-10"></span>
                             <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
                             <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
                         </div>
@@ -80,6 +82,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
                             <div className="mil-date">date</div>
                         </div>
                         <div className="mil-description">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-10"></span>
                             <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
                             <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
                         </div>
@@ -92,6 +95,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
                             <div className="mil-date">date</div>
                         </div>
                         <div className="mil-description">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-10"></span>
                             <h4 className="mil-upper mil-up mil-mb-30">Explore new design</h4>
                             <p className="mil-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod</p>
                         </div>

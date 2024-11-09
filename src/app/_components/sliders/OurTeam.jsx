@@ -25,7 +25,7 @@ const OurTeam = ({ categories }) => {
     return (
       <>
         {/* filter */}
-        <div className="mil-filter mil-up mil-mb-90">
+        <div className="mil-filter mil-up mil-mb-30">
             <div className="mil-filter-links">
                 {/* Uncomment and edit the categories map to enable filtering */}
                 {/* <a href="#" data-filter="*" className="mil-current" onClick={(e) => handleFilterKeyChange("*", e)}>All</a> */}
@@ -135,8 +135,10 @@ const OurTeam = ({ categories }) => {
     </div>
   </div>
 </div>
-
-
+<div className="mil-filter mil-up mil-mb-80">
+            <div className="mil-filter-links" ></div>
+            </div>
+            
         
         {/* static content end */}
       </>

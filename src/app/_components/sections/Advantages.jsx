@@ -4,7 +4,7 @@ const AdvantagesSection = () => {
   return (
     <>
         {/* advantages */}
-        <section>
+        <section id="flowchart">
             <div className="container mil-p-120-60">
                 <div className="mil-background-grid mil-softened" />
 

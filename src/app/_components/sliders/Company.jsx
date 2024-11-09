@@ -9,14 +9,14 @@ const CompanySlider = () => {
   return (
     <>
     {/* company slider */}
-    <section style={{marginTop:'40px'}}>
+    <section style={{marginTop:'80px'}}>
         <div className="container mil-p-0-30">
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between align-items-center">
                 <div className="col-lg-5">
 
-                    <div className="mil-mb-60">
+                    <div className="mil-mb-0">
                         <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
                         <h2 className="mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
                         <p className="mil-up mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description}} />
@@ -35,9 +35,9 @@ const CompanySlider = () => {
                     </div>
 
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-6" style={{marginTop:'-60px'}}>
 
-                    <div className="mil-illustration-slider-frame mil-up mil-mb-90">
+                    <div className="mil-illustration-slider-frame mil-up mil-mb-10" >
                         <Swiper
                             {...SliderProps.milIllustrationSlider}
                             className="swiper-container mil-illustration-slider"

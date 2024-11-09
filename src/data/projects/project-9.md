@@ -1,19 +1,15 @@
 ---
 #preview
-url: /Motorland
-title: Motorland 
-image: ./img/covers/project/Mllog.webp
-category:  Motorland 
-category1: category1
-category_slug: architecture
-date: may 24 2023
-btn: Automotive  Dealer
+title: pulse
+image: /img/covers/7.jpg
+category: Interior
+category_slug: interior
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
-  bgImage: "/img/covers/8.jpg"
+  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/7.jpg"
 
 description:
     heading:
@@ -47,13 +43,13 @@ details:
       value: Architectural Services
 
 gallery:
+  - image: /img/covers/4.jpg
+    alt: image
+
   - image: /img/covers/1.jpg
     alt: image
 
   - image: /img/covers/2.jpg
-    alt: image
-
-  - image: /img/covers/4.jpg
     alt: image
 
 resume:

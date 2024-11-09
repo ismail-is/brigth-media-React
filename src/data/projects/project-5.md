@@ -3,7 +3,7 @@
 url : /FarhatFreres
 title: Farhat Freres 
 image: ./img/covers/project/Farhat.webp
-category: Social media marketing
+category: Automotive Dealer 
 category_slug: interior
 date: may 24 2023
 btn: Automotive Dealer 

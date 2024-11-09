@@ -3,7 +3,7 @@
 url : /Kaiser
 title: Kaiser
 image: ./img/covers/project/kaiser.webp
-category: Paid Ads 
+category: Kitchen 
 category_slug: architecture
 date: may 24 2023
 btn: Kitchen Applainces manufacturers

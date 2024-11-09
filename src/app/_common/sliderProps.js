@@ -42,7 +42,7 @@ import "swiper/css/pagination";
 
 export const SliderProps = {
   milInfiniteSlider: {
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 0,
     speed: 4000,
     autoplay: true,

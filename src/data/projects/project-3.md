@@ -3,7 +3,7 @@
 url : /Secondcup  
 title: Second Cup
 image: ./img/covers/project/second cup.webp
-category: Social Media Marketing 
+category: Second Cup
 category_slug: decor
 date: may 24 2023
 orientation: vertical

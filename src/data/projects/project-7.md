@@ -1,6 +1,6 @@
 ---
 #preview
-title: Confidential Technology
+title: MCM
 image: /img/covers/7.jpg
 category: Interior
 category_slug: interior

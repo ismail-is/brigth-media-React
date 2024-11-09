@@ -1,16 +1,15 @@
 ---
 #preview
-title: Dental Clinic
-image: /img/covers/8.jpg
+title: Hafil
+image: /img/covers/7.jpg
 category: Interior
 category_slug: interior
-orientation: vertical
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Dental Clinic <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/8.jpg"
+  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/7.jpg"
 
 description:
     heading:
@@ -44,13 +43,13 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/2.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg
     alt: image
 
-  - image: /img/covers/3.jpg
+  - image: /img/covers/2.jpg
     alt: image
 
 resume:

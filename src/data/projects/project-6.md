@@ -1,17 +1,15 @@
 ---
 #preview
-title: Tony's Chocolonely
-image: /img/covers/6.jpg
+title: Tonino
+image: /img/covers/7.jpg
 category: Interior
 category_slug: interior
-date: may 24 2023
-orientation: vertical
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: Tony's Chocolonely <br/><span class=\"mil-accent\">Factory</span>"
-  bgImage: "/img/covers/6.jpg"
+  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/7.jpg"
 
 description:
     heading:
@@ -45,7 +43,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/3.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg
