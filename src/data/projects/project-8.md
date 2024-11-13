@@ -1,10 +1,22 @@
 ---
 #preview
-title: Hafil
-image: /img/covers/7.jpg
-category: Interior
-category_slug: interior
+# title: Hafil
+# image: /img/covers/7.jpg
+# category: Interior
+# category_slug: interior
+# btn: Check out the works
 
+
+
+
+url: /Hafil
+title:  Hafil Trading & Services
+image: ./img/covers/project/HafilLogo.webp
+category:  Trading 
+category1: category1
+category_slug: architecture
+date: may 24 2023
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"

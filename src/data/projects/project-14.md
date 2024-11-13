@@ -1,10 +1,20 @@
 ---
 #preview
-title: azim
-image: /img/covers/7.jpg
-category: Interior
-category_slug: interior
+# title: azim
+# image: /img/covers/7.jpg
+# category: Interior
+# category_slug: interior
+# btn: Check out the works
 
+
+url: /Azimgroup
+title: Group of companies 
+image: ./img/covers/project/Azimlogo.webp
+category:  Azim Group 
+category1: category1
+category_slug: architecture
+date: may 24 2023
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"

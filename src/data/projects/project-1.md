@@ -1,13 +1,13 @@
 ---
 #preview
 url: /Motorland
-title: Motorland 
+title: Automotive Dealer 
 image: ./img/covers/project/Mllog.webp
 category:  Motorland 
 category1: category1
 category_slug: architecture
 date: may 24 2023
-btn: Automotive  Dealer
+btn: Check out the works
 
 #full details
 intro:

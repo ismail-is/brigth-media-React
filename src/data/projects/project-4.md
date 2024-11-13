@@ -6,7 +6,7 @@ image: ./img/covers/project/kaiser.webp
 category: Kitchen 
 category_slug: architecture
 date: may 24 2023
-btn: Kitchen Applainces manufacturers
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"

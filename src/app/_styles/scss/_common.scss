@@ -815,11 +815,27 @@ spaces
 }
 
 
+
+@media screen and (min-width: 1024px) {
+    #MObileShow{
+      display: none !important;
+    }
+  }
+
+
+  @media screen and (max-width: 767px) {
+    #SystemShow {
+      display: none !important;
+    }
+  }
 .mil-mt-suptitle-offset {
     margin-top: 65px !important;
+    
 
     @media screen and (max-width: 992px) {
         margin-top: 30px !important;
+        
+        
     }
 }
 

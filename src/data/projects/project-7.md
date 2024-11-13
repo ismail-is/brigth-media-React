@@ -1,10 +1,17 @@
 ---
 #preview
-title: MCM
-image: /img/covers/7.jpg
-category: Interior
-category_slug: interior
 
+
+
+
+url: /MCM
+title: Construction Materials 
+image: ./img/covers/project/mcm.webp
+category: MCM
+category1: category1
+category_slug: architecture
+date: may 24 2023
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"

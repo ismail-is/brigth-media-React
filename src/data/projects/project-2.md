@@ -4,10 +4,13 @@ url : /Bajaj
 title: Bajaj
 image: ./img/covers/project/bajaj.webp
 category: Bajaj Auto
+category1: category1
 category_slug: architecture
 date: may 24 2023
-orientation: vertical
-btn: Bike Manufacturers 
+btn: Check out the works
+
+
+
 
 #full details
 intro:

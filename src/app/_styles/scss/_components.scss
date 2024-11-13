@@ -266,8 +266,10 @@ slider navigation
 .mil-nav-buttons {
     display: flex;
     align-items: center;
+    justify-content: center;
 
     & .mil-slider-button {
+        
         cursor: pointer;
         color: $dark;
         text-transform: uppercase;
@@ -477,22 +479,22 @@ illustrations
 }
 
 .mil-illustration-slider-nav {
-    padding: 20px 60px;
+    padding: 10px 20px;
     background-color: $light;
     position: absolute;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     z-index: 1;
     bottom: -1px;
-    right: 0;
-    
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally using transform */
 }
 
 .container {
-    & .mil-illustration-slider-nav {
-        right: 30px;
-        
-
-    }
+    position: relative; /* Ensure the container is the reference for absolute positioning */
 }
+
 
 /* -------------------------------------------
 
@@ -2358,17 +2360,41 @@ team
     text-align: right;
 
     @media screen and (max-width: 768px) {
-        text-align: center;
+        text-align: right;
+        margin-top: -100px !important;
 
     }
 }
 
 .mil-prev-project {
     @media screen and (max-width: 768px) {
-        text-align: center;
+        text-align: left;
 
     }
 }
+
+
+
+
+
+.mil-next-project1 {
+    text-align: center;
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
+        margin-top: -100px !important;
+
+    }
+}
+
+.mil-prev-project1 {
+    text-align: center;
+    @media screen and (max-width: 768px) {
+        text-align: left;
+
+    }
+}
+
 
 .mil-team-member {
     position: relative;

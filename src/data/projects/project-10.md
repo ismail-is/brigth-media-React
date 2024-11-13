@@ -2,8 +2,9 @@
 #preview
 title: metroways
 image: /img/covers/7.jpg
-category: Interior
+category: metroways
 category_slug: interior
+btn: Check out the works
 
 #full details
 intro:

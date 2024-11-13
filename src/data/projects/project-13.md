@@ -4,7 +4,7 @@ title: giti tyres
 image: /img/covers/7.jpg
 category: Interior
 category_slug: interior
-
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"

@@ -4,7 +4,7 @@ import { SliderProps } from "@common/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const KaiserSlider = ( { items } ) => {
+const ToninoSlider = ( { items } ) => {
   return (
     <>
     
@@ -27,7 +27,7 @@ const KaiserSlider = ( { items } ) => {
                 
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/kaiser/kaiser1.webp' alt='img'  />
+                        <img src='./img/tonino/tonino mockup.webp' alt='img'  />
                         </div>
                     </div>
 
@@ -35,35 +35,35 @@ const KaiserSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/kaiser/kaiser2.webp' alt='img'  />
+                        <img src='./img/tonino/TONINO mockup1.webp' alt='img'  />
                         </div>
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
                         <img src='./img/kaiser/kaiser3.webp' alt='img'  />
                         </div>
                     </div>
 
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
+                </SwiperSlide> */}
+                {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
                         <img src='./img/kaiser/kaiser4.webp' alt='img'  />
                         </div>
                     </div>
 
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
+                </SwiperSlide> */}
+                {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
                         <img src='./img/kaiser/kaiser5.webp' alt='img'  />
                         </div>
                     </div>
 
-                </SwiperSlide>
+                </SwiperSlide> */}
                 {/* ))} */}
             </Swiper>
             {/* <div className="container" >
@@ -98,4 +98,4 @@ const KaiserSlider = ( { items } ) => {
     </>
   );
 };
-export default KaiserSlider;
+export default ToninoSlider;

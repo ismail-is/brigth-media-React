@@ -8,6 +8,8 @@ import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
 import PageBannerTwo from "../../_components/PageBannerTwo";
+import KaiserSlider from "../../_components/sliders/KaiserSlider";
+import FarhatFreresSlider from "../../_components/sliders/FarhatFreresSlider";
 
 export const metadata = {
     title: {
@@ -19,7 +21,7 @@ export const metadata = {
 const FarhatFreres = () => {
   return (
     <>
-           <PageBannerTwo subTitle="Automotive Dealer  " title="Social Media Marketing and Website " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle="Automotive Dealer  " title="Social Media Marketing and Website " bgImage="./img/FarhatFreres/FarhatFreres banner.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 
@@ -125,6 +127,11 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
 
 
 
+      <Suspense fallback={<div>Loading...</div>}>
+        <FarhatFreresSlider/>
+      </Suspense>
+
+
 
 
 
@@ -140,14 +147,14 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
                   <div className="col-md-6 col-lg-6">
                      
                       <div className="mil-prev-project mil-mb-60">
-                          <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4>
+                          {/* <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4> */}
                           <Link href='/Kaiser' className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       
                   </div>
                   <div className="col-md-6 col-lg-6">
                       <div className="mil-next-project mil-mb-60">
-                          <h4 className="mil-upper mil-up mil-mb-30">Next project</h4>
+                          {/* <h4 className="mil-upper mil-up mil-mb-30">Next project</h4> */}
                           <Link href='/Tonino' className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                   </div>

@@ -125,7 +125,9 @@ const Kaiser = () => {
           </div>
       </section>
 
-
+      <div>
+    {/* <h2 class="mil-upper mil-up mil-mb-30" style={{textAlign:"center"}}>Checkout Some of <span class="mil-marker">our works</span> </h2> */}
+    </div>
       <Suspense fallback={<div>Loading...</div>}>
         <KaiserSlider  />
       </Suspense>
@@ -147,14 +149,14 @@ const Kaiser = () => {
                   <div className="col-md-6 col-lg-6">
                      
                       <div className="mil-prev-project mil-mb-60">
-                          <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4>
+                          {/* <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4> */}
                           <Link href='/Secondcup' className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       
                   </div>
                   <div className="col-md-6 col-lg-6">
                       <div className="mil-next-project mil-mb-60">
-                          <h4 className="mil-upper mil-up mil-mb-30">Next project</h4>
+                          {/* <h4 className="mil-upper mil-up mil-mb-30">Next project</h4> */}
                           <Link href='/FarhatFreres' className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                   </div>

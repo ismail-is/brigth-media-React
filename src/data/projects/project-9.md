@@ -4,6 +4,7 @@ title: pulse
 image: /img/covers/7.jpg
 category: Interior
 category_slug: interior
+btn: Check out the works
 
 #full details
 intro:

@@ -1,18 +1,30 @@
 ---
 #preview
-url : /FarhatFreres
-title: Farhat Freres 
-image: ./img/covers/project/Farhat.webp
-category: Automotive Dealer 
-category_slug: interior
-date: may 24 2023
-btn: Automotive Dealer 
+# url: /Tonino
+# title: Tonino 
+# image: ./img/covers/7.jpg
+# category:  Tonino 
+# category1: category1
+# category_slug: architecture
+# date: may 24 2023
+# btn: Check out the works
 
+
+
+
+url: /Tonino
+title: Tonino 
+image: ./img/covers/project/tonino.webp
+category:  Tonino
+category1: category1
+category_slug: architecture
+date: may 24 2023
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Smart House <br/><span class=\"mil-accent\">Interior</span>"
-  bgImage: "/img/covers/5.jpg"
+  title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
+  bgImage: "/img/covers/8.jpg"
 
 description:
     heading:
@@ -46,13 +58,13 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/7.jpg
-    alt: image
-
   - image: /img/covers/1.jpg
     alt: image
 
   - image: /img/covers/2.jpg
+    alt: image
+
+  - image: /img/covers/4.jpg
     alt: image
 
 resume:

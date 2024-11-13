@@ -6,8 +6,8 @@ image: ./img/covers/project/second cup.webp
 category: Second Cup
 category_slug: decor
 date: may 24 2023
-orientation: vertical
-btn: Coffee Shop
+# orientation: vertical
+btn: Check out the works
 
 #full details
 intro:
