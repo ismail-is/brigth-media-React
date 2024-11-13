@@ -39,7 +39,7 @@ const Azimgroup = () => {
                       </div>
 
                   </div>
-                  <div className="col-lg-7 mil-mt-suptitle-offset">
+                  <div className="col-lg-7 mil-mt-suptitle-offset" id='SystemShow'>
                       {/* <div className="mil-text mil-up mil-mb-30" >Motorland is an official dealer of automotive brands, including Biac, DFM, CFmoto, and AsiaStar. We collaborated with them on branding and social media marketing, enhancing their online presence and engaging their customers effectively. Additionaly, we have helped them in creating Technical sheet for all of their Vehicles and Designed 100+ Posts for them.</div> */}
                       
                       <div className="row">
@@ -65,6 +65,49 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
                       </div>
 
                   </div>
+
+
+
+                  <div className="col-lg-12" id='MObileShow' >
+  <div
+    className="mil-wrap-container"
+    style={{
+      padding: '1%',
+      overflow: 'hidden', // To clear the float
+      marginTop:"-30px"
+    }}
+  >
+    {/* Image Section */}
+    <img
+      src="./img/covers/project/Azimlogo.webp"
+      alt="Bajaj Auto"
+      style={{
+        float: 'left',
+        width: '100px',
+        height: 'auto',
+        marginRight: '20px',
+        borderRadius: '5px',
+        filter: 'drop-shadow(4px 3px 4px grey)',
+      }}
+    />
+
+    {/* Text Section */}
+    <div
+      style={{
+        textAlign: 'justify',
+        lineHeight: '1.5',
+      }}
+    >
+      <p>
+      Motorland is an official dealer of automotive brands, including Biac, DFM, CFmoto, and AsiaStar. We collaborated with them on branding and social media marketing, enhancing their online presence and engaging their customers effectively. Additionaly, we have helped them in creating Technical sheet for all of their Vehicles and Designed 100+ Posts for them.
+      </p>
+    </div>
+  </div>
+</div>
+         
+
+
+
               </div>
           </div>
       </section>

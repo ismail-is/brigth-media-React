@@ -39,13 +39,13 @@ const FarhatFreres = () => {
                       </div>
 
                   </div>
-                  <div className="col-lg-7 mil-mt-suptitle-offset">
-                      {/* <div className="mil-text mil-up mil-mb-30" >Motorland is an official dealer of automotive brands, including Biac, DFM, CFmoto, and AsiaStar. We collaborated with them on branding and social media marketing, enhancing their online presence and engaging their customers effectively. Additionaly, we have helped them in creating Technical sheet for all of their Vehicles and Designed 100+ Posts for them.</div> */}
+                  <div className="col-lg-7 mil-mt-suptitle-offset" id='SystemShow'>
+                      <div className="mil-text mil-up mil-mb-30" >Farhat Freres is the official dealer for automotive brands such as Honda, Chevrolet, Foton, and Kaiyi. We manage their social media presence to enhance customer engagement and brand visibility. </div>
                       
                       <div className="row">
                           <div className="col-lg-4">
 
-                              <div className="mil-item-frame mil-up mil-mb-30">
+                              {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
                                           <img src='./img/covers/project/Farhat.webp' alt='img' />
@@ -53,18 +53,61 @@ const FarhatFreres = () => {
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
                                   </div>
-                              </div>
+                              {/* </div> */}
 
                           </div>
                           <div className="col-lg-8">
 
-                              <div className="mil-text mil-up mil-mb-30" >Farhat Freres is the official dealer for automotive brands such as Honda, Chevrolet, Foton, and Kaiyi. We manage their social media presence to enhance customer engagement and brand visibility. 
-Additionally, we developed a comprehensive website of over 50 pages, showcasing their extensive vehicles and delivering a seamless user experience.</div>
+                              <div className="mil-text mil-up mil-mb-30" >Additionally, we developed a comprehensive website of over 50 pages, showcasing their extensive vehicles and delivering a seamless user experience.</div>
                               
                           </div>
                       </div>
 
                   </div>
+
+
+
+
+                  <div className="col-lg-12" id='MObileShow' >
+  <div
+    className="mil-wrap-container"
+    style={{
+      padding: '1%',
+      overflow: 'hidden', // To clear the float
+      marginTop:"-30px"
+    }}
+  >
+    {/* Image Section */}
+    <img
+      src="./img/covers/project/Farhat.webp"
+      alt="Bajaj Auto"
+      style={{
+        float: 'left',
+        width: '100px',
+        height: 'auto',
+        marginRight: '20px',
+        borderRadius: '5px',
+        filter: 'drop-shadow(4px 3px 4px grey)',
+      }}
+    />
+
+    {/* Text Section */}
+    <div
+      style={{
+        textAlign: 'justify',
+        lineHeight: '1.5',
+      }}
+    >
+      <p>
+      Farhat Freres is the official dealer for automotive brands such as Honda, Chevrolet, Foton, and Kaiyi. We manage their social media presence to enhance customer engagement and brand visibility. 
+      </p>
+      <p>Additionally, we developed a comprehensive website of over 50 pages, showcasing their extensive vehicles and delivering a seamless user experience.</p>
+    </div>
+  </div>
+</div>
+
+
+
               </div>
           </div>
       </section>

@@ -26,7 +26,7 @@ const Bajaj = () => {
 
 
         <section>
-          <div className="container mil-p-120-90" style={{marginTop:'-70px'}}>
+          <div className="container mil-p-120-90" >
               <div className="mil-background-grid mil-softened" />
 
               <div className="row justify-content-between">
@@ -86,7 +86,7 @@ const Bajaj = () => {
   >
     {/* Image Section */}
     <img
-      src="./img/covers/project/Farhat.webp"
+      src="./img/covers/project/bajaj.webp"
       alt="Bajaj Auto"
       style={{
         float: 'left',
@@ -128,20 +128,20 @@ const Bajaj = () => {
       </section>
 
 
-      <div className="container" style={{marginTop:'-50px'}}>
+      <div className="container" >
           <div className="mil-divider-lg" />
       </div>
 
 
 
       <section>
-          <div className="container mil-p-120-60" style={{marginTop:'-50px'}}>
+          <div className="container mil-p-120-60" >
               <div className="mil-background-grid mil-softened" />
 
-              <div className="mil-mb-90" style={{marginTop:'-10px'}}>
+              <div className="mil-mb-90" >
                   <h2 className="mil-upper mil-up"> Project Info</h2>
               </div>
-              <div className="row mil-mb-30" style={{marginTop:'-50px'}}>
+              <div className="row mil-mb-30" >
                   <div className="col-lg-6" >
 
                       <h6 className="mil-upper mil-up mil-mb-30">Project Component</h6>

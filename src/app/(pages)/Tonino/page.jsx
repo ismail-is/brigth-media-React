@@ -40,31 +40,72 @@ const Tonino = () => {
                       </div>
 
                   </div>
-                  <div className="col-lg-7 mil-mt-suptitle-offset">
-                      {/* <div className="mil-text mil-up mil-mb-30" >Motorland is an official dealer of automotive brands, including Biac, DFM, CFmoto, and AsiaStar. We collaborated with them on branding and social media marketing, enhancing their online presence and engaging their customers effectively. Additionaly, we have helped them in creating Technical sheet for all of their Vehicles and Designed 100+ Posts for them.</div> */}
+                  <div className="col-lg-7 mil-mt-suptitle-offset" id='SystemShow'>
+                      <div className="mil-text mil-up mil-mb-30" >Tonino is a renowned dining restaurant known for its exquisite Labanese and American Cuisines. We manage their social media pages to boost customer engagement and increase brand awareness across digital platforms.</div>
                       
                       <div className="row">
                           <div className="col-lg-4">
 
-                              <div className="mil-item-frame mil-up mil-mb-30">
+                              {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
-                                          <img src='./img/covers/project/kaiser.webp' alt='img' />
+                                          <img src=' ./img/covers/project/tonino.webp' alt='img' />
                                       </div>
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
                                   </div>
-                              </div>
+                              {/* </div> */}
 
                           </div>
                           <div className="col-lg-8">
 
-                              <div className="mil-text mil-up mil-mb-30" >Kaiser is a renowned German kitchen appliances manufacturer. We have enhanced their social media marketing through targeted paid advertising on Facebook, Instagram, and Google Ads. Our strategic campaigns have generated significant inquiries and positive results, effectively increasing brand visibility and connecting them with their audience.</div>
+                              <div className="mil-text mil-up mil-mb-30" >Additionally, we provide professional photography and videography services, capturing the quality pictures of the dishes. Through visually appealing content, we help Tonino connect with their audience and showcase the unique flavors and experiences they offer.</div>
                               
                           </div>
                       </div>
 
                   </div>
+
+                  <div className="col-lg-12" id='MObileShow' >
+  <div
+    className="mil-wrap-container"
+    style={{
+      padding: '1%',
+      overflow: 'hidden', // To clear the float
+      marginTop:"-30px"
+    }}
+  >
+    {/* Image Section */}
+    <img
+      src=" ./img/covers/project/tonino.webp"
+      alt="Bajaj Auto"
+      style={{
+        float: 'left',
+        width: '100px',
+        height: 'auto',
+        marginRight: '20px',
+        borderRadius: '5px',
+        filter: 'drop-shadow(4px 3px 4px grey)',
+      }}
+    />
+
+    {/* Text Section */}
+    <div
+      style={{
+        textAlign: 'justify',
+        lineHeight: '1.5',
+      }}
+    >
+      <p>
+      Tonino is a renowned dining restaurant known for its exquisite Labanese and American Cuisines. We manage their social media pages to boost customer engagement and increase brand awareness across digital platforms.
+      </p>
+      <p>Additionally, we provide professional photography and videography services, capturing the quality pictures of the dishes. Through visually appealing content, we help Tonino connect with their audience and showcase the unique flavors and experiences they offer.</p>
+    </div>
+  </div>
+</div>
+  
+
+
               </div>
           </div>
       </section>

@@ -45,7 +45,7 @@ const Motorland = () => {
                       <div className="row">
                           <div className="col-lg-4">
 
-                              <div className="mil-item-frame mil-up mil-mb-30">
+                              {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
                                           <img src='./img/covers/project/Mllog.webp' alt='img' />
@@ -55,7 +55,7 @@ const Motorland = () => {
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
                                   </div>
-                              </div>
+                              {/* </div> */}
 
                           </div>
                           <div className="col-lg-8">
@@ -121,7 +121,7 @@ const Motorland = () => {
       </section>
 
 
-      <div className="container">
+      <div className="container" style={{marginTop:"-50px"}}>
           <div className="mil-divider-lg" />
       </div>
 
@@ -134,7 +134,7 @@ const Motorland = () => {
               <div className="mil-mb-90">
                   <h2 className="mil-upper mil-up"> Project Info</h2>
               </div>
-              <div className="row mil-mb-30">
+              <div className="row mil-mb-30" style={{marginTop:"-60px"}}>
                   <div className="col-lg-6" >
 
                       <h6 className="mil-upper mil-up mil-mb-30">Project Component</h6>

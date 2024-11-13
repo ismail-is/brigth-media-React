@@ -40,13 +40,13 @@ const MCM = () => {
                       </div>
 
                   </div>
-                  <div className="col-lg-7 mil-mt-suptitle-offset">
+                  <div className="col-lg-7 mil-mt-suptitle-offset" id='SystemShow'>
                       <div className="mil-text mil-up mil-mb-30" >MCM is a leading manufacturer of construction materials, offering a wide range of high-quality products for various building needs. We manage their social media pages to increase engagement and brand recognition within the construction industry, as well as run targeted ad campaigns to drive customer interest and sales.</div>
                       
                       <div className="row">
                           <div className="col-lg-4">
 
-                              <div className="mil-item-frame mil-up mil-mb-30">
+                              {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
                                           <img src='./img/covers/project/mcm.webp' alt='img' />
@@ -54,7 +54,7 @@ const MCM = () => {
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
                                   </div>
-                              </div>
+                              {/* </div> */}
 
                           </div>
                           <div className="col-lg-8">
@@ -65,6 +65,45 @@ const MCM = () => {
                       </div>
 
                   </div>
+
+                  <div className="col-lg-12" id='MObileShow' >
+  <div
+    className="mil-wrap-container"
+    style={{
+      padding: '1%',
+      overflow: 'hidden', // To clear the float
+      marginTop:"-30px"
+    }}
+  >
+    {/* Image Section */}
+    <img
+      src="./img/covers/project/mcm.webp"
+      alt="Bajaj Auto"
+      style={{
+        float: 'left',
+        width: '100px',
+        height: 'auto',
+        marginRight: '20px',
+        borderRadius: '5px',
+        filter: 'drop-shadow(4px 3px 4px grey)',
+      }}
+    />
+
+    {/* Text Section */}
+    <div
+      style={{
+        textAlign: 'justify',
+        lineHeight: '1.5',
+      }}
+    >
+      <p>
+      MCM is a leading manufacturer of construction materials, offering a wide range of high-quality products for various building needs. We manage their social media pages to increase engagement and brand recognition within the construction industry, as well as run targeted ad campaigns to drive customer interest and sales.
+      </p>
+      <p>Additionally, we developed a dynamic, user-friendly website for MCM, designed to showcase their extensive product range and provide customers with an easy, informative browsing experience. Our efforts ensure MCM's digital presence reflects their expertise and commitment to quality in construction materials.</p>
+    </div>
+  </div>
+</div>
+
               </div>
           </div>
       </section>
