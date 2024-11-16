@@ -1,17 +1,22 @@
 ---
 #preview
-url : /Kaiser
-title: Kaiser
-image: ./img/covers/project/kaiser.webp
-category: Kitchen 
+
+
+
+
+url: /MCM
+title: MCM
+image: ./img/covers/project/mcm.webp
+category: Construction Materials
+category1: category1
 category_slug: architecture
 date: may 24 2023
 btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Industrial Factory <br/><span class=\"mil-accent\">Reconstruction</span>"
-  bgImage: "/img/covers/3.jpg"
+  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/7.jpg"
 
 description:
     heading:

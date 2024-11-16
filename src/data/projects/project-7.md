@@ -1,22 +1,30 @@
 ---
 #preview
+# url: /Tonino
+# title: Tonino 
+# image: ./img/covers/7.jpg
+# category:  Tonino 
+# category1: category1
+# category_slug: architecture
+# date: may 24 2023
+# btn: Check out the works
 
 
 
 
-url: /MCM
-title: Construction Materials 
-image: ./img/covers/project/mcm.webp
-category: MCM
+url: /Amore 
+title: Amore Glacier 
+image: ./img/covers/project/Amorelogo.webp
+category:  Cafe 
 category1: category1
 category_slug: architecture
 date: may 24 2023
-btn: Check out the works
+btn: Check it out
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/7.jpg"
+  title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
+  bgImage: "/img/covers/8.jpg"
 
 description:
     heading:
@@ -50,13 +58,13 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
-    alt: image
-
   - image: /img/covers/1.jpg
     alt: image
 
   - image: /img/covers/2.jpg
+    alt: image
+
+  - image: /img/covers/4.jpg
     alt: image
 
 resume:

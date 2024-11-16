@@ -1,16 +1,19 @@
 ---
 #preview
-title: TAC
-image: /img/covers/7.jpg
-category: Interior
-category_slug: interior
-btn: Check out the works
+url : /Secondcup  
+title: Second Cup
+image: ./img/covers/project/second cup.webp
+category: Coffee Shop
+category_slug: Web
+date: may 24 2023
+# orientation: vertical
+btn: Check out the works
 
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/7.jpg"
+  title: "Cascade of Lava <br/><span class=\"mil-accent\">Decor</span>"
+  bgImage: "/img/covers/4.jpg"
 
 description:
     heading:
@@ -44,7 +47,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
+  - image: /img/covers/5.jpg
     alt: image
 
   - image: /img/covers/1.jpg

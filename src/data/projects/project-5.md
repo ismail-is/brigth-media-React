@@ -12,14 +12,14 @@
 
 
 
-url: /Tonino
-title: Tonino 
-image: ./img/covers/project/tonino.webp
-category:  Tonino
+url: /Metroways 
+title: Metroways
+image: ./img/covers/project/Metroways.webp
+category:  Travel Agency
 category1: category1
 category_slug: architecture
 date: may 24 2023
-btn: Check out the works
+btn: Check it out
 #full details
 intro:
   subtitle: "Modern concept"

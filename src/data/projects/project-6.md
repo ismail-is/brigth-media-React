@@ -1,18 +1,15 @@
 ---
 #preview
-url : /FarhatFreres
-title: Farhat Freres 
-image: ./img/covers/project/Farhat.webp
-category: Automotive Dealer 
+title: GTSW 
+image: ./img/covers/project/giti.webp
+category: Battery and Tyre Manufacturers 
 category_slug: interior
-date: may 24 2023
 btn: Check out the works
-
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Smart House <br/><span class=\"mil-accent\">Interior</span>"
-  bgImage: "/img/covers/5.jpg"
+  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/7.jpg"
 
 description:
     heading:
@@ -46,7 +43,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/7.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg

@@ -1,19 +1,25 @@
 ---
 #preview
-url : /Secondcup  
-title: Second Cup
-image: ./img/covers/project/second cup.webp
-category: Second Cup
-category_slug: decor
-date: may 24 2023
-# orientation: vertical
-btn: Check out the works
+# title: azim
+# image: /img/covers/7.jpg
+# category: Interior
+# category_slug: interior
+# btn: Check out the works
 
+
+url: /Azimgroup
+title: Azim Group 
+image: ./img/covers/project/Azimlogo.webp
+category:   Group of companies
+category1: category1
+category_slug: architecture
+date: may 24 2023
+btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Cascade of Lava <br/><span class=\"mil-accent\">Decor</span>"
-  bgImage: "/img/covers/4.jpg"
+  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/7.jpg"
 
 description:
     heading:
@@ -47,7 +53,7 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/5.jpg
+  - image: /img/covers/4.jpg
     alt: image
 
   - image: /img/covers/1.jpg

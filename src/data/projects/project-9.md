@@ -1,6 +1,6 @@
 ---
 #preview
-title: pulse
+title: Taurus Ivoire
 image: /img/covers/7.jpg
 category: Interior
 category_slug: interior

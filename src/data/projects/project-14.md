@@ -1,16 +1,21 @@
 ---
 #preview
-# title: azim
-# image: /img/covers/7.jpg
-# category: Interior
-# category_slug: interior
+# url: /Tonino
+# title: Tonino 
+# image: ./img/covers/7.jpg
+# category:  Tonino 
+# category1: category1
+# category_slug: architecture
+# date: may 24 2023
 # btn: Check out the works
 
 
-url: /Azimgroup
-title: Group of companies 
-image: ./img/covers/project/Azimlogo.webp
-category:  Azim Group 
+
+
+url: /Tonino
+title: Tonino 
+image: ./img/covers/project/tonino.webp
+category:  Restaurant
 category1: category1
 category_slug: architecture
 date: may 24 2023
@@ -18,8 +23,8 @@ btn: Check out the works
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Technology Company <br/><span class=\"mil-accent\">Construction</span>"
-  bgImage: "/img/covers/7.jpg"
+  title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
+  bgImage: "/img/covers/8.jpg"
 
 description:
     heading:
@@ -53,13 +58,13 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/4.jpg
-    alt: image
-
   - image: /img/covers/1.jpg
     alt: image
 
   - image: /img/covers/2.jpg
+    alt: image
+
+  - image: /img/covers/4.jpg
     alt: image
 
 resume:

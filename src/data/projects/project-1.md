@@ -1,19 +1,22 @@
 ---
 #preview
-url: /Motorland
-title: Automotive Dealer 
-image: ./img/covers/project/Mllog.webp
-category:  Motorland 
+url : /Bajaj
+title: Bajaj
+image: ./img/covers/project/bajaj.webp
+category: Bajaj Auto
 category1: category1
 category_slug: architecture
 date: may 24 2023
 btn: Check out the works
 
+
+
+
 #full details
 intro:
   subtitle: "Modern concept"
-  title: "Interior Design <br/><span class=\"mil-accent\">Studio</span>"
-  bgImage: "/img/covers/8.jpg"
+  title: "City House <br/><span class=\"mil-accent\">Construction</span>"
+  bgImage: "/img/covers/2.jpg"
 
 description:
     heading:
@@ -47,10 +50,10 @@ details:
       value: Architectural Services
 
 gallery:
-  - image: /img/covers/1.jpg
+  - image: /img/covers/2.jpg
     alt: image
 
-  - image: /img/covers/2.jpg
+  - image: /img/covers/1.jpg
     alt: image
 
   - image: /img/covers/4.jpg
