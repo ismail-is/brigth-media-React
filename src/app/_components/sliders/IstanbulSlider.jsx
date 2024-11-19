@@ -4,7 +4,7 @@ import { SliderProps } from "@common/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const McmSlider = ( { items } ) => {
+const IstanbulSlider = ( { items } ) => {
   return (
     <>
     
@@ -27,7 +27,7 @@ const McmSlider = ( { items } ) => {
                 
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/mcm/MCM 1.webp' alt='img'  />
+                        <img src='./img/allimg/Istanbul/Istanbul Sofrasi.webp' alt='img'  />
                         </div>
                     </div>
 
@@ -35,19 +35,19 @@ const McmSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/mcm/MCM 2.webp' alt='img'  />
-                        </div>.111
-                    </div>
-
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
-                        <div className="mil-image-frame">
-                        <img src='./img/mcm/MCM mockup1.webp' alt='img'  />
+                        <img src='./img/allimg/Istanbul/Istanbul Sofrasi 2.webp' alt='img'  />
                         </div>
                     </div>
 
                 </SwiperSlide>
+                {/* <SwiperSlide className="swiper-slide">
+                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                        <div className="mil-image-frame">
+                        <img src='./img/kaiser/kaiser3.webp' alt='img'  />
+                        </div>
+                    </div>
+
+                </SwiperSlide> */}
                 {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
@@ -98,4 +98,4 @@ const McmSlider = ( { items } ) => {
     </>
   );
 };
-export default McmSlider;
+export default IstanbulSlider;

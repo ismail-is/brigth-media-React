@@ -11,19 +11,19 @@ import PageBannerTwo from "../../_components/PageBannerTwo";
 import KaiserSlider from "../../_components/sliders/KaiserSlider";
 import ToninoSlider from "../../_components/sliders/KaiserSlider";
 import ToninosSlider from "../../_components/sliders/ToninosSlider";
-import AmoreSlider from "../../_components/sliders/AmoreSlider";
+import IstanbulSlider from "../../_components/sliders/IstanbulSlider";
 
 export const metadata = {
     title: {
-        default: "Amore",
+        default: "Istanbul Sofrasi ",
     },
     description: AppData.settings.siteDescription,
 }
 
-const Amore = () => {
+const Istanbul = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Cafe  " title="Social Media Marketing and Photography " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Restaurant " title="Social Media marketing " bgImage="./img/covers/8.jpg" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 
@@ -36,13 +36,13 @@ const Amore = () => {
                   <div className="col-lg-5">
 
                       <div className="mil-mb-60">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Amore </span>
-                          <h2 className="mil-upper mil-up mil-mb-30" >artnering with   <span class="mil-marker"> Amore </span></h2>
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Istanbul Sofrasi  </span>
+                          <h2 className="mil-upper mil-up mil-mb-30" > Partnering with    <span class="mil-marker"> Istanbul Sofrasi </span></h2>
                       </div>
 
                   </div>
                   <div className="col-lg-7 mil-mt-suptitle-offset" id='SystemShow'>
-                      <div className="mil-text mil-up mil-mb-30" >Glacier Amore is one of the most reputed Cafe in Ivory coast and they are know for offering classic and premium Ice cream experience.  </div>
+                      <div className="mil-text mil-up mil-mb-30" >Istanbul Sofrasi is a traditional Turkish restaurant, offering an authentic taste of Turkey through its rich and flavorful cuisine.</div>
                       
                       <div className="row">
                           <div className="col-lg-4">
@@ -50,7 +50,7 @@ const Amore = () => {
                               {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
-                                          <img src='./img/covers/project/Amorelogo.webp' alt='img' />
+                                          <img src=' ./img/covers/project/tonino.webp' alt='img' />
                                       </div>
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
@@ -60,7 +60,7 @@ const Amore = () => {
                           </div>
                           <div className="col-lg-8">
 
-                              <div className="mil-text mil-up mil-mb-30" >Bright Media has enhanced their online presence by managing their social media pages and capturing the essence of Amore through multiple photoshoots, showcasing their vibrant offerings.</div>
+                              <div className="mil-text mil-up mil-mb-30" >Bright Media elevated their social media presence through strategic marketing, creating engaging content that resonated with audiences and enhanced their online visibility.</div>
                               
                           </div>
                       </div>
@@ -78,7 +78,7 @@ const Amore = () => {
   >
     {/* Image Section */}
     <img
-      src=" ./img/covers/project/Amorelogo.webp"
+      src=" ./img/covers/project/tonino.webp"
       alt="Bajaj Auto"
       style={{
         float: 'left',
@@ -98,9 +98,9 @@ const Amore = () => {
       }}
     >
       <p>
-      Glacier Amore is one of the most reputed Cafe in Ivory coast and they are know for offering classic and premium Ice cream experience.  
+      Istanbul Sofrasi is a traditional Turkish restaurant, offering an authentic taste of Turkey through its rich and flavorful cuisine.
       </p>
-      <p>Bright Media has enhanced their online presence by managing their social media pages and capturing the essence of Amore through multiple photoshoots, showcasing their vibrant offerings.</p>
+      <p>Bright Media elevated their social media presence through strategic marketing, creating engaging content that resonated with audiences and enhanced their online visibility.</p>
     </div>
   </div>
 </div>
@@ -132,16 +132,16 @@ const Amore = () => {
                       <ul className="mil-list mil-dark mil-up mil-mb-10" style={{display:'flex',gap:'30px'}}>
                           {/* <li> Branding and Social Media Marketing </li> */}
                            
-                          <li> Social Media Marketing </li> <li>  Photgraphy    </li> 
+                          <li>  Social Media Marketing</li>
                       </ul>
-                      
+                     
 
                   </div>
                   <div className="col-lg-6" >
 
                       <h6 className="mil-upper mil-up mil-mb-30">Client Industry</h6>
                       <ul className="mil-list mil-dark mil-up mil-mb-60" >
-                          <li>Café  </li>
+                          <li>Restaurant </li>
                       </ul>
 
                   </div>
@@ -169,7 +169,7 @@ const Amore = () => {
     {/* <h2 class="mil-upper mil-up mil-mb-30" style={{textAlign:"center"}}>Checkout Some of <span class="mil-marker">our works</span> </h2> */}
     </div>
       <Suspense fallback={<div>Loading...</div>}>
-        <AmoreSlider/>
+        <IstanbulSlider/>
       </Suspense>
 
 
@@ -217,4 +217,4 @@ const Amore = () => {
     </>
   );
 };
-export default Amore;
+export default Istanbul;

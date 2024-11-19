@@ -26,7 +26,7 @@ const BajajSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/Bajaj/Bajaj mockup1.webp' alt='img'  />
+                        <img src='./img/Bajaj/bajaj size 1.jpg' alt='img'  />
                         </div>
                     </div>
 

@@ -10,15 +10,16 @@ const ProjectsMasonry = dynamic( () => import("@components/ProjectsMasonry"), { 
 import { getSortedProjectsData } from "@library/projects";
 import LatestProjectsSection from "../../_components/sections/LatestProjects";
 import OurProjects from "../../_components/sections/OurProjects";
+import Socialmediasun from "../../_components/sections/Socialmediasun";
 
 export const metadata = {
   title: {
-		default: "Projects",
+		default: "Socialmediaa",
 	},
   description: AppData.settings.siteDescription,
 }
 
-async function Projects() {
+async function Socialmediaa() {
   const projects = await getAllProjects();
 
   return (
@@ -35,14 +36,14 @@ async function Projects() {
           </div>
 
           <Suspense fallback={<div>Loading...</div>}>
-            <ProjectsMasonry projects={projects} categories={AppData.projects.categories} />
+            {/* <ProjectsMasonry projects={projects} categories={AppData.projects.categories} /> */}
           </Suspense>
 
 
 
 
           <Suspense fallback={<div>Loading...</div>}>
-        <OurProjects projects={projects}  categories={AppData.projects.categories} />
+        <Socialmediasun projects={projects}  />
       </Suspense>
 
         </div>
@@ -52,7 +53,7 @@ async function Projects() {
     </>
   );
 };
-export default Projects;
+export default Socialmediaa;
 
 async function getAllProjects() {
   const allProjects = getSortedProjectsData();
