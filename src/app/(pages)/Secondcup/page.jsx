@@ -8,6 +8,8 @@ import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
 import PageBannerTwo from "../../_components/PageBannerTwo";
+import ToninosSlider from "../../_components/sliders/ToninosSlider";
+import SecondSlider from "../../_components/sliders/SecondSlider";
 
 export const metadata = {
     title: {
@@ -164,7 +166,9 @@ const Secondcup = () => {
 
 
 
-
+      <Suspense fallback={<div>Loading...</div>}>
+        <SecondSlider/>
+      </Suspense>
 
 
 

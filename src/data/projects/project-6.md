@@ -1,5 +1,6 @@
 ---
 #preview
+url : /GTSW
 title: GTSW 
 image: ./img/covers/project/giti.webp
 category: Battery and Tyre Manufacturers 

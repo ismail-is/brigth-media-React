@@ -8,6 +8,8 @@ import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionTwoSection from "../../_components/sections/CallToActionTwo";
 import CallToActionSection from "../../_components/sections/CallToAction";
+import ProcessSlider from "../../_components/sliders/Process";
+import WebDev from "../../_components/sliders/WebDev";
 
 export const metadata = {
     title: {
@@ -35,7 +37,7 @@ const Web = () => {
 
 
 
-                    <section style={{marginTop:"-130px"}}>
+                    <section >
             <div className="container mil-p-120-60">
                 <div className="mil-background-grid mil-softened" />
 
@@ -202,13 +204,14 @@ const Web = () => {
 
 
 
+<WebDev/>
 
 
-
+{/* <ProcessSlider bgStyle={"soft"} /> */}
 
 
         {/* map */}
-        <LatestPostsSection/>
+        {/* <LatestPostsSection/> */}
         {/* map end */}
 
         {/* contact */}

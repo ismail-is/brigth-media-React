@@ -34,10 +34,10 @@ async function Projects() {
             <p className="mil-text-lg mil-up mil-mb-90">Our Projects harness design and technology to create places where <br/> people live, work, and heal.</p>
           </div>
 
-          <Suspense fallback={<div>Loading...</div>}>
+          {/* <Suspense fallback={<div>Loading...</div>}>
             <ProjectsMasonry projects={projects} categories={AppData.projects.categories} />
           </Suspense>
-
+ */}
 
 
 

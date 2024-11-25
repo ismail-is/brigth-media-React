@@ -73,7 +73,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
         </SwiperSlide>
 
         {/* Slide 2 */}
-        <SwiperSlide className="swiper-slide">
+        {/* <SwiperSlide className="swiper-slide">
             <div className="row col-lg-12">
                 <div className="col-lg-6">
                     <Link href="/mainpage" className="mil-blog-card mil-mb-60">
@@ -102,7 +102,7 @@ const SocialSlider = ( { bgStyle = "default", paddingTop = "10" } ) => {
                     </Link>
                 </div>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* Add more SwiperSlide components here for additional slides */}
     </div>
 </Swiper>

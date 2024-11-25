@@ -102,7 +102,7 @@ export const SliderProps = {
   },
   milProcessSlider: {
     slidesPerView: 1,
-    spaceBetween: 30,
+    spaceBetween: 420,
     speed: 800,
     parallax: true,
     navigation: {

@@ -34,7 +34,7 @@ const PaidAds = () => {
 
 
 
-                    <section style={{marginTop:"-130px"}}>
+                    <section >
             <div className="container mil-p-120-60">
                 <div className="mil-background-grid mil-softened" />
 

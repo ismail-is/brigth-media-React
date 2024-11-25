@@ -10,6 +10,7 @@ import CallToActionSection from "../../_components/sections/CallToAction";
 import PageBannerTwo from "../../_components/PageBannerTwo";
 import KaiserSlider from "../../_components/sliders/KaiserSlider";
 import FarhatFreresSlider from "../../_components/sliders/FarhatFreresSlider";
+import AzimSlider from "../../_components/sliders/AzimSlider";
 
 export const metadata = {
     title: {
@@ -34,18 +35,18 @@ const Azimgroup = () => {
                   <div className="col-lg-5">
 
                       <div className="mil-mb-60">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Farhat Freres </span>
-                          <h2 className="mil-upper mil-up mil-mb-30" > Partnering with  <span class="mil-marker"> Farhat Freres </span></h2>
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Azim Group </span>
+                          <h2 className="mil-upper mil-up mil-mb-30" >Collaborating with<span class="mil-marker"> Azim Group  </span></h2>
                       </div>
 
                   </div>
                   <div className="col-lg-7 mil-mt-suptitle-offset" id='SystemShow'>
-                      {/* <div className="mil-text mil-up mil-mb-30" >Motorland is an official dealer of automotive brands, including Biac, DFM, CFmoto, and AsiaStar. We collaborated with them on branding and social media marketing, enhancing their online presence and engaging their customers effectively. Additionaly, we have helped them in creating Technical sheet for all of their Vehicles and Designed 100+ Posts for them.</div> */}
+                      <div className="mil-text mil-up mil-mb-30" >AZIM Group stands as a distinguished organisation within Qatar’s vibrant business landscape, encompassing seven unique companies under its banner. </div>
                       
                       <div className="row">
                           <div className="col-lg-4">
 
-                              <div className="mil-item-frame mil-up mil-mb-30">
+                              {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
                                           <img src='./img/covers/project/Azimlogo.webp' alt='img' />
@@ -53,13 +54,12 @@ const Azimgroup = () => {
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
                                   </div>
-                              </div>
+                              {/* </div> */}
 
                           </div>
                           <div className="col-lg-8">
 
-                              <div className="mil-text mil-up mil-mb-30" >Farhat Freres is the official dealer for automotive brands such as Honda, Chevrolet, Foton, and Kaiyi. We manage their social media presence to enhance customer engagement and brand visibility. 
-Additionally, we developed a comprehensive website of over 50 pages, showcasing their extensive vehicles and delivering a seamless user experience.</div>
+                              <div className="mil-text mil-up mil-mb-30" >Bright Media had the privilege of creating AZIM Group’s branding and designing a comprehensive website that showcases their diverse ventures. </div>
                               
                           </div>
                       </div>
@@ -99,8 +99,9 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
       }}
     >
       <p>
-      Motorland is an official dealer of automotive brands, including Biac, DFM, CFmoto, and AsiaStar. We collaborated with them on branding and social media marketing, enhancing their online presence and engaging their customers effectively. Additionaly, we have helped them in creating Technical sheet for all of their Vehicles and Designed 100+ Posts for them.
+      AZIM Group stands as a distinguished organisation within Qatar’s vibrant business landscape, encompassing seven unique companies under its banner. 
       </p>
+      <p>Bright Media had the privilege of creating AZIM Group’s branding and designing a comprehensive website that showcases their diverse ventures. </p>
     </div>
   </div>
 </div>
@@ -133,7 +134,8 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
                       <ul className="mil-list mil-dark mil-up mil-mb-10" style={{display:'flex',gap:'30px'}}>
                           {/* <li> Branding and Social Media Marketing </li> */}
                            
-                          <li>Social Media Marketing </li> <li>  Website    </li> 
+                          <li>Website</li> 
+                          <li>branding</li> 
                       </ul>
                      
                   </div>
@@ -141,7 +143,7 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
 
                       <h6 className="mil-upper mil-up mil-mb-30">Client Industry</h6>
                       <ul className="mil-list mil-dark mil-up mil-mb-60" >
-                          <li>Automotive  </li>
+                          <li>Group of Companies (7 different inducties)  </li>
                       </ul>
 
                   </div>
@@ -171,7 +173,7 @@ Additionally, we developed a comprehensive website of over 50 pages, showcasing 
 
 
       <Suspense fallback={<div>Loading...</div>}>
-        <FarhatFreresSlider/>
+        <AzimSlider/>
       </Suspense>
 
 

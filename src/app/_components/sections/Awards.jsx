@@ -13,7 +13,7 @@ const AwardsSection = () => {
   return (
     <>
         {/* awards */}
-        <section style={{marginTop:'-150px'}}>
+        <section style={{marginTop:'-80px'}}>
             <div className="container mil-p-120-90" >
                 <div className="mil-background-grid mil-softened"></div>
 

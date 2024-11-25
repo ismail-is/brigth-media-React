@@ -36,18 +36,18 @@ const FarhatFreresSlider = ( { items } ) => {
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
                         <img src='./img/FarhatFreres/Farhat mockup 2.webp' alt='img'  />
-                        </div>.111
-                    </div>
-
-                </SwiperSlide>
-                {/* <SwiperSlide className="swiper-slide">
-                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
-                        <div className="mil-image-frame">
-                        <img src='./img/kaiser/kaiser3.webp' alt='img'  />
                         </div>
                     </div>
 
-                </SwiperSlide> */}
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                        <div className="mil-image-frame">
+                        <img src='./img/FarhatFreres/farhat web development.webp' alt='img'  />
+                        </div>
+                    </div>
+
+                </SwiperSlide>
                 {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">

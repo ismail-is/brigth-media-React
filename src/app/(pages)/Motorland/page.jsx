@@ -10,6 +10,7 @@ import CallToActionSection from "../../_components/sections/CallToAction";
 import PageBannerTwo from "../../_components/PageBannerTwo";
 import FullImageSlider from "../../_components/sliders/FullImage";
 import KaiserSlider from "../../_components/sliders/KaiserSlider";
+import MotorlandSlider from "../../_components/sliders/MotorlandSlider";
 
 export const metadata = {
     title: {
@@ -176,7 +177,7 @@ const Motorland = () => {
 
 
       <Suspense fallback={<div>Loading...</div>}>
-        <KaiserSlider  />
+        <MotorlandSlider  />
         {/* <FullImageSlider  /> */}
       </Suspense>
 

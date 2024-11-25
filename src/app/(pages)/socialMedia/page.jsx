@@ -11,6 +11,7 @@ import ProcessSlider from "../../_components/sliders/Process";
 import Webslider from "../../_components/sliders/Webslider";
 import AwardsSection from "../../_components/sections/Awards";
 import SocialSlider from "../../_components/sliders/SocialSlider";
+import SocailPages from "../../_components/sliders/SocailPages";
 
 export const metadata = {
     title: {
@@ -22,7 +23,7 @@ export const metadata = {
 const SocialMedia = () => {
   return (
     <>
-        <PageBanner pageTitle={"social media"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Social Media Marketing"}  bgImage={"/img/photo/12.jpg"} />
 
       <section>
     <div className="container mil-p-120-60">
@@ -38,7 +39,7 @@ const SocialMedia = () => {
 
 
 
-                    <section style={{marginTop:"-130px"}}>
+                    <section >
             <div className="container mil-p-120-60">
                 <div className="mil-background-grid mil-softened" />
 
@@ -206,7 +207,13 @@ const SocialMedia = () => {
 
         {/* map */}
         {/* <Webslider/> */}
-        <SocialSlider/>
+
+
+<SocailPages/>
+        {/* <SocialSlider/> */}
+
+
+
         {/* <LatestPostsSection/> */}
         {/* <ProcessSlider bgStyle={"soft"} /> */}
         {/* map end */}

@@ -22,9 +22,16 @@ const McmSlider = ( { items } ) => {
                
                
                 {/* {items.map((item, key) => ( */}
-               
                 <SwiperSlide className="swiper-slide">
-                
+                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                        <div className="mil-image-frame">
+                        <img src='./img/mcm/MCM 1.webp' alt='img'  />
+                        </div>
+                    </div>
+
+               
+
+                </SwiperSlide><SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
                         <img src='./img/mcm/MCM 1.webp' alt='img'  />
@@ -33,14 +40,7 @@ const McmSlider = ( { items } ) => {
 
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
-                        <div className="mil-image-frame">
-                        <img src='./img/mcm/MCM 2.webp' alt='img'  />
-                        </div>.111
-                    </div>
-
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
+                
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
                         <img src='./img/mcm/MCM mockup1.webp' alt='img'  />
@@ -48,22 +48,14 @@ const McmSlider = ( { items } ) => {
                     </div>
 
                 </SwiperSlide>
-                {/* <SwiperSlide className="swiper-slide">
-                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
-                        <div className="mil-image-frame">
-                        <img src='./img/kaiser/kaiser4.webp' alt='img'  />
-                        </div>
-                    </div>
+              
+               
+                
+                
 
-                </SwiperSlide> */}
-                {/* <SwiperSlide className="swiper-slide">
-                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
-                        <div className="mil-image-frame">
-                        <img src='./img/kaiser/kaiser5.webp' alt='img'  />
-                        </div>
-                    </div>
 
-                </SwiperSlide> */}
+
+               
                 {/* ))} */}
             </Swiper>
             <div className="container" >

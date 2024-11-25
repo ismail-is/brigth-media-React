@@ -741,18 +741,23 @@ portfolio
     }
 
     & .mil-project-descr {
-        margin: 30px;
+        margin: 60px;
+        // margin: 30px;
         position: absolute;
-        top: 0;
-        left: 0;
-        width: calc(100% - 60px);
-        height: calc(100% - 60px);
+        top: 40px;
+        left: -60px;
+        width: calc(100% - 120px);
+        height: calc(100% - 80px);
+        // width: calc(100% - 60px);
+        // height: calc(100% - 60px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
-        padding: 60px;
+       
+        // padding: 20px !important;
+        // padding-top: -310px !important;
         background-color: $accent;
         transform: translateY(30px) scale(.9);
         opacity: 0;
@@ -846,6 +851,20 @@ portfolio
             background-color: $light;
         }
     }
+}
+ .mil-category {
+    position: absolute;
+    // top: calc(100% - 90px);
+    top: calc(100% - 23px);
+    // left: -144px;
+    // width: 320px;
+    width: 100%;
+    text-align: center !important;
+    transform: rotate(-0deg);
+    background-color: $accent;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: $t-md;
 }
 
 /* -------------------------------------------
@@ -2188,7 +2207,8 @@ sidebar
     position: relative;
     padding: 30px 30px 30px;
     border: 5px solid $dt-5;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+    // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+    border-image:repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
 
     &:before {
         content: '';

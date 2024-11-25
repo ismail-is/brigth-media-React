@@ -148,14 +148,14 @@ const ContactForm = ( { subtitleOffset } ) => {
                     </div>
 
                 </div>
-                <div className="col-lg-12">
+                {/* <div className="col-lg-12">
 
                     <div className="mil-checbox-frame mil-dark-input mil-up mil-mb-30">
                         <input defaultChecked className="mil-checkbox" id="checkbox-1" type="checkbox" value="value" namge="agree" required />
                         <label htmlFor="checkbox-1" className="mil-text-sm">Accept the terms and conditions of personal data.</label>
                     </div>
 
-                </div>
+                </div> */}
                 <div className="col-lg-12">
 
                     <button type="submit" className="mil-button mil-up">Send Now</button>

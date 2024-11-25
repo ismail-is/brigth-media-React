@@ -39,7 +39,15 @@ const OurTeam = ({ categories }) => {
         {/* filter end */}
 
         {/* static content */}
+        <div className="col-12">
 
+<div className="mil-center mil-mb-10">
+    <span className="mil-suptitle mil-upper mil-up mil-mb-30" >Our Team</span>
+    <h2 className="mil-upper mil-up mil-mb-30">Meet the Team Behind  <span class="mil-marker">Our Success</span></h2>
+    {/* <p className="mil-up" ></p> */}
+</div>
+
+</div>
         <div className="row mil-team-grid" style={{ marginBottom: '40px' ,display:"flex",justifyContent:"center"}}>
             <div className="col-sm-6 col-lg-3 mil-grid-item mil-up">
                 <div className="mil-team-member">

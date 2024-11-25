@@ -11,6 +11,7 @@ import PageBannerTwo from "../../_components/PageBannerTwo";
 import KaiserSlider from "../../_components/sliders/KaiserSlider";
 import ToninoSlider from "../../_components/sliders/KaiserSlider";
 import ToninosSlider from "../../_components/sliders/ToninosSlider";
+import HafilSlider from "../../_components/sliders/HafilSlider";
 
 export const metadata = {
     title: {
@@ -168,7 +169,7 @@ const Hafil = () => {
     {/* <h2 class="mil-upper mil-up mil-mb-30" style={{textAlign:"center"}}>Checkout Some of <span class="mil-marker">our works</span> </h2> */}
     </div>
       <Suspense fallback={<div>Loading...</div>}>
-        <ToninosSlider/>
+        <HafilSlider/>
       </Suspense>
 
 
