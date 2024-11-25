@@ -9,9 +9,7 @@ import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
 import PageBannerTwo from "../../_components/PageBannerTwo";
 import KaiserSlider from "../../_components/sliders/KaiserSlider";
-import ToninoSlider from "../../_components/sliders/KaiserSlider";
-import ToninosSlider from "../../_components/sliders/ToninosSlider";
-import MetrowaysSlider from "../../_components/sliders/metrowaysSlider";
+import MetroSlider from "../../_components/sliders/MetroSlider";
 
 export const metadata = {
     title: {
@@ -169,7 +167,7 @@ const Metroways = () => {
     {/* <h2 class="mil-upper mil-up mil-mb-30" style={{textAlign:"center"}}>Checkout Some of <span class="mil-marker">our works</span> </h2> */}
     </div>
       <Suspense fallback={<div>Loading...</div>}>
-        <MetrowaysSlider/>
+        <MetroSlider/>
       </Suspense>
 
 

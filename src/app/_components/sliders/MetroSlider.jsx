@@ -4,7 +4,7 @@ import { SliderProps } from "@common/sliderProps";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-const MetrowaysSlider = ( { items } ) => {
+const MetroSlider = ( { items } ) => {
   return (
     <>
     
@@ -27,7 +27,7 @@ const MetrowaysSlider = ( { items } ) => {
                 
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/allimg/metroways/Metroways1.webp' alt='img'  />
+                        <img src='./img/allimg/metroways/Metroways 2.webp' alt='img'  />
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const MetrowaysSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/allimg/metroways/Metroways 2.webp' alt='img'  />
+                        <img src='./img/allimg/metroways/Metroways1.webp' alt='img'  />
                         </div>
                     </div>
 
@@ -98,4 +98,4 @@ const MetrowaysSlider = ( { items } ) => {
     </>
   );
 };
-export default MetrowaysSlider;
+export default MetroSlider;
