@@ -52,33 +52,35 @@ const LatestProjectsSection = ( { projects } ) => {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-2 col-lg-3" >
-                            <Link href='/Bajaj'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                        <Link href='/Bajaj'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/bajaj.webp' alt='img' />
                                 <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-mb-20">Bajaj</h4>
-                                    <div className="mil-divider-sm mil-mb-20"></div>
-                                    <p>Bajaj Auto</p>
-                                </div>
+                                    <h4 className="mil-upper  mil-text-sm">Bajaj</h4>
+                                  
+                                    </div>
+                               
+                                
+                                <div className="mil-category">Bike Manufacturers </div>
                             </Link>
                             <Link href='/Tonino'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
-                                <img src='./img/covers/project/tonino.webp' alt='img' />
+                                <img src='./img/covers/project/lg/tonio 1.webp' alt='img' />
                                 <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-mb-20">Tonino</h4>
-                                    <div className="mil-divider-sm mil-mb-20"></div>
-                                    <p>Restaurant</p>
+                                    <h4 className="mil-upper mil-text-sm">Tonino </h4>
+                                 
                                 </div>
+                                <div className="mil-category"> Restaurant</div>
                             </Link>
                         </div>
 
 
                         <div className="col-md-6 col-lg-3" >
-                            <Link href='/Motorland'  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
-                                <img src='./img/covers/project/motorland.webp' alt='img' />
+                        <Link href='/Motorland'  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
+                                <img src='./img/covers/project/Mllog.webp' alt='img' />
                                 <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-mb-20">Motorland  </h4>
-                                    <div className="mil-divider-sm mil-mb-20"></div>
-                                    <p>Automotive Dealer </p>
+                                    <h4 className="mil-upper  mil-text-sm ">Motorland</h4>
+                                    
                                 </div>
+                                <div className="mil-category" ><span style={{marginLeft:'20px'}}> Automotive Dealer</span> </div>
                             </Link>
                         </div>
 
@@ -89,34 +91,34 @@ const LatestProjectsSection = ( { projects } ) => {
 
 
                         <div className="col-md-6 col-lg-3" >
-                            <Link href='/Secondcup  '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
-                                <img src=' ./img/covers/project/second cup.webp' alt='img' />
+                        <Link href='/Secondcup '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                                <img src='./img/covers/project/lg/secondcup1.webp' alt='img' />
                                 <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-mb-20"> Second Cup</h4>
-                                    <div className="mil-divider-sm mil-mb-20"></div>
-                                    <p>Battery and Tyre Manufacturers </p>
+                                    <h4 className="mil-upper  mil-text-sm">Second Cup  </h4>
+                                    
                                 </div>
+                                <div className="mil-category"> Coffee Shop</div>
                             </Link>
-                            <Link href='/'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                            <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
                                 <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-mb-20">kaiser</h4>
-                                    <div className="mil-divider-sm mil-mb-20"></div>
-                                    <p>Kitchen Appliances manufacturers </p>
+                                    <h4 className="mil-upper mil-text-sm">kaiser</h4>
+                                   
                                 </div>
+                                <div className="mil-category"> Kitchen Appliances manufacturers</div>
                             </Link>
                         </div>
 
 
 
  <div className="col-md-6 col-lg-3" >
-                            <Link href='/'  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
-                                <img src='./img/covers/project/giti1.webp' alt='img' />
-                                <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-mb-20">GTSW</h4>
-                                    <div className="mil-divider-sm mil-mb-20"></div>
-                                    <p>Battery and Tyre Manufacturers </p>
+ <Link href='/Hafil'  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
+                                <img src='./img/allimg/logo/hafillogo1.webp' alt='img' />
+                                <div className="mil-project-descr1">
+                                    <h4 className="mil-upper  mil-text-sm">Hafil Trading & Services</h4>
+                                    
                                 </div>
+                                <div className="mil-category"> Trading</div>
                             </Link>
                         </div>
 

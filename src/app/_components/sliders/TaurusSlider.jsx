@@ -35,19 +35,19 @@ const TaurusSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/allimg/taurusivoire/Taurus Ivoire web 1.webp' alt='img'  />
+                        <img src='./img/allimg/taurusivoire/Taurus1.webp' alt='img'  />
                         </div>
                     </div>
 
                 </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
-                        <img src='./img/allimg/taurusivoire/taurus lvoire 2.webp' alt='img'  />
+                        <img src='./img/allimg/taurusivoire/Taurus2.webp' alt='img'  />
                         </div>
                     </div>
 
-                </SwiperSlide>
+                </SwiperSlide> */}
                 {/* <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">

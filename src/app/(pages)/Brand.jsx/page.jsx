@@ -5,15 +5,16 @@ import AppData from "@data/app.json";
 
 import PageBanner from "@components/PageBanner";
 
-const ProjectsMasonry = dynamic( () => import("@components/ProjectsMasonry"), { ssr: false } );
+const Brand = dynamic( () => import("@components/ProjectsMasonry"), { ssr: false } );
 
 import { getSortedProjectsData } from "@library/projects";
 import LatestProjectsSection from "../../_components/sections/LatestProjects";
 import OurProjects from "../../_components/sections/OurProjects";
+import BrandPage from "../../_components/sections/BrandPage";
 
 export const metadata = {
   title: {
-		default: "Projects",
+		default: "Brand",
 	},
   description: AppData.settings.siteDescription,
 }
@@ -34,16 +35,16 @@ async function Projects() {
             <p className="mil-text-lg mil-up mil-mb-90">Our Projects harness design and technology to create places where <br/> people live, work, and heal.</p>
           </div>
 
-          <Suspense fallback={<div>Loading...</div>}>
+          {/* <Suspense fallback={<div>Loading...</div>}>
             <ProjectsMasonry projects={projects} categories={AppData.projects.categories} />
           </Suspense>
+ */}
 
 
 
-
-          {/* <Suspense fallback={<div>Loading...</div>}>
-        <OurProjects projects={projects}  categories={AppData.projects.categories} />
-      </Suspense> */}
+          <Suspense fallback={<div>Loading...</div>}>
+        <BrandPage projects={projects}  categories={AppData.projects.categories} />
+      </Suspense>
 
         </div>
       </section>
@@ -52,7 +53,7 @@ async function Projects() {
     </>
   );
 };
-export default Projects;
+export default Brand;
 
 async function getAllProjects() {
   const allProjects = getSortedProjectsData();

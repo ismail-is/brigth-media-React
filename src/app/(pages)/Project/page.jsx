@@ -10,15 +10,16 @@ const ProjectsMasonry = dynamic( () => import("@components/ProjectsMasonry"), { 
 import { getSortedProjectsData } from "@library/projects";
 import LatestProjectsSection from "../../_components/sections/LatestProjects";
 import OurProjects from "../../_components/sections/OurProjects";
+import AllProjects from "../../_components/sections/AllProjects";
 
 export const metadata = {
   title: {
-		default: "Projects",
+		default: "Project",
 	},
   description: AppData.settings.siteDescription,
 }
 
-async function Projects() {
+async function Project() {
   const projects = await getAllProjects();
 
   return (
@@ -34,16 +35,16 @@ async function Projects() {
             <p className="mil-text-lg mil-up mil-mb-90">Our Projects harness design and technology to create places where <br/> people live, work, and heal.</p>
           </div>
 
-          <Suspense fallback={<div>Loading...</div>}>
+          {/* <Suspense fallback={<div>Loading...</div>}>
             <ProjectsMasonry projects={projects} categories={AppData.projects.categories} />
           </Suspense>
+ */}
 
 
 
-
-          {/* <Suspense fallback={<div>Loading...</div>}>
-        <OurProjects projects={projects}  categories={AppData.projects.categories} />
-      </Suspense> */}
+          <Suspense fallback={<div>Loading...</div>}>
+        <AllProjects projects={projects}  categories={AppData.projects.categories} />
+      </Suspense>
 
         </div>
       </section>
@@ -52,7 +53,7 @@ async function Projects() {
     </>
   );
 };
-export default Projects;
+export default Project;
 
 async function getAllProjects() {
   const allProjects = getSortedProjectsData();

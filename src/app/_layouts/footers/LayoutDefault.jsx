@@ -64,7 +64,7 @@ const DefaultFooter = () => {
         <div className="container-fluid">
 
             <div className="mil-footer-bottom">
-                <p className="mil-light-soft mil-mb-15">© 2024 All Right Recived <Link href='https://brightmedia.tech/'  target="_blank" ><span style={{color:'#BCFF00'}}>BRIGHT MEDIA</span> </Link></p>
+                <p className="mil-light-soft mil-mb-15">© 2024 All Right  Reserved <Link href='https://brightmedia.tech/'  target="_blank" ><span style={{color:'#BCFF00'}}>BRIGHT MEDIA</span> </Link></p>
                 <ul className="mil-light-soft mil-mb-15">
                     {AppData.social.map((item, key) => (
                     <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank">{item.title}</a></li>
