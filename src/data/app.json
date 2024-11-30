@@ -69,7 +69,7 @@
           
             {
                 "label": "Contact Us",
-                "link": "/Contact",
+                "link": "/contact",
                 "children": 0
             }
          
@@ -99,7 +99,7 @@
             
             {
                 "label": "Contact",
-                "link": "/Contact"
+                "link": "/contact"
             }
         ]
     },

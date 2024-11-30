@@ -14,7 +14,7 @@ export const metadata = {
     description: AppData.settings.siteDescription,
 }
 
-const Contact = () => {
+const contact = () => {
   return (
     <>
         <PageBanner pageTitle={"Contact us"} breadTitle={"Contact"} bgImage={"./img/allimg/all banners/contact page.webp"} />
@@ -186,5 +186,5 @@ const Contact = () => {
     </>
   );
 };
-export default Contact;
+export default contact;
 
