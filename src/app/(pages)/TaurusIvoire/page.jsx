@@ -23,7 +23,7 @@ export const metadata = {
 const TaurusIvoire = () => {
   return ( 
     <>
-           <PageBannerTwo subTitle=" teak wood   " title="Website and branding " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" teak wood   " title="Website and branding " bgImage="./img/allimg/all banners/mainbg.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

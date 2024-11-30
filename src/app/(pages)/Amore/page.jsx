@@ -23,7 +23,7 @@ export const metadata = {
 const Amore = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Cafe  " title="Social Media Marketing and Photography " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Cafe  " title="Social Media Marketing and Photography " bgImage="./img/allimg/all banners/amore.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

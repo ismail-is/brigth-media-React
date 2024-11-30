@@ -22,7 +22,7 @@ export const metadata = {
 const MCM = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Construction Materials   " title="Social Media Marketing and Website  " bgImage="./img/FarhatFreres/FarhatFreres banner.webp" />
+           <PageBannerTwo subTitle=" Construction Materials   " title="Social Media Marketing and Website  " bgImage="./img/allimg/all banners/mainbg.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 
