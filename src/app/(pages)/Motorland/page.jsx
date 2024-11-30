@@ -22,7 +22,7 @@ export const metadata = {
 const Motorland = () => {
   return (
     <>
-           <PageBannerTwo subTitle="Automobile Dealer " title="Automotive Dealer" bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle="Automobile Dealer " title="Automotive Dealer" bgImage="./img/allimg/all banners/motorland.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

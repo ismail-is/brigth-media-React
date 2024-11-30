@@ -27,7 +27,7 @@ export const metadata = {
 const About = () => {
   return (
     <>
-      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"./img/allimg/all banners/about.webp"} />
+      <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"./img/allimg/all banners/mainbg.webp"} />
       {/* <ServicesTwoSection /> */}
       
       <CompanySlider />

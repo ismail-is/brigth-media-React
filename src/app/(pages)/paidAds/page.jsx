@@ -21,7 +21,7 @@ export const metadata = {
 const PaidAds = () => {
   return (
     <>
-        <PageBanner pageTitle={"Paid Ads"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Paid Ads"}  bgImage={"./img/allimg/all banners/mainbg.webp"} />
 
         <section>
     <div className="container mil-p-120-60">

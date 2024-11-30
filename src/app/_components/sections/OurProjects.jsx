@@ -258,7 +258,7 @@ const OurProjects = ( { projects } ) => {
                       
                         <div className="col-md-6 col-lg-3" >
                             
-                        <Link href='/Pulse '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                        <Link href='/pulse '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/allimg/logo/pulse.webp' alt='img' />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper mil-text-sm">Pulse </h4>

@@ -12,18 +12,19 @@ import KaiserSlider from "../../_components/sliders/KaiserSlider";
 import ToninoSlider from "../../_components/sliders/KaiserSlider";
 import ToninosSlider from "../../_components/sliders/ToninosSlider";
 import TaurusSlider from "../../_components/sliders/TaurusSlider";
+import PulsSlider from "../../_components/sliders/PulsSlider";
 
 export const metadata = {
     title: {
-        default: "Taurus Ivoire ",
+        default: "Pulse",
     },
     description: AppData.settings.siteDescription,
 }
 
-const TaurusIvoire = () => {
+const pulse = () => {
   return ( 
     <>
-           <PageBannerTwo subTitle=" teak wood   " title="Website and branding " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle="    " title="Branding" bgImage="./img/allimg/all banners/mainbg.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 
@@ -36,8 +37,8 @@ const TaurusIvoire = () => {
                   <div className="col-lg-5">
 
                       <div className="mil-mb-60">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Taurus Ivoire </span>
-                          <h2 className="mil-upper mil-up mil-mb-30" >Collaborating with  <span class="mil-marker"> Taurus Ivoire </span></h2>
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Pulse  </span>
+                          <h2 className="mil-upper mil-up mil-mb-30" >Collaborating with  <span class="mil-marker"> Pulse </span></h2>
                       </div>
 
                   </div>
@@ -50,7 +51,7 @@ const TaurusIvoire = () => {
                               {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
-                                          <img src=' ./img/allimg/taurusivoire/taurusivoire logo.webp' alt='img' />
+                                          <img src='./img/allimg/logo/pulse.webp' alt='img' />
                                       </div>
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
@@ -60,7 +61,7 @@ const TaurusIvoire = () => {
                           </div>
                           <div className="col-lg-8">
 
-                              <div className="mil-text mil-up mil-mb-30" >Taurus Ivoire, a trusted teak wood manufacturer in Ivory Coast, partnered with us to build a professional website and create impactful branding. Our work reflects their commitment to quality and craftsmanship, elevating their presence in the industry.
+                              <div className="mil-text mil-up mil-mb-30" >Pulse, a healthy restaurant based in KSA, offers nutritious daily meal subscriptions delivered straight to homes. We collaborated on branding their products, creating a cohesive identity that highlights their commitment to health and convenience.
                               </div>
                               
                           </div>
@@ -79,7 +80,7 @@ const TaurusIvoire = () => {
   >
     {/* Image Section */}
     <img
-      src=" ./img/allimg/taurusivoire/taurusivoire logo.webp"
+      src="./img/allimg/logo/pulse.webp"
       alt="Bajaj Auto"
       style={{
         float: 'left',
@@ -99,7 +100,8 @@ const TaurusIvoire = () => {
       }}
     >
       <p>
-      Taurus Ivoire, a trusted teak wood manufacturer in Ivory Coast, partnered with us to build a professional website and create impactful branding. Our work reflects their commitment to quality and craftsmanship, elevating their presence in the industry.
+      
+Pulse, a healthy restaurant based in KSA, offers nutritious daily meal subscriptions delivered straight to homes. We collaborated on branding their products, creating a cohesive identity that highlights their commitment to health and convenience.
 
       </p>
       {/* <p>Additionally, we provide professional photography and videography services, capturing the quality pictures of the dishes. Through visually appealing content, we help Tonino connect with their audience and showcase the unique flavors and experiences they offer.</p> */}
@@ -134,19 +136,19 @@ const TaurusIvoire = () => {
                       <ul className="mil-list mil-dark mil-up mil-mb-10" style={{display:'flex',gap:'30px'}}>
                           {/* <li> Branding and Social Media Marketing </li> */}
                            
-                          <li> Website</li>
+                          {/* <li> Website</li> */}
                           <li> branding</li>
                       </ul>
                     
                   </div>
-                  <div className="col-lg-6" >
+                  {/* <div className="col-lg-6" >
 
                       <h6 className="mil-upper mil-up mil-mb-30">Client Industry</h6>
                       <ul className="mil-list mil-dark mil-up mil-mb-60" >
                           <li>teak wood </li>
                       </ul>
 
-                  </div>
+                  </div> */}
                   {/* <div className="col-lg-3" >
 
                       <h6 className="mil-upper mil-up mil-mb-30">Completion Date</h6>
@@ -171,7 +173,7 @@ const TaurusIvoire = () => {
     {/* <h2 class="mil-upper mil-up mil-mb-30" style={{textAlign:"center"}}>Checkout Some of <span class="mil-marker">our works</span> </h2> */}
     </div>
       <Suspense fallback={<div>Loading...</div>}>
-        <TaurusSlider/>
+        <PulsSlider/>
       </Suspense>
 
 
@@ -219,4 +221,4 @@ const TaurusIvoire = () => {
     </>
   );
 };
-export default TaurusIvoire;
+export default pulse;

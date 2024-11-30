@@ -17,7 +17,7 @@ export const metadata = {
 const contact = () => {
   return (
     <>
-        <PageBanner pageTitle={"Contact us"} breadTitle={"Contact"} bgImage={"./img/allimg/all banners/contact page.webp"} />
+        <PageBanner pageTitle={"Contact us"} breadTitle={"Contact"} bgImage={"./img/allimg/all banners/mainbg.webp"} />
 
         {/* about */}
         <section>
@@ -38,7 +38,7 @@ const contact = () => {
 
                         <div className="mil-contact-sidebar">
 
-                            <img src="img/photo/2.jpg" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "objectPosition": "0 -60px"}} className="mil-mb-30" />
+                            <img src="./img/allimg/all banners/contact page.webp" alt="img" style={{"width": "100%", "height": "200px", "objectFit": "cover", "objectPosition": "0 -60px"}} className="mil-mb-30" />
 
                             {/* <div className="mil-sidebar-info">
 

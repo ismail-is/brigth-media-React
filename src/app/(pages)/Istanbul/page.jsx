@@ -23,7 +23,7 @@ export const metadata = {
 const Istanbul = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Restaurant " title="Social Media marketing " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Restaurant " title="Social Media marketing " bgImage="./img/allimg/all banners/Istanbul sofrasi .webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

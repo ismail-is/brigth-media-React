@@ -144,7 +144,7 @@ const Brandpages = ( { bgStyle = "default", paddingTop = "10" } ) => {
                             
                 </div>
                 <div className="col-lg-4">
-                <Link href='/Pulse '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                <Link href='/pulse '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
             <img src='./img/allimg/logo/pulse.webp' alt='img' />
             <div className="mil-project-descr2">
                 <h4 className="mil-upper mil-text-sm">Pulse </h4>

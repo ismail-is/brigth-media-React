@@ -42,22 +42,24 @@ const CompanySlider = () => {
                             {...SliderProps.milIllustrationSlider}
                             className="swiper-container mil-illustration-slider"
                         >
-                                {Data.items.map((item, key) => (
-                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                                {/* {Data.items.map((item, key) => ( */}
+                           {/* <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}> */}
+                                <SwiperSlide className="swiper-slide" >
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src='./img/allimg/all banners/about.webp' alt='img' />
+                                            {/* <img src={item.image} alt={item.alt} /> */}
                                         </div>
                                     </div>
                                 </SwiperSlide>
-                                ))}
+                                {/* ))} */}
                         </Swiper>
-                        <div className="mil-illustration-slider-nav mil-up">
+                        {/* <div className="mil-illustration-slider-nav mil-up">
                             <div className="mil-nav-buttons">
                                 <div className="mil-slider-button mil-illustration-prev">Prev</div>
                                 <div className="mil-slider-button mil-illustration-next">Next</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

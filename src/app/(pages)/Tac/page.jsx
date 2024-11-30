@@ -23,7 +23,7 @@ export const metadata = {
 const Tac = () => {
   return ( 
     <>
-           <PageBannerTwo subTitle=" Architecture  " title="Website" bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Architecture  " title="Website" bgImage="./img/allimg/all banners/mainbg.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

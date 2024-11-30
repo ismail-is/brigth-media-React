@@ -23,7 +23,7 @@ export const metadata = {
 const Tonino = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Battery and Tyre Manufacturers  " title="Social Media marketing" bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Battery and Tyre Manufacturers  " title="Social Media marketing" bgImage="./img/allimg/all banners/giti.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

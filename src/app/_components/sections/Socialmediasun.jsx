@@ -78,7 +78,7 @@ const Socialmediasun = ( { projects } ) => {
                     <div className="row">
 
                     <div className="col-md-6 col-lg-3" >
-                            <Link href='/ '  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
+                            <Link href='/pulse '  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/lg/secondcup1.webp' alt='img' />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper mil-mb-20">Pulse </h4>

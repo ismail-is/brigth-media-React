@@ -21,7 +21,7 @@ export const metadata = {
 const Metroways = () => {
   return (
     <>
-           <PageBannerTwo subTitle="  Travel agency  " title="Social media Marketing and Paid ads " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle="  Travel agency  " title="Social media Marketing and Paid ads " bgImage="./img/allimg/all banners/metro 2.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

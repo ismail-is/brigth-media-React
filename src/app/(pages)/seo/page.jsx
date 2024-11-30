@@ -24,7 +24,7 @@ export const metadata = {
 const seo = () => {
   return (
     <>
-        <PageBanner pageTitle={"Search engine optimization"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Search engine optimization"}  bgImage={"./img/allimg/all banners/mainbg.webp"} />
 
       <section>
     <div className="container mil-p-120-60">

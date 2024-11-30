@@ -24,7 +24,7 @@ export const metadata = {
 const SocialMedia = () => {
   return (
     <>
-        <PageBanner pageTitle={"Social Media Marketing"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Social Media Marketing"}  bgImage={"./img/allimg/all banners/mainbg.webp"} />
 
       <section>
     <div className="container mil-p-120-60">

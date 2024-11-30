@@ -20,7 +20,8 @@ export const metadata = {
 const PhotoAndVideography = () => {
   return (
     <>
-        <PageBanner pageTitle={"PHOTOGRAPHY & VIDEO Production"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"PHOTOGRAPHY & VIDEO Production"}  bgImage={"./img/allimg/all banners/mainbg.webp"} />
+        {/* <PageBanner pageTitle={"PHOTOGRAPHY & VIDEO Production"}  bgImage={"/img/photo/12.jpg"} /> */}
 
         <section>
     <div className="container mil-p-120-60">
