@@ -135,6 +135,8 @@ banner
 
     @media screen and (max-width: 992px) {
         height: auto;
+        width: 100%;
+        
 
         & .mil-banner-content {
             padding: 190px 0 0;
@@ -321,7 +323,8 @@ counters
 .mil-counter-frame {
     width: 100%;
     border: 5px solid $dt-10;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
+    // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
     padding: 15px;
 
     & p {
@@ -386,7 +389,8 @@ illustrations
     position: relative;
 
     & .mil-about-counter {
-        padding: 60px;
+        padding: 10px !important;
+        // padding: 60px;
         position: absolute;
         bottom: -1px;
         right: -1px;
@@ -398,7 +402,8 @@ illustrations
             height: 100%;
             background-color: transparent;
             border: 30px solid $dt-10;
-            border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 30;
+            // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 30;
+            border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgb(188, 255, 0)  1px, rgb(188, 255, 0) 3px) 5;
             position: absolute;
             z-index: -1;
             bottom: -30px;
@@ -455,8 +460,8 @@ illustrations
     position: relative;
     overflow: hidden;
     // border-radius: 1%;
-    width: 150px;
-    height: 150px;
+    width: 200px !important;
+    height: 200px !important;
     margin-left: auto;
     margin-right: auto;
     
@@ -812,6 +817,131 @@ portfolio
             transform: translateY(0px);
         }
     }
+
+
+    // home page
+    .mil-project-descr3 {
+        margin: 60px;
+        // margin: 30px;
+        position: absolute;
+        top: 165px;
+        left: -60px;
+        max-height: 30px;
+        width: calc(100% - 120px);
+        height: calc(100% - 120px);
+        // width: calc(100% - 60px);
+        // height: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+        // padding: 20px !important;
+        // padding-top: -310px !important;
+        background-color: $accent;
+        transform: translateY(30px) scale(.9);
+        opacity: 0;
+        transition: $t-md;
+    }
+    
+    &:hover {
+        & img {
+            transform: scale(1);
+        }
+    
+        & .mil-project-descr3 {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+    @media (max-width: 768px) {
+        .mil-project-descr3 {
+            top: 245px !important;
+            left: -60px;
+            max-height: 30px;
+            width: calc(100% - 40px);
+            height: calc(100% - 40px);
+            transform: translateY(10px) scale(1);
+    
+            &:hover {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .mil-project-descr4 {
+            top: 235px !important;
+            left: -60px;
+            max-height: 30px;
+            width: calc(100% - 40px);
+            height: calc(100% - 40px);
+            transform: translateY(10px) scale(1);
+    
+            &:hover {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        }
+    }
+
+    .mil-project-descr4 {
+        margin: 60px;
+        // margin: 30px;
+        position: absolute;
+        top: 465px;
+        left: -60px;
+        max-height: 40px;
+        width: calc(100% - 120px);
+        height: calc(100% - 120px);
+        // width: calc(100% - 60px);
+        // height: calc(100% - 60px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+        // padding: 20px !important;
+        // padding-top: -310px !important;
+        background-color: $accent;
+        transform: translateY(30px) scale(.9);
+        opacity: 0;
+        transition: $t-md;
+    }
+    
+    &:hover {
+        & img {
+            transform: scale(1);
+        }
+    
+        & .mil-project-descr4 {
+            opacity: 1;
+            transform: translateY(0px);
+        }
+    }
+
+ // home page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // PAGEs2 
     .mil-project-descr2 {
@@ -1288,7 +1418,8 @@ footer {
     display: flex;
     padding-bottom: 30px;
     border-bottom: 5px solid $lt-10;
-    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $lt-10 1px, $lt-10 3px) 5;
+    // border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $lt-10 1px, $lt-10 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
 
     & nav {
         & ul {
@@ -2286,7 +2417,8 @@ call to action
 .mil-contact-frame {
     padding: 60px 60px 30px;
     border: 5px solid $dt-5;
-    border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+    // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
 
     @media screen and (max-width: 992px) {
         padding: 30px 30px 0;
@@ -2303,7 +2435,8 @@ sidebar
     margin-left: 90px;
     padding: 30px;
     border: 5px solid $gs-10;
-    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 5;
+    // border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $gs-10 1px, $gs-10 3px) 5;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
     background-color: $light;
 
     @media screen and (max-width: 992px) {
@@ -2567,8 +2700,8 @@ team
     }
 
     & .mil-avatar {
-        width: 120px;
-        height: 120px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
         transition: $t-md;
 
@@ -2579,7 +2712,8 @@ team
 
     &:hover {
         border: 5px solid $dt-5;
-        border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+        // border-image: repeating-linear-gradient( -45deg, transparent, transparent 1px, $dt-5 1px, $dt-5 3px) 5;
+        border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
 
         &:after {
             opacity: 1;

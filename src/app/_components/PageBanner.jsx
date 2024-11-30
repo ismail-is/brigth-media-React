@@ -45,8 +45,9 @@ const PageBanner = ({ pageTitle, breadTitle, bgImage }) => {
               <div className="mil-banner-content mil-center">
                   <div className="mil-mb-90">
                       <h1 className="mil-light mil-upper mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} />
+                      {/* <h1 className="mil-light mil-upper mil-mb-30" dangerouslySetInnerHTML={{__html : pageTitle}} /> */}
                       <ul className="mil-breadcrumbs mil-center">
-                      <li><Link href="/">Home</Link></li>
+                      {/* <li><Link href="/">Home</Link></li> */}
                       {asPath.indexOf('/blog/') != -1 && asPath.indexOf('/blog/page/') == -1 &&
                       <li>
                         <Link href="/blog">Blog</Link>
@@ -62,7 +63,7 @@ const PageBanner = ({ pageTitle, breadTitle, bgImage }) => {
                         <Link href="/services">Services</Link>
                       </li>
                       }
-                      <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li>
+                      {/* <li><a dangerouslySetInnerHTML={{__html : clearBreadTitle}} /></li> */}
                       </ul>
                   </div>
               </div>

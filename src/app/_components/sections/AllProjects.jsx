@@ -149,16 +149,17 @@ const AllProjects = () => {
                                 </div>
                                 <div className="mil-category"><span style={{marginLeft:'20px'}}> Automotive Dealer</span> </div>
                             </Link>
-                            <Link href='/Tonino'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
-                                <img src='./img/covers/project/lg/tonio 1.webp' alt='img' />
-                                <div className="mil-project-descr1">
-                                    <h4 className="mil-upper  mil-text-sm">Tonino </h4>
+                            
+                            <Link href='/MCM'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30">
+                                <img src=' ./img/allimg/logo/mcm.webp' alt='img' />
+                                <div className="mil-project-descr">
+                                    <h4 className="mil-upper mil-text-sm">MCM </h4>
                                     {/* <div className="mil-divider-sm mil-mb-20"></div> */}
+                                    {/* <p> Construction Materials </p> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                 </div>
-                                <div className="mil-category"> Restaurant</div>
+                                <div className="mil-category"> Construction Materials </div>
                             </Link>
-                           
                         </div>
 
 
@@ -179,19 +180,7 @@ const AllProjects = () => {
                                 <div className="mil-category">Restarant</div>
                             </Link>
                         </div>
-                        <div className="col-md-6 col-lg-3" >
-                            
-                        <Link href='/MCM'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30">
-                                <img src=' ./img/allimg/logo/mcm.webp' alt='img' />
-                                <div className="mil-project-descr">
-                                    <h4 className="mil-upper mil-text-sm">MCM </h4>
-                                    {/* <div className="mil-divider-sm mil-mb-20"></div> */}
-                                    {/* <p> Construction Materials </p> */}
-                                    {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
-                                </div>
-                                <div className="mil-category"> Construction Materials </div>
-                            </Link>
-                        </div>
+                       
 
                         
                     </div>
@@ -246,7 +235,7 @@ const AllProjects = () => {
 
 
                         <div className="col-md-2 col-lg-3" >
-                        <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                        <Link href='/Kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper  mil-text-sm">kaiser</h4>
@@ -558,7 +547,7 @@ const AllProjects = () => {
 
 
                         <div className="col-md-2 col-lg-3" >
-                        <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                        <Link href='/Kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper   mil-text-sm">kaiser</h4>
@@ -713,7 +702,7 @@ const AllProjects = () => {
                         {/* <div className= "mil-portfolio-item-2 mil-long-item mil-mb-30" > */}
                            
                             {/* </div> */}
-                            <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                            <Link href='/Kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper   mil-text-sm">kaiser</h4>
@@ -722,6 +711,22 @@ const AllProjects = () => {
                                 </div>
                                 <div className="mil-category"> Kitchen Appliances manufacturers</div>
                                 {/* <div className="mil-category"><span style={{marginLeft:'10px',marginTop:"20px"}}>Kitchen Appliances manufacturers</span> </div> */}
+                            </Link>
+                           
+                        </div>
+                        <div className="col-md-2 col-lg-3" >
+                        {/* <div className= "mil-portfolio-item-2 mil-long-item mil-mb-30" > */}
+                           
+                            {/* </div> */}
+                            <Link href='/Metroways  '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                                <img src='./img/allimg/logo/Metrowayslogo.webp' alt='img' />
+                                <div className="mil-project-descr">
+                                    <h4 className="mil-upper mil-text-sm">Metroways </h4>
+                                    {/* <div className="mil-divider-sm mil-mb-20"></div> */}
+                                    {/* <p>Travel Agency</p> */}
+                                    {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
+                                </div>
+                                <div className="mil-category"> Travel Agency</div>
                             </Link>
                            
                         </div>
@@ -861,7 +866,7 @@ const AllProjects = () => {
 
 
                         <div className="col-md-2 col-lg-3" >
-                        <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                        <Link href='/Kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper mil-text-sm">kaiser</h4>

@@ -6,10 +6,13 @@ import ContactForm from "@components/ContactForm";
 
 import Link from "next/link";
 import CallToActionSection from "../../_components/sections/CallToAction";
+import ContactInfoSection from "../../_components/sections/ContactInfo";
+import SocailPages from "../../_components/sliders/SocailPages";
+import PhotoPages from "../../_components/sliders/PhotoPages";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "PHOTOGRAPHY & VIDEO Production",
     },
     description: AppData.settings.siteDescription,
 }
@@ -17,38 +20,131 @@ export const metadata = {
 const PhotoAndVideography = () => {
   return (
     <>
-        <PageBanner pageTitle={"PHOTOGRAPHY & VIDEOGRAPHY"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"PHOTOGRAPHY & VIDEO Production"}  bgImage={"/img/photo/12.jpg"} />
 
-      <section>
+        <section>
     <div className="container mil-p-120-60">
         <div className="mil-background-grid mil-softened"></div>
         <div className="row justify-content-between">
             <div className="col-lg-7">
                 <>
-                    <h2 className="mil-upper mil-up mil-mb-60">Description</h2>
+                    {/* <h2 className="mil-upper mil-up mil-mb-60">Description</h2> */}
                     <div className="mil-text mil-up mil-mb-60">
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        <p>At Bright Media, we capture the essence of your brand with breathtaking photography and videography. Our tailored approach captures your story, elevates your brand, and creates lasting impressions. let’s make your brand shine in every frame.
+                        </p>
                     </div>
 
-                    <h2 className="mil-upper mil-up mil-mb-60">Benefits</h2>
-                    <div className="row justify-content-between">
-                        <div className="col-lg-6">
-                            <div className="mil-text mil-up mil-mb-30">
-                                <p>Our architectural work improves people's lives. We work closely with clients to create functional solutions that creatively respond to the needs of individuals and organizations. From corporate facility innovation to commercial developments, we create beautiful, balanced designs fueled by big ideas.</p>
+
+
+
+                    <section >
+            <div className="container mil-p-120-60">
+                <div className="mil-background-grid mil-softened" />
+
+                <div className="row">
+                      <h4 className="mil-upper mil-up mil-mb-60">How we can help you?</h4>
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60" >
+                        <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30" >
+                                <img src='./img/socialmedia/Strategic Planning.png' alt='img'  style={{height:'30px'}} />
                             </div>
+                            <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>CREATIVE CONCEPT DEVELOPMENT
+
+                            </h4></div>
+                            </div>
+                            <p>We’ll collaborate with you to develop unique photography and videography concepts that reflect your brand identity and captivate your audience.
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60">
+                            <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30" >
+                            <img src='./img/socialmedia/Content Creation.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div> <h4 className="mil-upper mil-mb-30 " style={{fontSize:'16px'}}>HIGH-QUALITY PRODUCTION
+
+                            </h4></div>
+                            </div>
+                            <p>Our team ensures every shot and frame is crafted with precision and creativity, delivering exceptional visual content tailored to your needs.
+
+                            </p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+
+
+
+                <div className="row">
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60">
+                        <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30">
+                            <img src='./img/socialmedia/Platform.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div>
+                            <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>TAILORED BRAND STORYTELLING
+
+                            </h4></div>
+                            </div>
+                            <p>We bring your brand’s story to life through visuals that evoke emotion, inspire action, and leave a lasting impression on your audience.
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60">
+                        <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30">
+                            <img src='./img/socialmedia/optimization.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div> <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>POST-PRODUCTION EXCELLENCE
+                            </h4> </div>
+                            </div>
+                            <p>From editing to color grading, we enhance your visuals with professional post-production techniques that make your content truly stand out.
+                            </p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+                    {/* <h3 className="mil-upper mil-up mil-mb-60">Outcome of the Services</h3>
+                    <div className="row justify-content-between">
+                    <div className="col-lg-5">
+                            <ul className="mil-icon-list mil-mb-60">
+                                <li className="mil-up mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Increased Brand Awareness</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Enhanced Audience Engagement</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Growth in Followership</li>
+                            </ul>
                         </div>
                         <div className="col-lg-5">
                             <ul className="mil-icon-list mil-mb-60">
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Lorem ipsum dolor sit amet</li>
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Consectetur adipiscing elit</li>
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Proin nec scelerisque quam</li>
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Proin nec scelerisque quam</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Higher Website Traffic</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Measurable Results</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Improved Brand Reputation</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     
-                    <div className="mil-divider-lg mil-up mil-mb-60" />
+                    {/* <div className="mil-divider-lg mil-up mil-mb-60" /> */}
                 </>
             </div>
             <div className="col-lg-5">
@@ -119,7 +215,7 @@ const PhotoAndVideography = () => {
 
 
 
-
+<PhotoPages/>
 
 
         {/* map */}
@@ -159,7 +255,9 @@ const PhotoAndVideography = () => {
                         <ContactForm />
 
                     </div>
-                    <CallToActionSection/>
+                    {/* <CallToActionSection/> */}
+                      
+      <ContactInfoSection/>
                 </div>
             </div>
         </section>

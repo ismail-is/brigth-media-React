@@ -8,10 +8,12 @@ import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
 import SocialSlider from "../../_components/sliders/SocialSlider";
+import Brandpages from "../../_components/sliders/Brandpages";
+import ContactInfoSection from "../../_components/sections/ContactInfo";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "Branding",
     },
     description: AppData.settings.siteDescription,
 }
@@ -190,7 +192,7 @@ const Branding = () => {
                                 </div>
                             </div>
                         </>
-                        <div className="mil-divider-lg mil-up mil-mb-30" />
+                        {/* <div className="mil-divider-lg mil-up mil-mb-30" /> */}
                     </React.Fragment>
                 </div>
             </div>
@@ -208,9 +210,10 @@ const Branding = () => {
 
 
         {/* map */}
-        <SocialSlider/>
+        {/* <SocialSlider/> */}
         {/* <LatestPostsSection/> */}
         {/* map end */}
+        <Brandpages/>
 
         {/* contact */}
         <section className="mil-relative">
@@ -235,7 +238,8 @@ const Branding = () => {
                         <ContactForm />
 
                     </div>
-                    <CallToActionSection/>
+                    {/* <CallToActionSection/> */}
+                    <ContactInfoSection/>
                 </div>
             </div>
         </section>

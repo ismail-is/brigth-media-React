@@ -5,20 +5,26 @@ import PageBanner from "@components/PageBanner";
 import ContactForm from "@components/ContactForm";
 
 import Link from "next/link";
-import CallToActionSection from "../../_components/sections/CallToAction";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
+import CallToActionSection from "../../_components/sections/CallToAction";
+import ProcessSlider from "../../_components/sliders/Process";
+import Webslider from "../../_components/sliders/Webslider";
+import AwardsSection from "../../_components/sections/Awards";
+import SocialSlider from "../../_components/sliders/SocialSlider";
+import SocailPages from "../../_components/sliders/SocailPages";
+import ContactInfoSection from "../../_components/sections/ContactInfo";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "SEO ",
     },
     description: AppData.settings.siteDescription,
 }
 
-const Seo = () => {
+const SEO = () => {
   return (
     <>
-        <PageBanner pageTitle={"Seo"}  bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Search engine optimization"}  bgImage={"/img/photo/12.jpg"} />
 
       <section>
     <div className="container mil-p-120-60">
@@ -26,94 +32,152 @@ const Seo = () => {
         <div className="row justify-content-between">
             <div className="col-lg-7">
                 <>
-                    <h2 className="mil-upper mil-up mil-mb-60">Description</h2>
-                    <div className="mil-text mil-up mil-mb-60">
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                    {/* <h2 className="mil-upper mil-up mil-mb-60">Description</h2> */}
+                    <div className="mil-text mil-up mil-mb-40">
+                        <p>At Bright Media, we’re committed to elevating your brand through expert SEO services. Our tailored strategies focus on driving organic traffic, boosting search rankings, optimizing performance, and connecting you with the right audience. Let’s make your brand stand out in the digital world!
+                        </p>
                     </div>
 
-                    <h2 className="mil-upper mil-up mil-mb-60">Benefits</h2>
+
+
+
+                
+
+
+
+
+
+
+                    {/* <h3 className="mil-upper mil-up mil-mb-60">Outcome of the Services</h3>
                     <div className="row justify-content-between">
-                        <div className="col-lg-6">
-                            <div className="mil-text mil-up mil-mb-30">
-                                <p>Our architectural work improves people's lives. We work closely with clients to create functional solutions that creatively respond to the needs of individuals and organizations. From corporate facility innovation to commercial developments, we create beautiful, balanced designs fueled by big ideas.</p>
-                            </div>
+                    <div className="col-lg-5">
+                            <ul className="mil-icon-list mil-mb-60">
+                                <li className="mil-up mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Increased Brand Awareness</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Enhanced Audience Engagement</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Growth in Followership</li>
+                            </ul>
                         </div>
                         <div className="col-lg-5">
                             <ul className="mil-icon-list mil-mb-60">
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Lorem ipsum dolor sit amet</li>
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Consectetur adipiscing elit</li>
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Proin nec scelerisque quam</li>
-                                <li className="mil-up"><img src="/img/icons/11.svg" alt="icon" />Proin nec scelerisque quam</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Higher Website Traffic</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Measurable Results</li>
+                                <li className="mil-hover mil-up"><img src="./img/icons/11.svg" alt="icon" />Improved Brand Reputation</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     
-                    <div className="mil-divider-lg mil-up mil-mb-60" />
+                    {/* <div className="mil-divider-lg mil-up mil-mb-60" /> */}
                 </>
             </div>
             <div className="col-lg-5">
                 <div className="mil-sidebar-frame mil-mb-60">
-                    <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2>
+                    {/* <h2 className="mil-upper mil-up mil-mb-60">Info Areas</h2> */}
 
                     <React.Fragment >
                         <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
+                            <h6 className="mil-upper mil-up mil-mb-30">Our SEO Toolbox</h6>
+                            <ul className="mil-list mil-dark mil-up mil-mb-30">
+                                <li >Google Analytics
+                                </li>
+                                <li >Google Search Console
+                                </li>
+                                <li >SEMRUSH
+                                </li>
+                                {/* <li >Adobe Photoshop</li> */}
+                            </ul>
+                        </>
+                        <>
+                            {/* <h6 className="mil-upper mil-up mil-mb-30">Stats</h6>
                             <ul className="mil-list mil-dark mil-up mil-mb-30">
                                 <li >Workplace Consulting</li>
                                 <li >3D Modeling Planning</li>
                                 <li >Architecture</li>
-                            </ul>
+                            </ul> */}
                         </>
-                        <>
-                            <h6 className="mil-upper mil-up mil-mb-30">Master Planning</h6>
-                            <ul className="mil-list mil-dark mil-up mil-mb-30">
-                                <li >Workplace Consulting</li>
-                                <li >3D Modeling Planning</li>
-                                <li >Architecture</li>
-                            </ul>
-                        </>
-                        <>
-                            <div className="row">
-                                <div className="col-6" >
-
-                                    <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
-                                    </div>
-                                   
-                                    <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
-                                    </div>
-                                   
-
-                                </div>
-                                <div className="col-6" >
-
-                                    <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
-                                    </div>
-                                    <div className="mil-counter-frame mil-up mil-mb-30">
-                                        <h5 className="mil-mb-5"><span className="mil-counter" >10</span></h5>
-                                        <p className="mil-dark" >Years Experience</p>
-                                    </div>
-                                   
-
-                                </div>
-                            </div>
-                        </>
-                        <div className="mil-divider-lg mil-up mil-mb-30" />
+                       
+                        {/* <div className="mil-divider-lg mil-up mil-mb-30" /> */}
                     </React.Fragment>
                 </div>
             </div>
+            <section >
+            <div className="container mil-p-120-60" style={{marginTop:"-50px"}}>
+                <div className="mil-background-grid mil-softened" />
+
+                <div className="row">
+                      <h4 className="mil-upper mil-up mil-mb-60">How we can help you?</h4>
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60" >
+                        <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30" >
+                                <img src='./img/socialmedia/Strategic Planning.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Customized Strategies</h4></div>
+                            </div>
+                            <p>Tailored SEO solutions designed to meet your unique business needs, ensuring long-term growth and targeted audience engagement</p>
+                        </div>
+
+                    </div>
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60">
+                            <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30" >
+                            <img src='./img/socialmedia/Content Creation.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div> <h4 className="mil-upper mil-mb-30 " style={{fontSize:'16px'}}>
+ 	
+     Improved Visibility</h4></div>
+                            </div>
+                            <p>Boosting search engine rankings with optimized keywords and content to help your brand reach the right audience effectively.</p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+
+
+
+                <div className="row">
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60">
+                        <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30">
+                            <img src='./img/socialmedia/Platform.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div>
+                            <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Performance Optimization</h4></div>
+                            </div>
+                            <p>Enhancing website speed, mobile responsiveness, and user experience to increase engagement and improve conversion rates across devices.</p>
+                        </div>
+
+                    </div>
+                    <div className="col-lg-6" >
+
+                        <div className="mil-icon-box mil-up mil-mb-60">
+                        <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
+                            <div className="mil-icon mil-icon-border mil-mb-30">
+                            <img src='./img/socialmedia/optimization.png' alt='img'  style={{height:'30px'}} />
+                            </div>
+                            <div> <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}> 
+ 	
+     Link Building</h4> </div>
+                            </div>
+                            <p>Acquiring high-quality backlinks from reputable sources to improve your website's authority, search rankings, and online visibility.</p>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
         </div>
     </div>
 </section>
 
 
-
+{/* <AwardsSection /> */}
 
 
 
@@ -122,19 +186,17 @@ const Seo = () => {
 
 
         {/* map */}
-        {/* <div className="mil-map-frame mil-up">
-            <div className="mil-map">
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1396.5769090312324!2d-73.6519672!3d45.5673453!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f8abc30e0ff%3A0xfc6d9cbb49022e9c!2sManoir%20Saint-Joseph!5e0!3m2!1sen!2sua!4v1685485811069!5m2!1sen!2sua" 
-                    style={{"border": "0"}} 
-                    allowFullScreen 
-                    loading="lazy" 
-                    referrerPolicy="no-referrer-when-downgrade"
-                />
-            </div>
-        </div> */}
+        {/* <Webslider/> */}
+
+
+{/* <SocailPages/> */}
+        {/* <SocialSlider/> */}
+
+
+
+        {/* <LatestPostsSection/> */}
+        {/* <ProcessSlider bgStyle={"soft"} /> */}
         {/* map end */}
-        <LatestPostsSection/>
 
         {/* contact */}
         <section className="mil-relative">
@@ -159,7 +221,8 @@ const Seo = () => {
                         <ContactForm />
 
                     </div>
-                    <CallToActionSection/>
+                    {/* <CallToActionSection /> */}
+                    <ContactInfoSection />
                 </div>
             </div>
         </section>
@@ -167,4 +230,4 @@ const Seo = () => {
     </>
   );
 };
-export default Seo;
+export default SEO;

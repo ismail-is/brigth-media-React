@@ -12,6 +12,7 @@ import Webslider from "../../_components/sliders/Webslider";
 import AwardsSection from "../../_components/sections/Awards";
 import SocialSlider from "../../_components/sliders/SocialSlider";
 import SocailPages from "../../_components/sliders/SocailPages";
+import ContactInfoSection from "../../_components/sections/ContactInfo";
 
 export const metadata = {
     title: {
@@ -241,7 +242,8 @@ const SocialMedia = () => {
                         <ContactForm />
 
                     </div>
-                    <CallToActionSection />
+                    {/* <CallToActionSection /> */}
+                    <ContactInfoSection />
                 </div>
             </div>
         </section>

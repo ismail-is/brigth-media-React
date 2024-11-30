@@ -54,8 +54,8 @@ const LatestProjectsSection = ( { projects } ) => {
                         <div className="col-md-2 col-lg-3" >
                         <Link href='/Bajaj'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/bajaj.webp' alt='img' />
-                                <div className="mil-project-descr">
-                                    <h4 className="mil-upper  mil-text-sm">Bajaj</h4>
+                                <div className="mil-project-descr3">
+                                    <h4 className="mil-upper  mil-text-sm" >Bajaj</h4>
                                   
                                     </div>
                                
@@ -64,7 +64,7 @@ const LatestProjectsSection = ( { projects } ) => {
                             </Link>
                             <Link href='/Tonino'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/lg/tonio 1.webp' alt='img' />
-                                <div className="mil-project-descr">
+                                <div className="mil-project-descr3">
                                     <h4 className="mil-upper mil-text-sm">Tonino </h4>
                                  
                                 </div>
@@ -76,7 +76,7 @@ const LatestProjectsSection = ( { projects } ) => {
                         <div className="col-md-6 col-lg-3" >
                         <Link href='/Motorland'  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/Mllog.webp' alt='img' />
-                                <div className="mil-project-descr">
+                                <div className="mil-project-descr4">
                                     <h4 className="mil-upper  mil-text-sm ">Motorland</h4>
                                     
                                 </div>
@@ -93,7 +93,7 @@ const LatestProjectsSection = ( { projects } ) => {
                         <div className="col-md-6 col-lg-3" >
                         <Link href='/Secondcup '  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/lg/secondcup1.webp' alt='img' />
-                                <div className="mil-project-descr">
+                                <div className="mil-project-descr3">
                                     <h4 className="mil-upper  mil-text-sm">Second Cup  </h4>
                                     
                                 </div>
@@ -101,7 +101,7 @@ const LatestProjectsSection = ( { projects } ) => {
                             </Link>
                             <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
-                                <div className="mil-project-descr">
+                                <div className="mil-project-descr3">
                                     <h4 className="mil-upper mil-text-sm">kaiser</h4>
                                    
                                 </div>
@@ -114,7 +114,7 @@ const LatestProjectsSection = ( { projects } ) => {
  <div className="col-md-6 col-lg-3" >
  <Link href='/Hafil'  className="mil-portfolio-item mil-long-item mil-up mil-mb-30" >
                                 <img src='./img/allimg/logo/hafillogo1.webp' alt='img' />
-                                <div className="mil-project-descr1">
+                                <div className="mil-project-descr4">
                                     <h4 className="mil-upper  mil-text-sm">Hafil Trading & Services</h4>
                                     
                                 </div>

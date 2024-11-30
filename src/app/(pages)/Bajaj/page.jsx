@@ -20,7 +20,7 @@ export const metadata = {
 const Bajaj = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Bike Manufacturers   " title="Social Media marketing for Bajaj " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Bike Manufacturers   " title="Social Media marketing for Bajaj " bgImage="./img/Bajaj/bajaj banner.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

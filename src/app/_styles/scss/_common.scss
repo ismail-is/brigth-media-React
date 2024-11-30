@@ -389,7 +389,8 @@ suptitle
     width: 60px;
     background-color: transparent;
     border: 3px solid $dt-10;
-    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
+    // border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
     transition: $t-md;
 }
 
@@ -398,7 +399,8 @@ suptitle
     width: 100%;
     background-color: transparent;
     border: 3px solid $dt-10;
-    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
+    // border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
     transition: $t-md;
 }
 
@@ -407,7 +409,8 @@ suptitle
     width: 100%;
     background-color: transparent;
     border: 3px solid $dt-10;
-    border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
+    // border-image: repeating-linear-gradient(-45deg, transparent, transparent 1px, $dt-10 1px, $dt-10 3px) 3;
+    border-image: repeating-linear-gradient(-45deg, rgb(188, 255, 0), rgb(188, 255, 0) 1px, rgba(0, 0, 0, 0.05) 1px, rgb(188, 255, 0) 3px) 5;
     transition: $t-md;
 }
 .mil-divider-lg1 {

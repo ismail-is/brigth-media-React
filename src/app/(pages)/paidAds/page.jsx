@@ -7,10 +7,13 @@ import ContactForm from "@components/ContactForm";
 import Link from "next/link";
 import LatestPostsSection from "../../_components/sections/LatestPosts";
 import CallToActionSection from "../../_components/sections/CallToAction";
+import ContactInfoSection from "../../_components/sections/ContactInfo";
+import SocailPages from "../../_components/sliders/SocailPages";
+import Paiads from "../../_components/sliders/Paiads";
 
 export const metadata = {
     title: {
-        default: "SEO",
+        default: "Paid Ads",
     },
     description: AppData.settings.siteDescription,
 }
@@ -45,7 +48,7 @@ const PaidAds = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                                <img src='./img/allimg/paid/Strategic Planning.png' alt='img' style={{height:'30px'}}/>
                             </div>
                             <div><h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Strategic Planning</h4></div>
                             </div>
@@ -58,7 +61,7 @@ const PaidAds = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                             <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30" >
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                                <img src='./img/allimg/paid/Creative Execution.png' alt='img' style={{height:'30px'}}/>
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30 " style={{fontSize:'16px'}}>Creative Execution</h4></div>
                             </div>
@@ -77,7 +80,7 @@ const PaidAds = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/allimg/paid/Continuous Optimization.png' alt='img' style={{height:'30px'}}/>
                             </div>
                             <div>
                             <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Continuous Optimization</h4></div>
@@ -91,7 +94,7 @@ const PaidAds = () => {
                         <div className="mil-icon-box mil-up mil-mb-60">
                         <div style={{display:'flex',alignItems:"center",gap:'10px'}}>
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src='https://ruizarch-react.vercel.app/img/icons/4.svg' alt='img' />
+                            <img src='./img/allimg/paid/Transparent Reporting.png' alt='img' style={{height:'30px'}}/>
                             </div>
                             <div> <h4 className="mil-upper mil-mb-30"  style={{fontSize:'16px'}}>Transparent Reporting</h4> </div>
                             </div>
@@ -143,7 +146,7 @@ const PaidAds = () => {
                                 <li >Meta Ads Manager</li>
                                 <li >Google Ads</li>
                                 <li >Google Analytics</li>
-                                <li >Snapcaht Ads</li>
+                                <li >Snapchat Ads</li>
                             </ul>
                         </>
                         <>
@@ -202,10 +205,10 @@ const PaidAds = () => {
 
 
 
-
+<Paiads/>
 
         {/* map */}
-        <LatestPostsSection/>
+        {/* <LatestPostsSection/> */}
         {/* map end */}
 
         {/* contact */}
@@ -231,7 +234,9 @@ const PaidAds = () => {
                         <ContactForm />
 
                     </div>
-                    <CallToActionSection/>
+                    {/* <CallToActionSection/> */}
+                      
+      <ContactInfoSection />
                 </div>
             </div>
         </section>

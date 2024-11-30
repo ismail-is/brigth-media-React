@@ -132,20 +132,16 @@ const Tac = () => {
                       <ul className="mil-list mil-dark mil-up mil-mb-10" style={{display:'flex',gap:'30px'}}>
                           {/* <li> Branding and Social Media Marketing </li> */}
                            
-                          <li> Paid ads on Google </li> <li> Facebook    </li>  <li>Instagram</li>
+                          <li> Web Development </li>
                       </ul>
-                      <ul className="mil-list mil-dark mil-up mil-mb-60" style={{display:'flex',gap:'30px'}}>
-                          {/* <li> Branding and Social Media Marketing </li> */}
-                           
-                          <li>Social Media Marketing   </li> <li>Branding </li> <li>Website</li>
-                      </ul>
+                      
 
                   </div>
                   <div className="col-lg-6" >
 
                       <h6 className="mil-upper mil-up mil-mb-30">Client Industry</h6>
                       <ul className="mil-list mil-dark mil-up mil-mb-60" >
-                          <li>Kitchen Appliances Manufacturer  </li>
+                          <li>Architecture </li>
                       </ul>
 
                   </div>

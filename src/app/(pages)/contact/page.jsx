@@ -17,7 +17,7 @@ export const metadata = {
 const Contact = () => {
   return (
     <>
-        <PageBanner pageTitle={"Contact us"} breadTitle={"Contact"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Contact us"} breadTitle={"Contact"} bgImage={"./img/allimg/all banners/contact page.webp"} />
 
         {/* about */}
         <section>
@@ -29,7 +29,8 @@ const Contact = () => {
 
                         <div className="mil-mb-90">
                             <h2 className="mil-upper mil-up mil-mb-30">Info Contact</h2>
-                            <p className="mil-up mil-mb-40">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more or less normal distribution of letters.</p>
+                            <p className="mil-up mil-mb-40">Let’s collaborate! Contact us today to begin your brand's digital transformation and achieve outstanding results with our expert team.
+                            </p>
                         </div>
 
                     </div>
@@ -59,7 +60,7 @@ const Contact = () => {
                                 </ul>
                                 
                             </div> */}
-                            <div className="mil-sidebar-info" style={{height:"250px"}}>
+                            <div className="mil-sidebar-info" style={{height:"230px"}}>
 
 {/* <h6 className="mil-upper mil-up mil-mb-30">Headquarters</h6>
 <ul className="mil-list mil-dark mil-up mil-mb-30">
@@ -67,15 +68,16 @@ const Contact = () => {
     <li>New York - 1800 Wazee Street</li>
     <li>Suite 300 NY, NY 80202</li>
 </ul> */}
-<h6 className="mil-upper mil-up mil-mb-30">Phone</h6>
-<ul className="mil-list mil-dark mil-up mil-mb-30">
+<h6 className="mil-upper mil-up mil-mb-20">Phone</h6>
+<ul className="mil-list mil-dark mil-up mil-mb-20">
 <li> <a href="https://wa.me/22597979387" target="_blank">+225 97 97 93 87</a></li>
 <li> <a href="https://wa.me/910797979387" target="_blank">+91 0797 979 387</a></li>
 
 </ul>
-<h6 className="mil-upper mil-up mil-mb-30">Email</h6>
+<h6 className="mil-upper mil-up mil-mb-20">Email</h6>
 <ul className="mil-list mil-dark mil-up">
     <li><a href="mailto:info@brightmedia.tech">info@brightmedia.tech</a></li>
+    <li><a href="mailto:hello@brightmedia.tech">hello@brightmedia.tech</a></li>
   
 </ul>
 
@@ -162,7 +164,8 @@ const Contact = () => {
 
                         <div className="mil-mb-90">
                             <h2 className="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
-                            <p className="mil-up mil-mb-30">Have a question? We’d love to hear from you. Send us a note to get the conversation started - or click on an office above and talk to us. Especially about designing something, or something we’ve designed.</p>
+                            <p className="mil-up mil-mb-30">Got something on your mind? Reach out to us today, and let’s start a meaningful conversation and explore solutions.
+                            </p>
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
                             {/* <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
                             <div className="mil-up">

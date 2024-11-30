@@ -10,10 +10,11 @@ import CallToActionTwoSection from "../../_components/sections/CallToActionTwo";
 import CallToActionSection from "../../_components/sections/CallToAction";
 import ProcessSlider from "../../_components/sliders/Process";
 import WebDev from "../../_components/sliders/WebDev";
+import ContactInfoSection from "../../_components/sections/ContactInfo";
 
 export const metadata = {
     title: {
-        default: "Contact",
+        default: "Web Development",
     },
     description: AppData.settings.siteDescription,
 }
@@ -21,7 +22,7 @@ export const metadata = {
 const Web = () => {
   return (
     <>
-        <PageBanner pageTitle={"Web Development"} breadTitle={"Contact"} bgImage={"/img/photo/12.jpg"} />
+        <PageBanner pageTitle={"Web Development"} bgImage={"/img/photo/12.jpg"} />
 
         <section>
     <div className="container mil-p-120-60">
@@ -192,7 +193,7 @@ const Web = () => {
                                 </div>
                             </div>
                         </>
-                        <div className="mil-divider-lg mil-up mil-mb-30" />
+                        {/* <div className="mil-divider-lg mil-up mil-mb-130" /> */}
                     </React.Fragment>
                 </div>
             </div>
@@ -238,7 +239,8 @@ const Web = () => {
 
                     </div>
                     {/* <CallToActionTwoSection/> */}
-                    <CallToActionSection/>
+                    {/* <CallToActionSection/> */}
+                    <ContactInfoSection/>
                 </div>
             </div>
         </section>

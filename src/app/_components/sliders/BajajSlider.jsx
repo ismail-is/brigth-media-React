@@ -26,6 +26,22 @@ const BajajSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
+                        <img src='./img/Bajaj/bajaj ad.webp' alt='img'  />
+                        </div>
+                    </div>
+
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                        <div className="mil-image-frame">
+                        <img src='./img/Bajaj/bajaj size 1.jpg' alt='img'  />
+                        </div>
+                    </div>
+
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                        <div className="mil-image-frame">
                         <img src='./img/Bajaj/bajaj size 1.jpg' alt='img'  />
                         </div>
                     </div>

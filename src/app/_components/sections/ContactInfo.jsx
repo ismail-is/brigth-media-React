@@ -18,7 +18,7 @@ const ContactInfoSection = () => {
                         </div>
                         ))}
                         <div className="col-lg-4 mil-mb-30">
-                            <Link href='/contact' className="mil-button mil-up mil-fw">Get In Touch </Link>
+                            <Link href='/Contact' className="mil-button mil-up mil-fw">Get In Touch </Link>
                         </div>
                     </div>
                 </div>

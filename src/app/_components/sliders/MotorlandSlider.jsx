@@ -25,6 +25,16 @@ const MotorlandSlider = ( { items } ) => {
                 <SwiperSlide className="swiper-slide">
                     <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                         <div className="mil-image-frame">
+                        <img src='./img/allimg/motoland/Motorland1.webp' alt='img'  />
+                        </div>
+                    </div>
+
+               
+
+                </SwiperSlide>
+                <SwiperSlide className="swiper-slide">
+                    <div className="mil-illustration mil-fw-item" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                        <div className="mil-image-frame">
                         <img src='./img/allimg/motoland/Motorland2.webp' alt='img'  />
                         </div>
                     </div>
@@ -79,14 +89,14 @@ const MotorlandSlider = ( { items } ) => {
                
                 {/* ))} */}
             </Swiper>
-            {/* <div className="container" >
+            <div className="container" >
                 <div className="mil-illustration-slider-nav mil-up"  >
                     <div className="mil-nav-buttons">
                         <div className="mil-slider-button mil-illustration-prev">Prev</div>
                         <div className="mil-slider-button mil-illustration-next">Next</div>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             {/* <section>
           <div className="container mil-p-120-60">

@@ -22,7 +22,7 @@ export const metadata = {
 const Azimgroup = () => {
   return (
     <>
-           <PageBannerTwo subTitle="Group of Companies  " title="  Website and branding" bgImage="./img/FarhatFreres/FarhatFreres banner.webp" />
+           <PageBannerTwo subTitle="Group of Companies  " title="  Website and branding" bgImage="https://img.notionusercontent.com/s3/prod-files-secure%2F1207f196-c732-44cc-8d37-988bb465560c%2Fa42fbada-7e67-4be6-99c5-933dcdff1b45%2F3_(8).png/size/w=2000?exp=1733028774&sig=MeYYhUwcgOrSZ7Su0ihRtySEmuNt0Jml0wsCDSs5gfk" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

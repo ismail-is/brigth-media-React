@@ -21,7 +21,7 @@ export const metadata = {
 const Secondcup = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Coffee Shop  " title="Social Media marketing for Second Cup " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Coffee Shop  " title="Social Media marketing for Second Cup " bgImage="./img/allimg/second cup/secondcup banner.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 

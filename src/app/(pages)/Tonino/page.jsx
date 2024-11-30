@@ -22,7 +22,7 @@ export const metadata = {
 const Tonino = () => {
   return ( 
     <>
-           <PageBannerTwo subTitle=" Kitchen Appliances manufacturers  " title="Social Media marketing and Paid ads for Kaiser " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle="Restaurant   " title="Social media marketing , Photography and video production" bgImage="./img/tonino/tonino banner.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 
@@ -35,8 +35,8 @@ const Tonino = () => {
                   <div className="col-lg-5">
 
                       <div className="mil-mb-60">
-                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">kaiser </span>
-                          <h2 className="mil-upper mil-up mil-mb-30" >Collaborating with  <span class="mil-marker"> kaiser </span></h2>
+                          <span className="mil-suptitle mil-upper mil-up mil-mb-30">Tonino </span>
+                          <h2 className="mil-upper mil-up mil-mb-30" >Teaming Up with   <span class="mil-marker"> Tonino </span></h2>
                       </div>
 
                   </div>

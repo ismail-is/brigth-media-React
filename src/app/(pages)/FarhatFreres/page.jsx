@@ -48,7 +48,8 @@ const FarhatFreres = () => {
                               {/* <div className="mil-item-frame mil-up mil-mb-30"> */}
                                   <div className="mil-about-counter mil-center">
                                       <div className="mil-avatar mil-mb-10">
-                                          <img src='./img/covers/project/Farhat.webp' alt='img' />
+                                          <img src='./img/allimg/logo/farhat .webp' alt='img' />
+                                          {/* <img src='./img/covers/project/Farhat.webp' alt='img' /> */}
                                       </div>
                                       {/* <h5 className="mil-upper mil-mb-10">Motorland </h5> */}
                                       {/* <p className="mil-text-sm mil-dark-soft">Project Agent</p>     */}
@@ -79,7 +80,7 @@ const FarhatFreres = () => {
   >
     {/* Image Section */}
     <img
-      src="./img/covers/project/Farhat.webp"
+      src="./img/allimg/logo/farhat .webp"
       alt="Bajaj Auto"
       style={{
         float: 'left',

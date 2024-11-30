@@ -53,9 +53,10 @@ async function Home1() {
         <LatestPostsSection posts={posts} />
         
       </Suspense> */}
-      <SkillsSection/>
       <CoresSection />
-      <TestimonialSlider showPartners={0} />
+      <SkillsSection/>
+      {/* <CoresSection /> */}
+      {/* <TestimonialSlider showPartners={0} /> */}
     </>
   );
 };

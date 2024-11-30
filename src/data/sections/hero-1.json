@@ -1,5 +1,5 @@
 {
-    "bg_image": "/img/photo/1.jpg",
+    "bg_image": "./img/allimg/all banners/home1.webp",
     "title": "Bringing Bright <br/>Side to<span class=\"mil-accent\">Bright Side</span><br/>",
     "subtitle": "The future",
     "button": {
@@ -28,7 +28,7 @@
         {
             "value": "15",
             "text":"K",
-            "afterValue": "+",
+            "beforeValue": "+",
             "label": "Creatives "
         }
     ]
