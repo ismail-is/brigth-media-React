@@ -21,7 +21,7 @@ export const metadata = {
     description: AppData.settings.siteDescription,
 }
 
-const SEO = () => {
+const seo = () => {
   return (
     <>
         <PageBanner pageTitle={"Search engine optimization"}  bgImage={"/img/photo/12.jpg"} />
@@ -230,4 +230,4 @@ const SEO = () => {
     </>
   );
 };
-export default SEO;
+export default seo;
