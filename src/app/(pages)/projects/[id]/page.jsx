@@ -191,7 +191,7 @@ async function ProjectDetail ( { params } ) {
                       {prev.id != 0 &&
                       <div className="mil-prev-project mil-mb-60">
                           {/* <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4> */}
-                          <Link href={`/projects/${prev.id}`} className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <Link href={`/projects/${prev.id}`} className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       }
                   </div>
@@ -199,7 +199,7 @@ async function ProjectDetail ( { params } ) {
                       {next.id != 0 &&
                       <div className="mil-next-project mil-mb-60">
                           {/* <h4 className="mil-upper mil-up mil-mb-30">Next project</h4> */}
-                          <Link href={`/projects/${next.id}`} className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <Link href={`/projects/${next.id}`} className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       }
                   </div>

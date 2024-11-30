@@ -193,14 +193,14 @@ const Azimgroup = () => {
                      
                       <div className="mil-prev-project mil-mb-60">
                           {/* <h4 className="mil-upper mil-up mil-mb-30">Previous project</h4> */}
-                          <Link href='/Kaiser' className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <Link href='/Kaiser' className="mil-link mil-left-link mil-upper mil-up">Previous work <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       
                   </div>
                   <div className="col-md-6 col-lg-6">
                       <div className="mil-next-project mil-mb-60">
                           {/* <h4 className="mil-upper mil-up mil-mb-30">Next project</h4> */}
-                          <Link href='/Tonino' className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <Link href='/Hafil' className="mil-link mil-upper mil-up">Next work <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                   </div>
               </div>

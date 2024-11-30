@@ -30,7 +30,7 @@ const CoresSection = () => {
                             <p className="mil-light-soft mil-up mil-mb-40" dangerouslySetInnerHTML={{__html : Data.description}} />
                             <Link href={Data.button.link} className="mil-link mil-light mil-upper mil-up">
                                 {Data.button.label} 
-                                <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                                <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span>
                             </Link>
                         </div>
 

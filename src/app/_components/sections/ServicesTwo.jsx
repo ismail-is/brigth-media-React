@@ -24,7 +24,7 @@ const ServicesTwoSection = () => {
                             <h4 className="mil-upper mil-mb-30">{item.title}</h4>
                             <p className="mil-mb-30">{item.text}</p>
                             <Link href={item.link} className="mil-link mil-upper">
-                                Know More <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                                Know More <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span>
                             </Link>
                         </div>
 

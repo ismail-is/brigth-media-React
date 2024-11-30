@@ -32,7 +32,7 @@ const VisionSection = () => {
 
                 <div className="row justify-content-center mil-center">
                     <div className="mil-center mil-up">
-                        <Link href={Data.button.link} className="mil-link mil-upper">{Data.button.label} <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                        <Link href={Data.button.link} className="mil-link mil-upper">{Data.button.label} <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                     </div>
                 </div>
             </div>

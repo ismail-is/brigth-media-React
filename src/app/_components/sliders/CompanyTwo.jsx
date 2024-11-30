@@ -25,7 +25,7 @@ const CompanySlider = () => {
                         <div className="mil-up">
                             <Link href={Data.button.link} className="mil-link mil-upper">
                                 {Data.button.label}
-                                <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                                <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span>
                             </Link>
                         </div>
                     </div>

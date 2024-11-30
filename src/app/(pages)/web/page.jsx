@@ -228,7 +228,7 @@ const Web = () => {
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
                             <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
                             <div className="mil-up">
-                                <Link href="/team" className="mil-link mil-upper">Join Us <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                                <Link href="/team" className="mil-link mil-upper">Join Us <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                             </div>
                         </div>
 

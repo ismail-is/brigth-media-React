@@ -20,7 +20,7 @@ const PopularPostsSection = ( { posts } ) => {
                     </div>
                     <div className="mil-right-side mil-mt-suptitle-offset">
                         <p className="mil-up mil-mb-30">{item.short}</p>
-                        <span className="mil-link mil-upper mil-up">Read <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></span>
+                        <span className="mil-link mil-upper mil-up">Read <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></span>
                     </div>
                 </div>
             </Link>

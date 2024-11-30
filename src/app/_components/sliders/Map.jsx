@@ -39,7 +39,7 @@ const Map = ({ categories }) => {
                                         <div className="mil-link mil-upper">
                                             Start A Project
                                             <div className="mil-arrow mil-light">
-                                                <img src="/img/icons/1.svg" alt="arrow" />
+                                                <img src="./img/icons/1.svg" alt="arrow" />
                                             </div>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@ const Map = ({ categories }) => {
                                         <div className="mil-link mil-upper">
                                             Start A Project
                                             <div className="mil-arrow mil-light">
-                                                <img src="/img/icons/1.svg" alt="arrow" />
+                                                <img src="./img/icons/1.svg" alt="arrow" />
                                             </div>
                                         </div>
                                     </div>
@@ -67,7 +67,7 @@ const Map = ({ categories }) => {
                                         <div className="mil-link mil-upper">
                                             Start A Project
                                             <div className="mil-arrow mil-light">
-                                                <img src="/img/icons/1.svg" alt="arrow" />
+                                                <img src="./img/icons/1.svg" alt="arrow" />
                                             </div>
                                         </div>
                                     </div>
@@ -81,7 +81,7 @@ const Map = ({ categories }) => {
                                         <div className="mil-link mil-upper">
                                             Start A Project
                                             <div className="mil-arrow mil-light">
-                                                <img src="/img/icons/1.svg" alt="arrow" />
+                                                <img src="./img/icons/1.svg" alt="arrow" />
                                             </div>
                                         </div>
                                     </div>

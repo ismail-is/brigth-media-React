@@ -18,7 +18,7 @@ const LatestPostsSection = ( { posts, paddingTop } ) => {
                     <h2 className="mil-upper mil-up mil-mb-30" >Some of <span class="mil-marker">our works</span> </h2>
                     <a href={Data.button.link} className="mil-link mil-upper mil-up">
                         {Data.button.label}
-                        {/* <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span> */}
+                        {/* <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span> */}
                     </a>
                 </div>
             </div>

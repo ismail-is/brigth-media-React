@@ -61,7 +61,7 @@ async function Services() {
                               <div className="mil-divider-sm mil-mb-20" />
                               <p className="mil-service-text">{item.short}</p>
                               <div className="mil-go-buton mil-icon mil-icon-lg mil-icon-accent-bg">
-                                  <img src="/img/icons/1.svg" alt="icon" />
+                                  <img src="./img/icons/1.svg" alt="icon" />
                               </div>
                           </div>
                       </Link>

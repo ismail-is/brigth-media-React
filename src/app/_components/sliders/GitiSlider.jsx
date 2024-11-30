@@ -89,13 +89,13 @@ const GitiSlider = ( { items } ) => {
                   <div className="col-md-6 col-lg-6">
                      
                       <div className="mil-prev-project1 " style={{marginTop:'-100px'}}>
-                          <Link href='/Motorland' className="mil-link mil-left-link mil-upper mil-up"> <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <Link href='/Motorland' className="mil-link mil-left-link mil-upper mil-up"> <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                       
                   </div>
                   <div className="col-md-6 col-lg-6">
                       <div className="mil-next-project1 " style={{marginTop:'-100px'}}>
-                          <Link  href='/Secondcup' className="mil-link mil-upper mil-up"> <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span></Link>
+                          <Link  href='/Secondcup' className="mil-link mil-upper mil-up"> <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
                       </div>
                   </div>
               </div>

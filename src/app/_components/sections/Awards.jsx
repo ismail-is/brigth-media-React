@@ -25,7 +25,7 @@ const AwardsSection = () => {
                             <p className="mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
                             <a href={Data.button.link} className="mil-link mil-upper mil-up">
                                 {Data.button.label} 
-                                <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                                <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span>
                             </a>
                         </div> */}
                           <div className="mil-hover-images mil-up">

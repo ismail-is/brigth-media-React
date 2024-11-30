@@ -72,7 +72,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
                     <img src={item.image} alt={item.title} />
                     <div className="mil-project-descr">
                         <h3 className="mil-upper mil-mb-30">{item.title}</h3>
-                        <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
+                        <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="./img/icons/1.svg" alt="arrow" /></div></div>
                     </div>
                     <div className="mil-category">{item.category}</div>
                 </div>
@@ -84,7 +84,7 @@ const ProjectsMasonry = ({ projects, categories }) => {
                 <img src={item.image} alt={item.title} />
                 <div className="mil-project-descr">
                     <h3 className="mil-upper mil-mb-30">{item.title}</h3>
-                    <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="/img/icons/1.svg" alt="arrow" /></div></div>
+                    <div className="mil-link mil-upper">{item.btn}<div className="mil-arrow mil-light"><img src="./img/icons/1.svg" alt="arrow" /></div></div>
                 </div>
                 <div className="mil-category">{item.category}</div>
                 
