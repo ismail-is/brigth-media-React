@@ -28,7 +28,7 @@ const AdvantagesSection = () => {
                         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60" >
                             {/* <h4 className="mil-upper mil-mb-30">{item.title}</h4> */}
                             <div className="mil-icon mil-icon-border mil-mb-30">
-                                <img src="/img/icons/6.svg" alt="icon" />
+                                <img src="./img/icons/6.svg" alt="icon" />
                             </div>
                             <h6 className="mil-upper mil-mb-30">{item.title}</h6>
                             {/* <p>{item.text}</p> */}
@@ -49,19 +49,19 @@ const AdvantagesSection = () => {
     <div className="col-md-6 col-lg-2" style={{ display: "flex", justifyContent: "center", gap: "10px" }}>
         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
             <div className="mil-icon mil-icon-border mil-mb-30">
-                <img src="/img/icons/6.svg" alt="icon" />
+                <img src="./img/icons/6.svg" alt="icon" />
             </div>
             <h6 className="mil-upper mil-mb-30">Consultation</h6>
         </div>
         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
             <div className="mil-icon mil-icon-border mil-mb-30">
-                <img src="/img/icons/6.svg" alt="icon" />
+                <img src="./img/icons/6.svg" alt="icon" />
             </div>
             <h6 className="mil-upper mil-mb-30">Strategy Development</h6>
         </div>
         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
             <div className="mil-icon mil-icon-border mil-mb-30">
-                <img src="/img/icons/6.svg" alt="icon" />
+                <img src="./img/icons/6.svg" alt="icon" />
             </div>
             <h6 className="mil-upper mil-mb-30">Execution</h6>
         </div>
@@ -75,13 +75,13 @@ const AdvantagesSection = () => {
     <div className="col-md-6 col-lg-2" style={{ display: "flex", justifyContent: "center", gap: "10px" }}>
         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
             <div className="mil-icon mil-icon-border mil-mb-30">
-                <img src="/img/icons/6.svg" alt="icon" />
+                <img src="./img/icons/6.svg" alt="icon" />
             </div>
             <h6 className="mil-upper mil-mb-30">Monitoring & Optimization</h6>
         </div>
         <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
             <div className="mil-icon mil-icon-border mil-mb-30">
-                <img src="/img/icons/6.svg" alt="icon" />
+                <img src="./img/icons/6.svg" alt="icon" />
             </div>
             <h6 className="mil-upper mil-mb-30">Strategy Development</h6>
         </div>

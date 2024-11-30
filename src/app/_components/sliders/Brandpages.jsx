@@ -48,7 +48,7 @@ const Brandpages = ( { bgStyle = "default", paddingTop = "10" } ) => {
                                 <div className="mil-project-descr">
                                     <h4 className="mil-upper mil-mb-20 mil-text-sm">Bajaj</h4>
                                     <div className="mil-divider-sm mil-mb-20"></div>
-                                   <img src="/img/icons/6.svg" alt="icon" style={{height:'30px',width:'30px'}}/> 
+                                   <img src="./img/icons/6.svg" alt="icon" style={{height:'30px',width:'30px'}}/> 
                                     <p style={{fontSize:'12px'}}>Check it out</p>
                                     </div>
                                

@@ -449,7 +449,7 @@ const WebProjects = () => {
                                     <h4 className="mil-upper   mil-text-sm">Bajaj</h4>
                                     {/* <div className="mil-divider-sm mil-mb-20"></div> */}
                                     {/* <div className="mil-link mil-upper"><div className="mil-arrow" ><p style={{fontSize:'12px',display:"flex",textWrap:"wrap",margin:"0"}}>Check it out</p></div></div> */}
-                                    {/* <img src="/img/icons/6.svg" alt="icon" style={{height:'30px',width:'30px'}}/> */}
+                                    {/* <img src="./img/icons/6.svg" alt="icon" style={{height:'30px',width:'30px'}}/> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                     </div>
                                
@@ -691,7 +691,7 @@ const WebProjects = () => {
                                     <h4 className="mil-upper  mil-text-sm">Bajaj</h4>
                                     {/* <div className="mil-divider-sm mil-mb-20"></div> */}
                                     {/* <div className="mil-link mil-upper"><div className="mil-arrow" ><p style={{fontSize:'12px',display:"flex",textWrap:"wrap",margin:"0"}}>Check it out</p></div></div> */}
-                                    {/* <img src="/img/icons/6.svg" alt="icon" style={{height:'30px',width:'30px'}}/> */}
+                                    {/* <img src="./img/icons/6.svg" alt="icon" style={{height:'30px',width:'30px'}}/> */}
                                     {/* <p style={{fontSize:'12px'}}>Check it out</p> */}
                                     </div>
                                
