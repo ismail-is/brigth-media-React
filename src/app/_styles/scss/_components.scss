@@ -1461,12 +1461,14 @@ footer {
             }
 
             @media screen and (max-width: 992px) {
-                flex-direction: column;
+                flex-direction: row;
                 align-items: flex-start;
+                // row-gap: 10px;
 
                 & li {
                     margin: 0;
                     margin-bottom: 15px;
+                    margin-right: 40px;
 
                     &:last-child {
                         margin-bottom: 0;

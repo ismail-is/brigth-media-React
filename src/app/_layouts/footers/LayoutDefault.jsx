@@ -22,7 +22,7 @@ const DefaultFooter = () => {
                     <div className="row">
                         <div className="col-12">
 
-                            <div className="mil-footer-navigation mil-up mil-mb-90">
+                            <div className="mil-footer-navigation mil-up" style={{marginBottom:"30px"}}>
                                 <nav>
                                     <ul>
                                         {AppData.footer.menu.map((item, key) => (
