@@ -80,7 +80,7 @@ const OurTeam = ({ categories }) => {
   <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
     <div className="mil-team-member">
       <div className="mil-avatar mil-mb-30">
-        <img src="./img/allimg/Team/Shoaib Zafar.webp" alt="Placeholder Image" />
+        <img src="./img/allimg/Team/Zafar.webp" alt="Placeholder Image" />
       </div>
       <h6 className="mil-upper mil-mb-10">Shoaib Zafar</h6>
       <p className="mil-dark-soft">COO</p>
@@ -144,6 +144,30 @@ const OurTeam = ({ categories }) => {
       <p className="mil-dark-soft">GRAPHIC DESIGNER</p>
     </div>
   </div>
+</div>
+
+
+<div className="row mil-team-grid" style={{ marginBottom: '40px' }}>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="./img/allimg/Team/akshay.webp" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Alshay D’Silva</h6>
+      <p className="mil-dark-soft">VIDEO EDITOR</p>
+    </div>
+  </div>
+  <div className="col-6 col-sm-6 col-lg-3 mil-grid-item mil-up">
+    <div className="mil-team-member">
+      <div className="mil-avatar mil-mb-30">
+        <img src="./img/allimg/Team/souleymane.webp" alt="Placeholder Image" />
+      </div>
+      <h6 className="mil-upper mil-mb-10">Souleymane</h6>
+      <p className="mil-dark-soft">Photographer/Videographer</p>
+    </div>
+  </div>
+  
+ 
 </div>
 <div className="mil-filter mil-up mil-mb-80">
             <div className="mil-filter-links" ></div>

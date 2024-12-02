@@ -20,7 +20,7 @@ export const metadata = {
 const Kaiser = () => {
   return (
     <>
-           <PageBannerTwo subTitle=" Kitchen Appliances manufacturers  " title="Social Media marketing and Paid ads for Kaiser " bgImage="./img/covers/8.jpg" />
+           <PageBannerTwo subTitle=" Kitchen Appliances manufacturers  " title="Social Media marketing and Paid ads for Kaiser " bgImage="./img/allimg/all banners/mainbg.webp" />
         {/* <PageBannerTwo subTitle={postData.intro.subtitle} title={postData.intro.title} bgImage={postData.intro.bgImage} /> */}
 
 
