@@ -310,10 +310,11 @@ a {
 }
 
 .mil-light-soft {
-    color: $lt-50;
+    color: #999999;
+    // color: $lt-50;
 
     & a {
-        color: $lt-50 !important;
+        color: #999999 !important;
     }
 }
 
