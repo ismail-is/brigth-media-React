@@ -228,12 +228,12 @@ const SocialMedia = () => {
 
                         <div className="mil-mb-90">
                             <h2 className="mil-upper mil-up mil-mb-30">We’d love to talk</h2>
-                            <p className="mil-up mil-mb-30">Have a question? We’d love to hear from you. Send us a note to get the conversation started - or click on an office above and talk to us. Especially about designing something, or something we’ve designed.</p>
+                            <p className="mil-up mil-mb-30">Got something on your mind? Reach out to us today, and let’s start a meaningful conversation and explore solutions.</p>
                             <div className="mil-divider-lg mil-up mil-mb-30"></div>
-                            <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
+                            {/* <p className="mil-up mil-mb-30">Interested in joining the team? Browse our current openings.</p>
                             <div className="mil-up">
                                 <Link href="/team" className="mil-link mil-upper">Join Us <span className="mil-arrow"><img src="./img/icons/1.svg" alt="arrow" /></span></Link>
-                            </div>
+                            </div> */}
                         </div>
 
                     </div>

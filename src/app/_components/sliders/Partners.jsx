@@ -10,10 +10,10 @@ const PartnersSlider = ( { bgStyle } ) => {
     <>
     {/* partners */}
     <section  className="mil-soft-bg mil-relative" style={{marginBottom:'20px'}}>
-    <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
+    <img src="./img/other/bg.svg" className="mil-bg-img" alt="image" />
     <div className={`mil-${bgStyle}-bg mil-partners mil-relative`}>
         {bgStyle == "soft" &&
-        <img src="/img/other/bg.svg" className="mil-bg-img" alt="image" />
+        <img src="./img/other/bg.svg" className="mil-bg-img" alt="image" />
         }
         
         <div className="container mil-p-100-120">

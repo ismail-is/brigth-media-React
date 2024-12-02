@@ -99,7 +99,7 @@ const LatestProjectsSection = ( { projects } ) => {
                                 </div>
                                 <div className="mil-category"> Coffee Shop</div>
                             </Link>
-                            <Link href='/kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
+                            <Link href='/Kaiser'  className="mil-portfolio-item mil-square-item mil-up mil-mb-30" >
                                 <img src='./img/covers/project/kaiser.webp' alt='img' />
                                 <div className="mil-project-descr3">
                                     <h4 className="mil-upper mil-text-sm">kaiser</h4>

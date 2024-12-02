@@ -31,14 +31,14 @@
             "link": "/seo"
         },
         {
-            "icon": "/img/icons/Ads.png",
+            "icon": "./img/icons/Ads.png",
             "num": "05.",
             "title": "Paid Ads",
             "text": "Maximize reach and return on investment with targeted advertising campaigns across various digital platforms.",
             "link": "/paidAds"
         },
         {
-            "icon": "/img/icons/Photography.png",
+            "icon": "./img/icons/Photography.png",
             "num": "06.",
             "title": "Photography/video Production",
             "text": "Capture compelling visuals that tell your brand story and engage your audience across all media.",
