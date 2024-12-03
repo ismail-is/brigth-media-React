@@ -18,6 +18,7 @@ import CoresSection from "@components/sections/Cores";
 import SkillsSection from "../_components/sections/Skills";
 import TestimonialSlider from "../_components/sliders/Testimonial";
 import OurProjects from "../_components/sections/OurProjects";
+import Model from "../_components/sliders/Model";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 
@@ -36,6 +37,7 @@ async function Home1() {
   return (
     <>
       <HeroOneSection />
+      <Model/>
       <PartnersSlider />
       <AboutSection />
       {/* <IdeasSection /> */}
