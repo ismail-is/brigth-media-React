@@ -4,6 +4,15 @@ import emailjs from 'emailjs-com';
 import { Formik } from 'formik';
 
 const ContactFormModal = ({ subtitleOffset, isOpen, onClose }) => {
+  const [windowWidth, setWindowWidth] = useState(0);
+
+  // Run the code that accesses window only on the client-side
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setWindowWidth(window.innerWidth); // Update the window width
+    }
+  }, []);
+
   const modalStyles = {
     position: 'fixed',
     top: '0',
@@ -22,13 +31,12 @@ const ContactFormModal = ({ subtitleOffset, isOpen, onClose }) => {
     backgroundColor: 'white',
     padding: '20px',
     borderRadius: '10px',
-    height: window.innerWidth <= 767 ? '600px' : '420px',  // Change height based on screen size
+    height: windowWidth <= 767 ? '600px' : '420px',  // Change height based on screen size
     position: 'relative',
     width: '100%',
     maxWidth: '500px',
     minWidth: '300px',
   };
-  
   
   const closeButtonStyles = {
     position: 'absolute',
